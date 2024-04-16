@@ -1,0 +1,38 @@
+
+
+.searchbox{
+  width: 300px;
+  height: 40px;
+  background: var(--primary-bg);
+  border-radius: 5px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+.searchbox .icon svg{
+   font-size: 20px;
+   margin-right: 10px;
+}
+.searchbox input::-webkit-input-placeholder{
+    color: color(0,0,0, 0.5);
+}
+
+.searchbox input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0px;
+  color: var(--primary-color);
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
