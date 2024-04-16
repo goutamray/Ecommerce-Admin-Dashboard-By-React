@@ -1,12 +1,25 @@
 
+
 import PageHeader from "../../components/PageHeader/PageHeader";
+
 import "./Dashboard.css";
+import SideBar from "../../components/sideBar/SideBar";
 
 const DashBoard = () => {
   return (
     <>
     <PageHeader title = {"Dashboard"}/> 
-      <h2 className="text-center mt-5"> DashBoard </h2>
+      
+      <div className="container-fluid">
+        <div className="row">
+           <div className="col-sm-2">
+              <SideBar /> 
+           </div>
+           <div className="col-sm-10">
+            <h2> output </h2>
+           </div>
+        </div>
+      </div>
     </>
   )
 }
