@@ -265,4 +265,131 @@ font-size: 14px;
 }
 
 
+.revenue-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.revenue-part .rev-text h4{
+  font-size: 17px;
+  font-weight: 600;
+  color: #403E57;
+}
+
+ .year-select {
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid rgb(218, 218, 218);
+  padding-left: 5px;
+}
+
+.year-select p{
+padding-left: 5px;
+}
+
+.year-select select{
+width: 180px;
+border: none;
+
+padding-left: 10px;
+}
+
+
+.year-select select:focus{
+  outline: none;
+  box-shadow: none;
+  border: none;
+} 
+.earning-part{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.earning-part .earn-part1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgb(215, 215, 215);
+  padding: 15px;
+}
+
+.earning-part .earn-part1 .bag span svg{
+ font-size: 40px;
+ color: #408deb;
+}
+.earning-part .earn-part1 .bag span.book svg{
+  color: #36bf71;
+}
+.earning-part .earn-part1 .bag span.layer svg{
+  color: #cd2aeb;
+}
+.earning-part .earn-part1 .text-info p{
+ font-size: 14px;
+ color: #5E5D72;
+}
+.earning-part .earn-part1 .text-info h4{
+ font-size: 20px;
+ font-weight: 700;
+ color: #403E57;
+
+}
+
+
+/* total-box */
+.total-box{
+
+}
+
+.total-box .box-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.total-box .box-1 .left-dot{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+.total-box .box-1 .left-dot p {
+  color: #ffffff;
+  height: 25px;
+  width: 25px;
+  background-color: #c229df;
+  border-radius: 50%;
+  text-align: center;
+}
+.total-box .box-1 .left-dot p svg{
+  font-size: 16px;
+  font-weight: 400;
+}
+.total-box .box-1 .left-dot h6{
+  color: #5E5D72;
+  font-size: 15px;
+  font-weight: 400;
+}
+.total-box .box-1 .left-dot p.shipped{
+  background-color:#3e87e0;
+}
+.total-box .box-1 .left-dot p.recieved{
+  background-color: #29a860;
+}
+.total-box .box-1 .left-dot p.cancelled{
+  background-color: #ea3a54;
+}
+.total-box .box-1 .left-dot p.refunded{
+  background-color: #e0a518;
+}
+
+
+
 

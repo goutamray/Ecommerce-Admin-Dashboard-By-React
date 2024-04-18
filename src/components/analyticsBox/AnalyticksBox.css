@@ -1,0 +1,92 @@
+
+.col1 h3{
+  font-size: 16px !important;
+  font-weight: 600;
+}
+
+.col1 span{
+ font-size: 32px !important;
+ font-weight: 600;
+}
+.ml-auto .icon {
+height: 50px;
+display: block;
+width: 50px;
+background-image: linear-gradient(to right, rgba(0,0,0, 0.0) , rgba(0,0,0, 0.2) );
+border-radius: 10%;
+padding: 10px;
+text-align: center;
+}
+.ml-auto .icon svg{
+color: #eeeeee;
+font-size: 25px;
+
+opacity: 0.5;
+}
+
+
+.last-month-box h4{
+font-size: 14px;
+text-transform: capitalize;
+color: #fff;
+}
+.last-month-box button {
+background: transparent;
+border: none;
+}
+
+.last-month-box button svg{
+font-size: 18px;
+color: #fff;
+}
+
+
+.dot-icon.analy button{
+position: relative;
+}
+
+.dot-icon.analy  ul {
+  position: absolute;
+  right: 15px;
+  top: 33%;
+  width: 134px;
+  height: 113px !important;
+  background: #fff !important;
+  border-radius: 5px;
+  z-index: 999 !important;
+}
+
+.dot-icon.analy  ul li{
+padding: 5px ;
+}
+.dot-icon.analy ul li a{
+ color: #240f0f;
+ font-size: 14px;
+ font-weight: 500;
+ margin-left: 3px;
+ text-transform: capitalize;
+}
+
+.dot-icon.analy  ul li a span svg{
+cursor: pointer;
+}
+
+.dashboardBox.analyticks .cart{
+  font-size: 70px;
+  position: absolute;
+  left: 20px;
+  top: 40%;
+
+  
+}
+
+.dashboardBox.analyticks .cart svg{
+color: #ffffff3b;
+}
+
+
+
+
+
+
+

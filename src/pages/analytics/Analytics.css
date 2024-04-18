@@ -1,0 +1,159 @@
+.right-content{
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+}
+
+.right-content .dashboardBoxErapper .dashboard{
+   height: 60px;
+   width: 100%;
+   background: #fff;
+   color: #000000;
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+.right-content .dashboardBoxErapper .dashboard nav ol{
+ margin-bottom: 0;
+}
+.right-content .dashboardBoxErapper .dashboard h2{
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+/* .box-div{
+  margin-top: 30px !important;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+} */
+.box-div.analytics{
+  margin-top: 30px !important;
+  gap: 20px;
+}
+.box-div.analytics .dashboardBox{
+  width: 23% !important;
+  height: 180px;
+  background-color: #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+
+  padding: 20px;
+}
+
+
+
+
+.revenue-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.revenue-part .rev-text h4{
+  font-size: 17px;
+  font-weight: 600;
+  color: #403E57;
+}
+
+ .year-select {
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid rgb(218, 218, 218);
+  padding-left: 5px;
+}
+
+.year-select p{
+padding-left: 5px;
+}
+
+.year-select select{
+width: 180px;
+border: none;
+
+padding-left: 10px;
+}
+
+
+.year-select select:focus{
+  outline: none;
+  box-shadow: none;
+  border: none;
+} 
+
+/* country  */
+.country .single-country{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid rgb(204, 204, 204);
+   padding-bottom: 15px;
+   padding-top: 14px;
+
+}
+.country .single-country .flag{
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+}
+.country .single-country .flag img{
+  border-radius: 5px;
+}
+.country .single-country .flag .name h5{
+   font-weight: 500;
+   font-size: 11px;
+   color: #5E5D72;
+}
+.country .single-country .flag .name h4{
+  font-weight: 600;
+   font-size: 15px;
+   color: #403E57;
+   margin-top: 3px;
+}
+.country .single-country .value p{
+  font-weight: 500;
+   font-size: 11px;
+   color: #5E5D72;
+}
+.country .single-country .value h6{
+  font-weight: 600;
+  font-size: 14px;
+  color: #403E57;
+  margin-top: 3px;
+}
+.country .single-country .seo p{
+  font-weight: 500;
+   font-size: 11px;
+   color: #5E5D72;
+}
+.country .single-country .seo h5{
+  font-weight: 600;
+  font-size: 14px;
+  color: #403E57;
+  margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -9,9 +9,16 @@ import { Chart } from "react-google-charts";
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
 import { FiEdit } from "react-icons/fi";
+import { FaCalendarAlt } from "react-icons/fa";
+import { TbBriefcase2 } from "react-icons/tb";
+import { IoBookmarksSharp } from "react-icons/io5";
+import { MdOutlineLayers } from "react-icons/md";
+import { FaPlus } from "react-icons/fa6";
+import { FaCheck } from "react-icons/fa";
+import { RxCross2 } from "react-icons/rx";
+import { PiWarningLight } from "react-icons/pi";
 
 import jama from "../../assets/img/jama.webp"
-
 
 
 export const data = [
@@ -28,6 +35,30 @@ export const options = {
   'chartArea' : {'height': "100%", 'width' :'90%'}
 };
 
+
+export const data2 = [
+  ["Task", "Hours per Day"],
+  ["Work", 11],
+  ["Eat", 2],
+  ["Commute", 2],
+  ["Watch TV", 2],
+  ["Sleep", 7], // CSS-style declaration
+];
+
+export const options2 = {
+  pieHole: 0.4,
+  is3D: false,
+  'chartArea' : {'height': "100%", 'width' :'90%'}
+};
+
+
+export const data3 = [
+  ["Year", "Sales", "Expenses", "Profit"],
+  ["2014", 1000, 400, 200],
+  ["2015", 1170, 460, 250],
+  ["2016", 660, 1120, 300],
+  ["2017", 1030, 540, 350],
+];
 
 import DashBoardBox from "../../components/dashboardBox/DashBoardBox";
 import "./Ecommerce.css";
@@ -398,6 +429,128 @@ const Ecommerce = () => {
                 </div>
               </div>
            </div>
+        </div>
+
+        <div className="row my-3">
+          <div className="col-sm-8">
+             <div className="card shadow p-3">
+                 <div className="revenue-part">
+                   <div className="rev-text">
+                      <h4> Revenue Report </h4>
+                   </div>
+                   <div className="year-select">
+                    <p> <FaCalendarAlt />  </p>
+                
+                     <select className="form-select" aria-label="Default select example">
+                     
+                         <option selected value="1"> Select Option</option>
+                         <option value="2">Year 2021</option>
+                         <option value="3">Year 2020</option>
+                         <option value="3">Year 2020</option>
+                         <option value="3">Year 2020</option>
+                         <option value="3">Year 2020</option>
+                         <option value="3">Year 2020</option>
+                     </select>
+                   </div>
+                 </div>
+                 <div className="earning-part">
+                   <div className="earn-part1">
+                       <div className="bag">
+                          <span> <TbBriefcase2 /> </span>
+                       </div>
+                       <div className="text-info">
+                         <p> invested</p>
+                         <h4> 3,387.67K </h4>
+                       </div>
+                   </div>
+                   <div className="earn-part1">
+                       <div className="bag">
+                          <span className="book"> <IoBookmarksSharp /> </span>
+                       </div>
+                       <div className="text-info">
+                         <p> Earnings </p>
+                         <h4> 2,856.35K </h4>
+                       </div>
+                   </div>
+                   <div className="earn-part1">
+                       <div className="bag">
+                          <span className="layer"> <MdOutlineLayers /> </span>
+                       </div>
+                       <div className="text-info">
+                         <p> Expenses</p>
+                         <h4> 1,994.12K </h4>
+                       </div>
+                   </div>        
+                 </div>
+
+                 <div className="line-chart pt-5">
+                 <Chart
+                   chartType="Bar"
+                   width="100%"
+                   height="300px"
+                   data={data3}
+                 
+                  />
+                 </div>
+             </div>
+          </div>
+          <div className="col-sm-4">
+          <div className="card shadow p-3">
+                <div className="revenue-part">
+                   <div className="rev-text">
+                      <h4> Orders Overview </h4>
+                   </div>
+                   <p><HiDotsHorizontal /></p>
+                 </div>
+                 <div className="grap-chart pt-4">
+                 <Chart
+                    chartType="PieChart"
+                    width="100%"
+                    height="200px"
+                    data={data2}
+                    options={options2}
+                  />
+
+                  <div className="total-box">
+                       <div className="box-1">
+                         <div className="left-dot">
+                           <p> <HiDotsHorizontal /></p>
+                           <h6> Pending </h6>
+                         </div>
+                         <p> 568 </p>
+                       </div>
+                       <div className="box-1">
+                         <div className="left-dot">
+                           <p className="shipped"> <FaPlus /></p>
+                           <h6> Shipped </h6>
+                         </div>
+                         <p> 457 </p>
+                       </div>
+                       <div className="box-1">
+                         <div className="left-dot">
+                           <p className="recieved" > <FaCheck /></p>
+                           <h6> Recieved </h6>
+                         </div>
+                         <p> 325 </p>
+                       </div>
+                       <div className="box-1">
+                         <div className="left-dot">
+                           <p className="cancelled"> <RxCross2 /></p>
+                           <h6>Cancelled </h6>
+                         </div>
+                         <p> 158 </p>
+                       </div>
+                       <div className="box-1">
+                         <div className="left-dot">
+                           <p className="refunded"> <PiWarningLight /></p>
+                           <h6> Refunded</h6>
+                         </div>
+                         <p> 237 </p>
+                       </div>
+                  </div>
+                 </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
