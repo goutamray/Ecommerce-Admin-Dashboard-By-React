@@ -1,5 +1,5 @@
 import { MdDashboard, MdLock, MdError } from "react-icons/md";
-import { FaAngleRight, FaProductHunt , FaCartArrowDown} from "react-icons/fa";
+import { FaAngleRight, FaProductHunt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { FaBell , FaMicroblog } from "react-icons/fa";
 import { IoIosSettings } from "react-icons/io";

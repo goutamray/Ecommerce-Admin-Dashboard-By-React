@@ -5,7 +5,7 @@
 const Analyticks = () => {
   return (
     <>
-      <h2> Analytics </h2>
+      <h2> Analytics page  </h2>
     </>
   )
 }

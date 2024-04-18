@@ -5,7 +5,7 @@
 const Crm = () => {
   return (
     <>
-      
+      <h2> Crm page </h2>
     </>
   )
 }
