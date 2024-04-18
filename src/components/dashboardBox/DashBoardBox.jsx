@@ -40,7 +40,10 @@ const DashBoardBox = (props) => {
           </div>
 
           <div className="last-month-box d-flex justify-content-between">
-            <h4> Last Month </h4>
+            <div className="month">
+              <button style={{backgroundColor: props.discountColor}}> {props.discount}</button>
+              <h4> Last Month </h4>
+            </div>
             <div className="dot-icon">
               <button onClick={openBox}><BsThreeDotsVertical /> </button>
             {

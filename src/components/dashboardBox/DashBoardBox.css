@@ -42,6 +42,17 @@
  font-size: 18px;
 }
 
+.last-month-box  .month{
+  display: flex;
+  gap: 10px;
+}
+.last-month-box  .month button{
+  color: #fff;
+  font-size: 12px;
+  position: relative;
+  top: -4px;
+}
+
 .dot-icon button{
   position: relative;
 }

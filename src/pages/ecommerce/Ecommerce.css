@@ -10,15 +10,17 @@
     color: #000000;
     border-radius: 5px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
-
+.right-content .dashboardBoxErapper .dashboard nav ol{
+  margin-bottom: 0;
+}
 .right-content .dashboardBoxErapper .dashboard h2{
-   margin-left: 20px;
    font-size: 20px;
    font-weight: 500;
 
-   vertical-align: middle;
 }
 
 .box-div{
@@ -131,4 +133,134 @@ color: #6a6a6a3b;
    font-weight: 600;
    color: #403E57;
 }
+.cartFilter{
+  margin-bottom: 20px;
+}
+
+.cartFilter .col-single {
+   margin-top: 15px;
+}
+.cartFilter .col-single h4{
+  font-size: 12px;
+  font-weight: 700;
+  color: #403E57;
+
+  margin-bottom: 8px;
+}
+
+
+
+
+.col-single .search input{
+  padding: 3px 5px;
+  width: 100%;
+
+}
+
+/* box table */
+ table thead .table-primary th{
+  background-color: #1b61e4 !important;
+  color: #fff !important;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.table-responsive table thead tr th{
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.table-responsive table thead tr td{
+  color:#5E5D72;
+  font-size: 13px;
+}
+tbody tr td input{
+  font-size: 20px;
+}
+
+tbody tr td .reg-price{
+  font-size: 14px;
+  color: #5E5D72;
+  text-decoration: line-through;
+}
+
+tbody tr td .sale-price{
+  font-size: 14px;
+  color: red;
+}
+tbody tr td .three-item{
+  display: flex;
+  align-items: center;
+}
+
+tbody tr td .three-item .star{
+color: #edb213;
+font-size: 13px;
+}
+
+tbody tr td .three-item span{
+  font-size: 14px;
+  color: #403E57;
+  font-weight: 700;
+  padding: 0px 4px;
+  margin-top: 3px;
+}
+
+tbody tr td .three-item p{
+  font-size: 13px;
+  font-weight: 400;
+  color: #5E5D72;
+  margin-top: 3px;
+}
+tbody tr td button{
+  border: none;
+  border-radius: 4px;
+}
+tbody tr td .eyeBtn{
+  background-color: #fbe5ff;
+    color: #be0ee1;
+}
+tbody tr td .editBtn{
+  background-color: #ddfbe9;
+  color: #1a9f53;
+  margin: 0px 8px;
+}
+tbody tr td .delBtn{
+  background-color: #ffdfe4;
+  color: #f11133;
+}
+
+.table-product{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   width: 100%;
+ 
+}
+.table-product img{
+  width: 40px;
+  border-radius: 5px;
+}
+
+.tab-content p{
+ color: #403E57;
+ font-weight: 500;
+ font-size: 14px;
+} 
+.tab-content h6{
+  color: #403E57;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.table-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table-footer p{
+color:#5E5D72;
+font-weight: 500;
+font-size: 14px;
+}
+
+
 
