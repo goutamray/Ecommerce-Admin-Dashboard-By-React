@@ -1,5 +1,8 @@
 
 import { Link } from "react-router-dom";
+import { useContext, useState } from "react";
+
+// images 
 import photo from "../../assets/img/goutam.png";
 import logo from "../../assets/img/logo.webp";
 import shirt from "../../assets/img/shirt.png";
@@ -7,7 +10,7 @@ import shirt from "../../assets/img/shirt.png";
 
 // react icons 
 import { MdMenuOpen, MdOutlineLightMode } from "react-icons/md";
-// import { IoMenu } from "react-icons/io5"; 
+ import { IoMenu } from "react-icons/io5"; 
 // import { CiDark } from "react-icons/ci"; 
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { FaCaretDown, FaHeart, FaRegUserCircle } from "react-icons/fa";
@@ -18,14 +21,16 @@ import { RiLock2Fill } from "react-icons/ri";
 
 
 import SearchBox from "../searchBox/SearchBox";
+import { MyContext } from "../../App";
 
-import { useState } from "react";
 import "./Header.css";
 const Header = () => {
   const [openDrop, setOpenDrop ] = useState(false); 
   const [openNotification, setOpenNotification ] = useState(false); 
   const [openMail, setOpenMail ] = useState(false); 
   const [cartOpen, setcartOpen ] = useState(false); 
+
+  const context = useContext(MyContext)
   
  // handle open 
  const handleOpen  = () => {
@@ -72,7 +77,12 @@ const Header = () => {
 
              <div className="col-sm-3 part2 ">
                 <div className="menu-part ">
-                  <button className="open-btn "> <MdMenuOpen /> </button>
+                  <button className="open-btn " onClick={() => context.setIsToggleSideBar(!context.isToggleSidebar)}> 
+                  {
+                     context.isToggleSidebar === false ?  <MdMenuOpen />  :  <IoMenu /> 
+                  }
+                   
+                  </button>
                   <div className="search-box">
                     <SearchBox /> 
                   </div>
