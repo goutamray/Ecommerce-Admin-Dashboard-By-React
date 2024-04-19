@@ -25,12 +25,157 @@
 
 }
 
+.top-part {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.top-part h4{
+  font-size: 17px;
+  font-weight: 600;
+  color: #403E57;
+}
+
+/* table */
+
+.table-box {
+  margin-top: 20px;
+}
+
+.top-part {
+   display: flex;
+   justify-content: space-between;
+}
+.top-part h4{
+   font-size: 17px;
+   font-weight: 600;
+   color: #403E57;
+}
+.cartFilter{
+  margin-bottom: 20px;
+}
+
+.cartFilter .col-single {
+   margin-top: 15px;
+}
+.cartFilter .col-single h4{
+  font-size: 12px;
+  font-weight: 700;
+  color: #403E57;
+
+  margin-bottom: 8px;
+}
+
+.col-single .search input{
+  padding: 3px 5px;
+  width: 100%;
+}
+
+tbody tr td button{
+  border: none;
+  border-radius: 4px;
+}
+tbody tr td .eyeBtn{
+  background-color: #fbe5ff;
+    color: #be0ee1;
+}
+tbody tr td .editBtn{
+  background-color: #ddfbe9;
+  color: #1a9f53;
+  margin: 0px 8px;
+}
+tbody tr td .delBtn{
+  background-color: #ffdfe4;
+  color: #f11133;
+}
+
+
+/* table */
+
+.total-box .box-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.total-box .box-1 .left-dot{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+.total-box .box-1 .left-dot p {
+  color: #ffffff;
+  height: 25px;
+  width: 25px;
+  background-color: #c229df;
+  border-radius: 50%;
+  text-align: center;
+}
+.total-box .box-1 .left-dot p svg{
+  font-size: 16px;
+  font-weight: 400;
+}
+.total-box .box-1 .left-dot h6{
+  color: #5E5D72;
+  font-size: 15px;
+  font-weight: 400;
+}
+.total-box .box-1 .left-dot p.shipped{
+  background-color:#3e87e0;
+}
+.total-box .box-1 .left-dot p.recieved{
+  background-color: #29a860;
+}
+.total-box .box-1 .left-dot p.cancelled{
+  background-color: #ea3a54;
+}
+.total-box .box-1 .left-dot p.refunded{
+  background-color: #e0a518;
+}
+
+tr td .table-product img{
+  border-radius: 50%;
+}
+
+tbody tr td{
+  font-size: 14px;
+}
 
 
 
+tr td p{
+  font-size: 13px;
+  font-weight: 500;
+  padding: 2px 4px;
+  border-radius: 4px;
+  text-align: center;
+
+}
+
+tr td p.won{
+  background-color:  RGB(189, 245, 211);
+  color: #187D44;
+}
+tr td p.new{
+  background-color: RGB(193, 225, 252);
+  color: #2262D3;
+}
+
+tr td p.open{
+  background-color: RGB(246, 202, 255);
+  color: #A808C3;
+}
+tr td p.lost{
+  background-color: RGB(255, 196, 205);
+  color: #E00B2B;
+}
 
 
 
-
-
-
+.single-chart{
+  height: 600px;
+  width: 100%;
+}
