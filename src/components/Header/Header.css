@@ -8,6 +8,7 @@ header{
   position: sticky;
   top: 0px;
   left: 0px;
+  
 
 
   z-index: 99999;
@@ -114,6 +115,19 @@ header{
   font-size: 14px;
   color: #403E57;
 }
+
+button.signUp-btn{
+  background-color: #0858f7;
+  color: #fff;
+  padding: 8px 22px !important;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+}
+
+
 
 .myAcc .user-name .nick-name{
 font-size: 12px;

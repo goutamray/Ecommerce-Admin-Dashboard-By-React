@@ -3,6 +3,8 @@ import Analyticks from "../pages/analytics/Analyticks";
 import Crm from "../pages/crm/Crm";
 import Ecommerce from "../pages/ecommerce/Ecommerce";
 import Home from "../pages/home/Home";
+import Login from "../pages/login/Login";
+import Register from "../pages/register/Register";
 
 
 // create private router 
@@ -29,6 +31,14 @@ export const privateRoute = [
           {
             path : "/crm",
             element : <Crm /> 
+          },
+          {
+            path : "/login",
+            element : <Login /> 
+          },
+          {
+            path : "/register",
+            element : <Register /> 
           },
         ]
       },

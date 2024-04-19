@@ -1,0 +1,241 @@
+
+.loginSection.register{
+  height: 100vh;
+  padding: 30px 30px;
+  z-index: -1;
+ 
+}
+
+.form-wrapper  form .mb-3.pass-field{
+  position: relative;
+}
+.form-wrapper  form .mb-3.pass-field span button{
+    position: absolute;
+    right: 4%;
+    top: 14%;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: none;
+}
+.form-wrapper  form .mb-3.pass-field span button svg{
+  font-size: 20px;
+} 
+
+
+.left-part1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.banner-content h2 {
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.banner-content p {
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+.banner-content button.my-btn.home-page {
+  text-transform: uppercase;
+  padding: 10px 25px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.banner-content button.my-btn.home-page a{
+  text-transform: uppercase;
+
+}
+.banner-content button svg{
+  font-size: 20px;
+}
+
+.loginSection .loginBox{
+  text-align: center;
+}
+
+
+.loginSection .loginBox img{
+   width: 60px;
+}
+.loginSection .loginBox h3{
+   width: 80px;
+   color: black;
+}
+
+
+.loginSection .form-wrapper.res-form {
+  margin-top: 20px;
+  width: 400px;
+  height: auto !important;
+  padding: 30px;
+}
+
+
+form .mb-3{
+  position: relative;
+}
+form .mb-3 .icon{
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+
+form .mb-3 .icon svg{
+font-size: 18px;
+} 
+form .mb-3 .form-control:focus{
+  outline: none;
+  box-shadow: none;
+  border: 1px solid  #408deb;
+}
+
+form .mb-3 input {
+  padding-left: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+form .mb-3 .form-select{
+  padding-left: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+} 
+
+form .mb-3 .form-select:focus{
+  outline: none;
+  box-shadow: none;
+  border: 1px solid  #408deb;
+} 
+form input[type="checkbox"] {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: 2px;
+  margin-right: 4px;
+}
+form input span.checkBox{
+  font-size: 15px;
+  color: #5E5D72;
+
+}
+.forget{
+  text-align: center;
+}
+.forget a{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #5E5D72;
+}
+.forget a:hover{
+text-decoration: underline;
+}
+
+.or-div{
+margin-bottom: 10px;
+position: relative;
+}
+
+.or-div p{
+  margin: auto;
+  font-size: 12px;
+  color: #5E5D72;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #d1d1d1;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.or-div::before {
+  background-color: #d1d1d1;
+  content: "";
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 14px;
+  width: 46%;
+}
+.or-div:after {
+  background-color: #d1d1d1;
+  content: "";
+  height: 1px;
+  right: 3px;
+  position: absolute;
+  top: 14px;
+  width: 45%;
+}
+
+.my-btn{
+  text-transform: uppercase;
+  background-color: #0858f7;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 0px;
+  border: none;
+  border-radius: 8px;
+}
+
+.my-btn a{
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+
+}
+.my-btn.twiter{
+  background-color: #00acee;
+}
+
+.my-btn.twiter svg{
+ margin-right: 8px;
+ 
+}
+.my-btn.facebook{
+  background-color: #3b5998;
+}
+
+.wrapperCard{
+  margin-top: 20px;
+  width: 400px;
+  height: auto;
+  padding: 20px 0px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.wrapperCard p{
+  font-size: 15px;
+  font-weight: 400;
+  color: #5E5D72;
+}
+.wrapperCard p a{
+  font-size: 15px;
+  font-weight: 600;
+
+}
+.wrapperCard p a:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

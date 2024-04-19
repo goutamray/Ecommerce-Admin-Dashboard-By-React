@@ -229,7 +229,7 @@ const Ecommerce = () => {
                         </div>
                       </div>
                     </td>
-                    <td> womans  </td>
+                    <td> mans  </td>
                     <td> richman  </td>
                     <td> 
                        <p className="reg-price "> $21.00</p>
@@ -265,7 +265,7 @@ const Ecommerce = () => {
                         </div>
                       </div>
                     </td>
-                    <td> womans  </td>
+                    <td> kids  </td>
                     <td> richman  </td>
                     <td> 
                        <p className="reg-price "> $21.00</p>
@@ -302,7 +302,7 @@ const Ecommerce = () => {
                         </div>
                       </div>
                     </td>
-                    <td> womans  </td>
+                    <td> accessory  </td>
                     <td> richman  </td>
                     <td> 
                        <p className="reg-price "> $21.00</p>
@@ -374,7 +374,7 @@ const Ecommerce = () => {
                         </div>
                       </div>
                     </td>
-                    <td> womans  </td>
+                    <td> mans  </td>
                     <td> richman  </td>
                     <td> 
                        <p className="reg-price "> $21.00</p>

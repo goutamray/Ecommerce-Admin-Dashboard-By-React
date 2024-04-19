@@ -6,7 +6,7 @@ import AnalyticsBox from "../../components/analyticsBox/AnalyticsBox";
 
 
 import "./Analytics.css"
-import Chart from "react-google-charts";
+
 
 import { HiDotsHorizontal } from "react-icons/hi";
 import bang from "../../assets/img/bd.webp"
@@ -14,6 +14,7 @@ import de from "../../assets/img/de.webp"
 import ph from "../../assets/img/ph.webp"
 import sa from "../../assets/img/sa.webp"
 import us from "../../assets/img/us.webp"
+import Lines from "../../components/chart/Lines";
 
 
 export const data2 = [
@@ -80,7 +81,7 @@ const Analyticks = () => {
              <div className="card shadow p-3">
                  <div className="revenue-part">
                    <div className="rev-text">
-                      <h4> Revenue Report </h4>
+                      <h4> Visitors Device </h4>
                    </div>
                    <div className="year-select">
                     <p> <FaCalendarAlt />  </p>
@@ -96,17 +97,11 @@ const Analyticks = () => {
                          <option value="3">Year 2020</option>
                      </select>
                    </div>
-                 </div>
-               
+                 </div>   
+                
 
-                 <div className="line-chart pt-5">
-                 <Chart
-                   chartType="Bar"
-                   width="100%"
-                   height="300px"
-                   data={data3}
-                 
-                  />
+                 <div className="line-chart pt-5"> 
+                     <Lines /> 
                  </div>
              </div>
           </div>

@@ -1,0 +1,181 @@
+
+.loginSection{
+  width: 100%;
+  height: 100vh;
+  padding: 30px 0px;
+  z-index: -1;
+}
+
+
+.loginSection .loginBox{
+  text-align: center;
+}
+
+
+.loginSection .loginBox img{
+   width: 80px;
+}
+.loginSection .loginBox h3{
+   width: 80px;
+   color: black;
+}
+
+
+.loginSection .form-wrapper {
+  margin-top: 20px;
+  height: 450px;
+  width: 400px;
+  padding: 30px;
+}
+.form-wrapper  form .mb-3.pass-field{
+  position: relative;
+}
+.form-wrapper  form .mb-3.pass-field span button{
+    position: absolute;
+    right: 4%;
+    top: 14%;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: none;
+}
+.form-wrapper  form .mb-3.pass-field span button svg{
+  font-size: 20px;
+} 
+
+form .mb-3{
+  position: relative;
+}
+form .mb-3 .icon{
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+
+form .mb-3 .icon svg{
+font-size: 18px;
+} 
+form .mb-3 .form-control:focus{
+  outline: none;
+  box-shadow: none;
+  border: 1px solid  #408deb;
+}
+
+form .mb-3 input {
+  padding-left: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+form .mb-3 .form-select{
+  padding-left: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+} 
+
+form .mb-3 .form-select:focus{
+  outline: none;
+  box-shadow: none;
+  border: 1px solid  #408deb;
+} 
+.forget{
+  text-align: center;
+}
+.forget a{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #5E5D72;
+}
+.forget a:hover{
+text-decoration: underline;
+}
+
+.or-div{
+margin-bottom: 10px;
+position: relative;
+}
+
+.or-div p{
+  margin: auto;
+  font-size: 12px;
+  color: #5E5D72;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #d1d1d1;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.or-div::before {
+  background-color: #d1d1d1;
+  content: "";
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 14px;
+  width: 46%;
+}
+.or-div:after {
+  background-color: #d1d1d1;
+  content: "";
+  height: 1px;
+  right: 3px;
+  position: absolute;
+  top: 14px;
+  width: 45%;
+}
+
+.my-btn{
+  text-transform: uppercase;
+  background-color: #0858f7;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 0px;
+  border: none;
+  border-radius: 8px;
+}
+
+.my-btn a{
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+
+}
+.my-btn.twiter{
+  background-color: #00acee;
+}
+
+.my-btn.twiter svg{
+ margin-right: 8px;
+ 
+}
+.my-btn.facebook{
+  background-color: #3b5998;
+}
+
+.wrapperCard{
+  margin-top: 20px;
+  width: 400px;
+  height: auto;
+  padding: 20px 0px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.wrapperCard p{
+  font-size: 15px;
+  font-weight: 400;
+  color: #5E5D72;
+}
+.wrapperCard p a{
+  font-size: 15px;
+  font-weight: 600;
+
+}
+.wrapperCard p a:hover{
+  text-decoration: underline;
+}
+
+

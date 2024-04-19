@@ -169,10 +169,12 @@ color: #6a6a6a3b;
   color:#5E5D72;
   font-size: 13px;
 }
-tbody tr td input{
-  font-size: 20px;
-}
 
+tbody tr td input {
+  font-size: 20px;
+  top: 2px;
+  position: relative;
+}
 tbody tr td .reg-price{
   font-size: 14px;
   color: #5E5D72;

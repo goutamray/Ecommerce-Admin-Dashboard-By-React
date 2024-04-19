@@ -29,6 +29,7 @@ const Header = () => {
   const [openNotification, setOpenNotification ] = useState(false); 
   const [openMail, setOpenMail ] = useState(false); 
   const [cartOpen, setcartOpen ] = useState(false); 
+  const [isLogin , setIsLogin ] = useState(false); 
 
   const context = useContext(MyContext)
   
@@ -61,7 +62,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="d-flex align-items-center">
+      <header className="d-flex align-items-center shadow-sm">
         <div className="container-fluid">
            <div className="row header-row ">
 
@@ -364,25 +365,31 @@ const Header = () => {
                   }
                   
 
-                 <button className="myAcc d-flex align-items-center" onClick={handleOpen}>
-                   <div className="user-img">
-                    <span className="rounded-circle">
-                      <img src={photo} alt="" />        
-                    </span>
-                   </div>
-                   <div className="user-name">
-                      <div className="name">
-                        <h4> Goutam Ray </h4>
-                        <div className="drop-icon">
-                          <FaCaretDown />
+                  {
+                     isLogin !== true ? <Link to="/login"> <button className="signUp-btn"> Sign Up </button> </Link>  :
+                     <button className="myAcc d-flex align-items-center" onClick={handleOpen}>
+                     <div className="user-img">
+                      <span className="rounded-circle">
+                        <img src={photo} alt="" />        
+                      </span>
+                     </div>
+                     <div className="user-name">
+                        <div className="name">
+                          <h4> Goutam Ray </h4>
+                          <div className="drop-icon">
+                            <FaCaretDown />
+                          </div>
                         </div>
-                      </div>
-                      <div className="nick-name">
-                        @goutamray53
-                      </div>
-                   </div>
-                    
-                 </button>
+                        <div className="nick-name">
+                          @goutamray53
+                        </div>
+                     </div>
+                      
+                   </button>
+                  }
+                  
+
+              
                  {
                   openDrop === true && 
                   <ul className="dropdown-menu-item shadow">
