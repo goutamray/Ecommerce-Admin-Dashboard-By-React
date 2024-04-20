@@ -19,7 +19,9 @@
    width: 80px;
    color: black;
 }
-
+body.dark .loginSection .loginBox h3{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
 
 .loginSection .form-wrapper {
   margin-top: 20px;
@@ -179,3 +181,11 @@ position: relative;
 }
 
 
+body.dark .form-wrapper.res-form.card.shadow.login-cart, body.dark .or-div p, body.dark .forget a{
+  background-color: #1b2b4d !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+body.dark .wrapperCard.card.shadow , body.dark .wrapperCard p {
+  background-color: #1b2b4d !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+}

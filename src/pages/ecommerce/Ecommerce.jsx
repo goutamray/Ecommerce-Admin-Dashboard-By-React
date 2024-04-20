@@ -1,24 +1,21 @@
 
+import { useEffect } from "react";
+import { Chart } from "react-google-charts";
 
-import { FaRegUserCircle ,FaShoppingBag, FaStar, FaTrashAlt } from "react-icons/fa";
-import { FaCartArrowDown, FaArrowTrendUp, FaRegEye } from "react-icons/fa6";
-
+// react icons 
+import { FaRegUserCircle ,FaShoppingBag, FaStar, FaTrashAlt, FaCalendarAlt, FaCheck } from "react-icons/fa";
+import { FaCartArrowDown, FaArrowTrendUp, FaRegEye,  FaAngleLeft, FaAngleRight, FaPlus } from "react-icons/fa6";
 import { TbStars } from "react-icons/tb";
 import { HiDotsHorizontal } from "react-icons/hi";
-import { Chart } from "react-google-charts";
-import { FaAngleLeft } from "react-icons/fa6";
-import { FaAngleRight } from "react-icons/fa6";
 import { FiEdit } from "react-icons/fi";
-import { FaCalendarAlt } from "react-icons/fa";
 import { TbBriefcase2 } from "react-icons/tb";
 import { IoBookmarksSharp } from "react-icons/io5";
 import { MdOutlineLayers } from "react-icons/md";
-import { FaPlus } from "react-icons/fa6";
-import { FaCheck } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import { PiWarningLight } from "react-icons/pi";
 
 import jama from "../../assets/img/jama.webp"
+import DashBoardBox from "../../components/dashboardBox/DashBoardBox";
 
 
 export const data = [
@@ -60,10 +57,15 @@ export const data3 = [
   ["2017", 1030, 540, 350],
 ];
 
-import DashBoardBox from "../../components/dashboardBox/DashBoardBox";
-import "./Ecommerce.css";
 
+import "./Ecommerce.css";
 const Ecommerce = () => {
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, []); 
+
+
   return (
     <>
       <div className="right-content">
@@ -433,7 +435,7 @@ const Ecommerce = () => {
 
         <div className="row my-3">
           <div className="col-sm-8">
-             <div className="card shadow p-3">
+             <div className="card shadow p-3 abcd">
                  <div className="revenue-part">
                    <div className="rev-text">
                       <h4> Revenue Report </h4>
@@ -495,14 +497,14 @@ const Ecommerce = () => {
              </div>
           </div>
           <div className="col-sm-4">
-          <div className="card shadow p-3">
+          <div className="card shadow p-3 right-part2 ">
                 <div className="revenue-part">
                    <div className="rev-text">
                       <h4> Orders Overview </h4>
                    </div>
                    <p><HiDotsHorizontal /></p>
                  </div>
-                 <div className="grap-chart pt-4">
+                 <div className="grap-chart pt-4">   
                  <Chart
                     chartType="PieChart"
                     width="100%"

@@ -3,6 +3,7 @@
    padding-top: 30px;
    padding-right: 20px;
    padding-bottom: 25px;
+   padding-left: 20px !important;
 }
 
 .right-content .dashboardBoxErapper .dashboard{
@@ -16,13 +17,25 @@
     align-items: center;
     padding: 20px;
 }
+
+body.dark .right-content .dashboardBoxErapper .dashboard{
+  background-color: #12254e !important;
+}
+
+
 .right-content .dashboardBoxErapper .dashboard nav ol{
   margin-bottom: 0;
 }
 .right-content .dashboardBoxErapper .dashboard h2{
    font-size: 20px;
    font-weight: 500;
+}
 
+body.dark .right-content .dashboardBoxErapper .dashboard h2{ 
+  color: rgba(255, 255, 255, 0.8);
+}
+body.dark .right-content .dashboardBoxErapper .dashboard nav ol li{ 
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .box-div{
@@ -125,6 +138,9 @@ color: #6a6a6a3b;
 .table-box {
   margin-top: 20px;
 }
+body.dark .card.table-box {
+  background-color: #112143 !important;
+}
 
 .top-part {
    display: flex;
@@ -135,6 +151,11 @@ color: #6a6a6a3b;
    font-weight: 600;
    color: #403E57;
 }
+body.dark .top-part h4, body.dark .top-part p svg{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+
 .cartFilter{
   margin-bottom: 20px;
 }
@@ -142,6 +163,15 @@ color: #6a6a6a3b;
 .cartFilter .col-single {
    margin-top: 15px;
 }
+body.dark .cartFilter .col-single select.form-select{
+  background-color: #1b2b4d !important;
+  border: none;
+}
+
+body.dark .cartFilter .col-single select.form-select {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
 .cartFilter .col-single h4{
   font-size: 12px;
   font-weight: 700;
@@ -149,10 +179,19 @@ color: #6a6a6a3b;
 
   margin-bottom: 8px;
 }
+body.dark .cartFilter .col-single h4{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
 
 .col-single .search input{
   padding: 3px 5px;
   width: 100%;
+}
+
+body.dark .col-single .search input{
+  background-color: #1b2b4d !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  border: none;
 }
 
 /* box table */
@@ -180,6 +219,9 @@ tbody tr td .reg-price{
   color: #5E5D72;
   text-decoration: line-through;
 }
+body.dark tbody tr td .reg-price{
+  color: rgba(255, 255, 255, 0.5) !important;
+}
 
 tbody tr td .sale-price{
   font-size: 14px;
@@ -190,6 +232,10 @@ tbody tr td .three-item{
   align-items: center;
 }
 
+body.dark tbody tr td{
+  background-color: #1b2b4d !important;
+  color: #B4B4B4;
+}
 tbody tr td .three-item .star{
 color: #edb213;
 font-size: 13px;
@@ -208,6 +254,9 @@ tbody tr td .three-item p{
   font-weight: 400;
   color: #5E5D72;
   margin-top: 3px;
+}
+body.dark tbody tr td .three-item p, body.dark tbody tr td .three-item span{
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 tbody tr td button{
   border: none;
@@ -243,11 +292,20 @@ tbody tr td .delBtn{
  color: #403E57;
  font-weight: 500;
  font-size: 14px;
+ padding-left:  0px;
 } 
 .tab-content h6{
   color: #403E57;
   font-weight: 400;
   font-size: 14px;
+
+}
+
+ body.dark .tab-content p{
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+body.dark .tab-content h6{
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .table-footer{
@@ -261,18 +319,30 @@ color:#5E5D72;
 font-weight: 500;
 font-size: 14px;
 }
-
+body.dark .table-footer p{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
 
 .revenue-part {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+body.dark .revenue-part {
+  background-color: #1b2b4d !important;
+}
 .revenue-part .rev-text h4{
   font-size: 17px;
   font-weight: 600;
   color: #403E57;
 }
+body.dark .revenue-part .rev-text h4, body.dark .revenue-part p svg{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+ body.dark .card.shadow.p-3.abcd{
+  background-color: #1b2b4d !important;
+ }  
 
  .year-select {
   display: flex;
@@ -284,7 +354,12 @@ font-size: 14px;
   border: 1px solid rgb(218, 218, 218);
   padding-left: 5px;
 }
-
+body.dark  .year-select {
+  background-color: #1b2b4d !important;
+}
+body.dark  .year-select svg {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
 .year-select p{
 padding-left: 5px;
 }
@@ -295,7 +370,10 @@ border: none;
 
 padding-left: 10px;
 }
-
+body.dark .year-select select{
+  background-color: #1b2b4d !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
 
 .year-select select:focus{
   outline: none;
@@ -338,6 +416,11 @@ padding-left: 10px;
 
 }
 
+body.dark .earning-part .earn-part1 .text-info p, body.dark .earning-part .earn-part1 .text-info h4{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+
 
 /* total-box */
 .total-box{
@@ -375,6 +458,9 @@ padding-left: 10px;
   font-size: 15px;
   font-weight: 400;
 }
+body.dark .total-box .box-1 .left-dot h6, body.dark .total-box .box-1  p{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
 .total-box .box-1 .left-dot p.shipped{
   background-color:#3e87e0;
 }
@@ -390,4 +476,6 @@ padding-left: 10px;
 
 
 
-
+body.dark .card.shadow.p-3.right-part2{
+  background-color: #1b2b4d !important;
+}

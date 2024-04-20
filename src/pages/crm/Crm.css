@@ -179,3 +179,13 @@ tr td p.lost{
   height: 600px;
   width: 100%;
 }
+
+
+body.dark .row.my-3.crm-part .card.p-3{
+  background-color: #1b2b4d !important;
+}
+
+body.dark .card.shadow.p-3.deals-part{
+  background-color: #1b2b4d !important;
+}
+

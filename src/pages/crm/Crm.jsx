@@ -1,13 +1,21 @@
 
 import { FaAngleLeft, FaAngleRight, FaRegEye, FaTrashAlt } from "react-icons/fa";
 import { BiSolidDownload } from "react-icons/bi";
+import { HiDotsHorizontal } from "react-icons/hi";
 
 import goutam from "../../assets/img/goutam.png"
+import Chart from "../../components/chart/Chart";
+
+import { useEffect } from "react";
+
 
 import "./Crm.css"; 
-import Chart from "../../components/chart/Chart";
-import { HiDotsHorizontal } from "react-icons/hi";
 const Crm = () => {
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, []); 
+
   return (
     <>
       <div className="right-content">
@@ -26,7 +34,7 @@ const Crm = () => {
           </div>
         </div>
 
-        <div className="row my-3">
+        <div className="row my-3 crm-part ">
           <div className="col-sm-12">
             <div className="ppp-chart">
               <div className="card p-3">
@@ -46,7 +54,7 @@ const Crm = () => {
         <div className="row my-4">
           <div className="col-sm-12">
             <div className="my-chart">
-              <div className="card shadow p-3"> 
+              <div className="card shadow p-3 deals-part "> 
 
                <div className="top-part">
                  <h4> Deals_performance</h4>

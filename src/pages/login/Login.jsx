@@ -1,7 +1,7 @@
 
 import logo from "../../assets/img/logo.webp"
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 import { FaEnvelope , FaFacebookF, FaGoogle } from "react-icons/fa";
@@ -19,6 +19,10 @@ const Login = () => {
       e.preventDefault(); 
     }
 
+    useEffect(() => {
+      window.scrollTo(0,0)
+    }, []);     
+
   return (
     <>
   
@@ -33,11 +37,11 @@ const Login = () => {
                    <h4> Login to Hotash </h4>
                 </div>
 
-                <div className="form-wrapper res-form card shadow">
+                <div className="form-wrapper res-form card shadow login-cart ">
                    <form onSubmit={handleSubmit}>
                    <div className="mb-3 ">
                       <span className="icon"> <FaEnvelope /> </span>         
-                      <input type="email" className="form-control" placeholder="Enter your email"/>                                 
+                      <input type="email" className="form-control" placeholder="Enter your email" autoFocus />                                 
                     </div>
 
                     <div className="mb-3 pass-field">    

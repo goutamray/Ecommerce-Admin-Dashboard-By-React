@@ -24,12 +24,6 @@
 
 }
 
-/* .box-div{
-  margin-top: 30px !important;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-} */
 .box-div.analytics{
   margin-top: 30px !important;
   gap: 20px;
@@ -50,7 +44,9 @@
 }
 
 
-
+body.dark .card.shadow.p-3.analytic-part , body.dark  .card.shadow.p-3.overview-part{
+  background-color: #1b2b4d !important;
+}
 
 .revenue-part {
   display: flex;
@@ -145,7 +141,19 @@ padding-left: 10px;
   margin-top: 3px;
 }
 
+body.dark .country .single-country .flag .name h4, 
+body.dark .country .single-country .value h6,
+body.dark .country .single-country .seo h5 {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
 
+ 
+body.dark .country .single-country .flag .name h5, 
+body.dark .country .single-country .value p,
+body.dark .country .single-country .seo p
+ {
+  color: #B4B4B4 !important;
+}
 
 
 

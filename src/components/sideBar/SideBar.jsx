@@ -59,7 +59,7 @@ const SideBar = () => {
                   </Link>
              </li>
             <li> 
-            <Link to="/"> 
+            <Link to="/user"> 
                 <button className={` ${activeTab === 2  ? "active" : ""} `} onClick={() => isOpenSubmenu(2)} >
                     <span className="icon"> <FaRegCircleUser /> </span>
                       Users

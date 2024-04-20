@@ -1,9 +1,19 @@
 
 .loginSection.register{
-  height: 100vh;
+  height: auto;
   padding: 30px 30px;
   z-index: -1;
  
+}
+
+
+
+.loginSection .loginBox h3{
+  width: 80px;
+  color: black;
+}
+body.dark .loginSection .loginBox h4 {
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .form-wrapper  form .mb-3.pass-field{
@@ -40,6 +50,11 @@
   font-size: 17px;
   margin-bottom: 40px;
 }
+
+body.dark .banner-content p , body.dark  .banner-content h2 {
+  color: #B4B4B4 !important;
+}
+
 .banner-content button.my-btn.home-page {
   text-transform: uppercase;
   padding: 10px 25px;
@@ -225,17 +240,13 @@ position: relative;
 }
 
 
+body.dark .form-wrapper.res-form.card.shadow.register , body.dark .or-div p, body.dark .forget a,  body.dark .wrapperCard{
+  background-color: #1b2b4d !important;
+}
 
 
-
-
-
-
-
-
-
-
-
-
+body.dark span.checkBox {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
 
 

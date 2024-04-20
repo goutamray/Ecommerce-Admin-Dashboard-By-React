@@ -10,11 +10,22 @@
   align-items: center;
   padding: 0px 15px;
 }
+body.dark .searchbox {
+  background-color: #12254e !important;
+}
+body.dark .searchbox {
+  color: #fff !important;
+}
 
 .searchbox .icon svg{
    font-size: 20px;
    margin-right: 10px;
 }
+ 
+body.dark .searchbox .icon svg{
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .searchbox input::-webkit-input-placeholder{
     color: color(0,0,0, 0.5);
 }
@@ -28,7 +39,9 @@
   font-size: 14px;
 }
 
-
+body.dark .searchbox input::-webkit-input-placeholder{
+  color: rgba(255, 255, 255, 0.7);
+}
 
 
 

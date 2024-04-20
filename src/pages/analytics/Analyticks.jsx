@@ -15,6 +15,7 @@ import ph from "../../assets/img/ph.webp"
 import sa from "../../assets/img/sa.webp"
 import us from "../../assets/img/us.webp"
 import Lines from "../../components/chart/Lines";
+import { useEffect } from "react";
 
 
 export const data2 = [
@@ -44,7 +45,9 @@ export const data3 = [
 
 const Analyticks = () => {
 
-
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, []); 
 
   return (
     <>
@@ -78,7 +81,7 @@ const Analyticks = () => {
 
         <div className="row my-3">
           <div className="col-sm-7">
-             <div className="card shadow p-3">
+             <div className="card shadow p-3 analytic-part ">
                  <div className="revenue-part">
                    <div className="rev-text">
                       <h4> Visitors Device </h4>
@@ -106,7 +109,7 @@ const Analyticks = () => {
              </div>
           </div>
           <div className="col-sm-5">
-          <div className="card shadow p-3">
+          <div className="card shadow p-3 overview-part ">
                 <div className="revenue-part">
                    <div className="rev-text">
                       <h4> Orders Overview </h4>

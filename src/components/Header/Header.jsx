@@ -92,7 +92,11 @@ const Header = () => {
 
             <div className="col-sm-7 part3 ">
              <div className="menu-part menu-last ">
-                  <button className="open-btn "> <MdOutlineLightMode /> </button>
+                  <button className="open-btn " onClick={() => context.setThemeMode(!context.themeMode)} >
+
+                      <MdOutlineLightMode /> 
+                      
+                      </button>
                   <button className="open-btn cart-icon-top " onClick={handleOpenCart}> <IoCart /> 
                     <div className="topper-box"> 
                         <span> 25 </span>
