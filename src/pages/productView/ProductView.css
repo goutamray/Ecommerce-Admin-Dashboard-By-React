@@ -55,6 +55,9 @@ body.dark .right-content .dashboardBoxErapper .dashboard nav ol li{
    margin-bottom: 20px;
    position: relative;
 }
+body.dark .product-view .right-view-part h6, body.dark .product-view .left-view-part h6{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
 
 .product-view .left-view-part h6::after {
   content: "";
@@ -106,6 +109,9 @@ body.dark .right-content .dashboardBoxErapper .dashboard nav ol li{
   color: #403E57;
   margin-bottom: 10px;
 }
+body.dark .product-description h3{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
 
 .product-view-meta {
    display: flex;
@@ -144,6 +150,9 @@ body.dark .right-content .dashboardBoxErapper .dashboard nav ol li{
   font-weight: 500;
   padding: 4px 8px;
   text-transform: uppercase;
+}
+body.dark .product-view-meta h5, body.dark .product-view-meta span.brand svg, body.dark .product-view-meta p{
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .product-view-meta p span.reg-price{
@@ -193,6 +202,9 @@ body.dark .right-content .dashboardBoxErapper .dashboard nav ol li{
   line-height: 28px;
 }
 
+body.dark .customer h6, body.dark .product-short-desc p , body.dark .product-short-desc h6 {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
 
 .progress-box ul{
 margin-top: 20px;
@@ -268,6 +280,9 @@ margin-top: 20px;
   color: #5E5D72;
 }
 
+body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .total-review h4 , body.dark .total-review p{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
 
 .customer.bottom h6::after{
   content: "";
@@ -387,7 +402,7 @@ margin-top: 20px;
 
 
 .message-form {
-   margin-top: 15px;
+   margin-top: 20px;
 
 }
 
@@ -398,12 +413,16 @@ margin-top: 20px;
   background-color: #f8f8f8;
 }
 
+body.dark .message-form textarea{
+  background-color: #1b2b4d;
+}
+
 button.drop-btn{
   width: 100%;
   padding: 10px 0px;
   text-transform: uppercase;
+ 
 }
-
 .copyRight p a{
   font-size: 16px;
   font-weight: 500;
@@ -414,5 +433,22 @@ body.dark .copyRight p{
 }
 
 
+body.dark .product-view.card.shadow.p-4.my-4.dark-mode, body.dark .rating-customer span p, body.dark , body.dark  {
+  background-color: #1b2b4d !important;
+}
+
+body.dark  .col-sm-11.left-cutomer-rev.p-5{
+  background-color: #071739 !important;
+}
+
+body.dark  .name-time h3{
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+body.dark  .name-time h3 , body.dark .name-time p, body.dark .left-cutomer-rev p {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
 
 
+body.dark .col-sm-10.left-cutomer-rev.p-5.admin{
+  background-color: #071739 !important;
+}

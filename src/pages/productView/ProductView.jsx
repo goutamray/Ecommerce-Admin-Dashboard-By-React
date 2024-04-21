@@ -40,7 +40,7 @@ const ProductView = () => {
         </div>
 
 
-       <div className="product-view card shadow p-4 my-4">
+       <div className="product-view card shadow p-4 my-4 dark-mode ">
            <div className="row">
             <div className="col-md-5 left-view-part ">
                 <h6> Product Gallery </h6>
