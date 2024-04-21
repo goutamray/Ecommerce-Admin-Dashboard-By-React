@@ -474,7 +474,14 @@ body.dark .total-box .box-1 .left-dot h6, body.dark .total-box .box-1  p{
   background-color: #e0a518;
 }
 
+.copyRight p a{
+  font-size: 16px;
+  font-weight: 500;
+}
 
+body.dark .copyRight p{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
 
 body.dark .card.shadow.p-3.right-part2{
   background-color: #1b2b4d !important;

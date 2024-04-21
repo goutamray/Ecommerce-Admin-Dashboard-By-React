@@ -141,6 +141,18 @@ padding-left: 10px;
   margin-top: 3px;
 }
 
+.copyRight p a{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+body.dark .copyRight p{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+
+
+
 body.dark .country .single-country .flag .name h4, 
 body.dark .country .single-country .value h6,
 body.dark .country .single-country .seo h5 {

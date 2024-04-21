@@ -180,6 +180,15 @@ tr td p.lost{
   width: 100%;
 }
 
+.copyRight p a{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+body.dark .copyRight p{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
 
 body.dark .row.my-3.crm-part .card.p-3{
   background-color: #1b2b4d !important;
