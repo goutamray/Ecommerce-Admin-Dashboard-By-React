@@ -11,7 +11,7 @@ import shirt from "../../assets/img/shirt.png";
 // react icons 
 import { MdMenuOpen, MdOutlineLightMode } from "react-icons/md";
  import { IoMenu } from "react-icons/io5"; 
-// import { CiDark } from "react-icons/ci"; 
+ import { CiDark } from "react-icons/ci"; 
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { FaCaretDown, FaHeart, FaRegUserCircle } from "react-icons/fa";
 import { IoIosNotifications, IoMdMail, IoMdSettings } from "react-icons/io";
@@ -93,8 +93,10 @@ const Header = () => {
             <div className="col-sm-7 part3 ">
              <div className="menu-part menu-last ">
                   <button className="open-btn " onClick={() => context.setThemeMode(!context.themeMode)} >
-
-                      <MdOutlineLightMode /> 
+                    {
+                     context.themeMode === true ?  <MdOutlineLightMode />  :  <CiDark /> 
+                    }
+                     
                       
                       </button>
                   <button className="open-btn cart-icon-top " onClick={handleOpenCart}> <IoCart /> 

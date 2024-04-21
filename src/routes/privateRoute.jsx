@@ -4,6 +4,9 @@ import Crm from "../pages/crm/Crm";
 import Ecommerce from "../pages/ecommerce/Ecommerce";
 import Home from "../pages/home/Home";
 import Login from "../pages/login/Login";
+import ProductList from "../pages/productList/ProductList";
+import ProductUpload from "../pages/productUpload/ProductUpload";
+import ProductView from "../pages/productView/ProductView";
 import Register from "../pages/register/Register";
 
 
@@ -39,6 +42,18 @@ export const privateRoute = [
           {
             path : "/register",
             element : <Register /> 
+          },
+          {
+            path : "/product-list",
+            element : <ProductList /> 
+          },
+          {
+            path : "/product-view",
+            element : <ProductView /> 
+          },
+          {
+            path : "/product-upload",
+            element : <ProductUpload /> 
           },
         ]
       },
