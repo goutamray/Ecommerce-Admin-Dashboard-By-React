@@ -3,10 +3,10 @@ import { HiDotsHorizontal } from "react-icons/hi";
 import { MdOutlineCollections } from "react-icons/md";
 import { FaCloudUploadAlt } from "react-icons/fa";
 
-import shirt1 from "../../assets/product/01.webp";
-import shirt2 from "../../assets/product/02.webp";
-import shirt3 from "../../assets/product/03.webp";
-import shirt4 from "../../assets/product/04.webp";
+import shirt1 from "../../../assets/product/01.webp";
+import shirt2 from "../../../assets/product/02.webp";
+import shirt3 from "../../../assets/product/03.webp";
+import shirt4 from "../../../assets/product/04.webp";
 
 
 
@@ -24,7 +24,7 @@ const ProductUpload = () => {
             <nav  aria-label="breadcrumb">
               <ol className="breadcrumb">
                 <li className="breadcrumb-item"><a href="#">Home</a></li>
-                <li className="breadcrumb-item"><a href="#">DashBoard</a></li>
+                <li className="breadcrumb-item"><a href="#">Products</a></li>
                 <li className="breadcrumb-item active" aria-current="page"> Product Upload </li>
               </ol>
             </nav>

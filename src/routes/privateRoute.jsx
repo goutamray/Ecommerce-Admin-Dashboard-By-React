@@ -1,14 +1,28 @@
 import Layout from "../components/layout/Layout";
-import Analyticks from "../pages/analytics/Analyticks";
-import Crm from "../pages/crm/Crm";
-import Ecommerce from "../pages/ecommerce/Ecommerce";
+import BlankPage from "../pages/blankPage/BlankPage";
 import Home from "../pages/home/Home";
+import Message from "../pages/message/Message";
+import Notification from "../pages/notification/Notification";
+import Setting from "../pages/setting/Setting";
+import OrderList from "../pages/order/OrderList";
+
+// login &  register 
 import Login from "../pages/login/Login";
- import OrderList from "../pages/order/OrderList";
-import ProductList from "../pages/productList/ProductList";
-import ProductUpload from "../pages/productUpload/ProductUpload";
-import ProductView from "../pages/productView/ProductView";
 import Register from "../pages/register/Register";
+
+//dashboard list all
+import Ecommerce from "../pages/dashBoard/ecommerce/Ecommerce"
+import Analyticks from "../pages/dashBoard/analytics/Analyticks";
+import Crm from "../pages/dashBoard/crm/Crm";
+
+// product list 
+import ProductList from "../pages/productAll/productList/ProductList";
+import ProductUpload from "../pages/productAll/productUpload/ProductUpload";
+import ProductView from "../pages/productAll/productView/ProductView";
+
+// invoice list 
+import InvoiceList from "../pages/invoiceAll/invoiceList/InvoiceList";
+import InvoiceDetails from "../pages/invoiceAll/invoiceDetails/InvoiceDetails";
 
 
 // create private router 
@@ -59,6 +73,30 @@ export const privateRoute = [
           {
             path : "/order-list",
             element : <OrderList />
+          },
+          {
+            path : "/notification",
+            element : <Notification /> 
+          },
+          {
+            path : "/setting",
+            element : <Setting /> 
+          },
+          {
+            path : "/message",
+            element : <Message /> 
+          },
+          {
+            path : "/blank-page",
+            element : <BlankPage /> 
+          },
+          {
+            path : "/invoice-list",
+            element : <InvoiceList />
+          },
+          {
+            path : "/invoice-details",
+            element : <InvoiceDetails />
           }
 
         ]

@@ -1,0 +1,185 @@
+
+.right-content{
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-left: 20px !important;
+}
+
+.right-content .dashboardBoxErapper .dashboard{
+   height: 60px;
+   width: 100%;
+   background: #fff;
+   color: #000000;
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+
+body.dark .right-content .dashboardBoxErapper .dashboard{
+ background-color: #12254e !important;
+}
+
+
+.right-content .dashboardBoxErapper .dashboard nav ol{
+ margin-bottom: 0;
+}
+.right-content .dashboardBoxErapper .dashboard h2{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+body.dark .right-content .dashboardBoxErapper .dashboard h2{ 
+ color: rgba(255, 255, 255, 0.8);
+}
+body.dark .right-content .dashboardBoxErapper .dashboard nav ol li{ 
+ color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* 2nd part  */
+.logo-invoice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.logo-invoice img{
+  width: 60px;
+}
+.logo-invoice h3{
+  font-size: 22px;
+  font-weight: 800;
+  color: #403E57;
+}
+
+.received-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.received-details .left-received ul li h5,
+.received-details .right-received ul li h5{
+  font-size: 16px;
+  color: #403E57;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.received-details .left-received ul li{
+  font-size: 14px;
+  font-weight: 400;
+  color-scheme: #5E5D72;
+  padding: 4px 0px;
+}
+
+.received-details .right-received ul li{
+  font-size: 14px;
+  font-weight: 400;
+  color: #5E5D72;
+  padding: 4px 0px;
+  text-align: end;
+}
+
+
+.table-responsive table tbody tr td.image-box {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.table-responsive table tbody tr td img{
+  width: 35px;
+  border-radius: 5px;
+}
+.table-responsive table tbody tr td p{
+  font-size: 12px;
+}
+
+table{
+  border: 1px solid rgb(225, 225, 225) !important;
+  border-width: 1px;
+}
+.sub-box ul li{
+ padding: 6px 0px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 30px;
+
+}
+.sub-box ul li span.left{
+  width: 150px !important;
+}
+.sub-box ul li span.right{
+  width: 150px !important;
+
+}
+.sub-box ul li.last-border {
+ border-top: 1px solid rgb(224, 224, 224);
+
+}
+
+.last-text p{
+  font-size: 13px;
+  font-weight: 400;
+  color: #5E5D72;
+  padding: 20px 0px;
+  border-top: 1px solid rgb(224, 224, 224);
+}
+
+.download-print-button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+.download-print-button button {
+  padding: 10px 20px; 
+}
+.download-print-button button svg{
+ font-size: 20px;
+
+}
+
+
+.copyRight p a{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+body.dark .copyRight p{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+
+
+body.dark .card.p-5.shadow.invoice-details.mt-4{
+  background-color: #112143 !important;
+}
+
+body.dark table thead tr th {
+  color: #E4E4E4;
+  background-color: #112143 !important;
+}
+
+body.dark  .logo-invoice h3 , 
+body.dark  .received-details .left-received ul li h5,
+body.dark  .received-details .right-received ul li h5 {
+  color: #E4E4E4;
+}
+
+body.dark .received-details .left-received  ul li,
+body.dark .received-details .right-received ul li,
+body.dark .sub-box ul li, 
+body.dark .sub-box ul li span.left,
+body.dark .sub-box ul li span.right ,
+body.dark .last-text p
+ {
+  color: #B4B4B4;
+}

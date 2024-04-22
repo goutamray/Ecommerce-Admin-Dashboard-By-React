@@ -255,6 +255,8 @@ body.dark  .notification-drop .top-bar-notification h4{
 body.dark  .notification-drop .top-bar-notification p svg{
   color: rgba(255, 255, 255, 0.8);
 }
+
+
 .bottom-bar-notification {
   max-height: 300px;
   overflow-y: scroll;
@@ -291,6 +293,8 @@ body.dark .bottom-bar-notification .single-item-noti svg{
   color: rgba(255, 255, 255, 0.8);
 
 }
+
+
 .bottom-bar-notification .single-item-noti.custom{
   display: flex;
   align-items: center;

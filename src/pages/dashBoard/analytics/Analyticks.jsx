@@ -2,19 +2,19 @@
 
 import { FaCalendarAlt, FaCartArrowDown, FaRegUserCircle, FaShoppingBag } from "react-icons/fa";
 import { TbStars } from "react-icons/tb";
-import AnalyticsBox from "../../components/analyticsBox/AnalyticsBox";
+import AnalyticsBox from "../../../components/analyticsBox/AnalyticsBox";
 
 
 import "./Analytics.css"
 
 
 import { HiDotsHorizontal } from "react-icons/hi";
-import bang from "../../assets/img/bd.webp"
-import de from "../../assets/img/de.webp"
-import ph from "../../assets/img/ph.webp"
-import sa from "../../assets/img/sa.webp"
-import us from "../../assets/img/us.webp"
-import Lines from "../../components/chart/Lines";
+import bang from "../../../assets/img/bd.webp"
+import de from "../../../assets/img/de.webp"
+import ph from "../../../assets/img/ph.webp"
+import sa from "../../../assets/img/sa.webp"
+import us from "../../../assets/img/us.webp"
+import Lines from "../../../components/chart/Lines";
 import { useEffect } from "react";
 
 

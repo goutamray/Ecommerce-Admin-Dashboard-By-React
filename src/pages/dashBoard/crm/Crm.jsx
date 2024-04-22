@@ -3,8 +3,8 @@ import { FaAngleLeft, FaAngleRight, FaRegEye, FaTrashAlt } from "react-icons/fa"
 import { BiSolidDownload } from "react-icons/bi";
 import { HiDotsHorizontal } from "react-icons/hi";
 
-import goutam from "../../assets/img/goutam.png"
-import Chart from "../../components/chart/Chart";
+import goutam from "../../../assets/img/goutam.png"
+import Chart from "../../../components/chart/Chart";
 
 import { useEffect } from "react";
 

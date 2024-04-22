@@ -112,7 +112,7 @@ const SideBar = () => {
                 </Link>
            </li>
             <li> 
-                <Link to="/"> 
+                <Link to="/notification"> 
                    <button className={` ${activeTab === 7 ? "active" : ""} `} onClick={() => isOpenSubmenu(7)} >
                       <span className="icon"> <FaBell /> </span>
                         Notifications 
@@ -121,11 +121,20 @@ const SideBar = () => {
                 </Link>
            </li>
             <li> 
-                <Link to="/"> 
+                <Link to="/setting"> 
                    <button className={` ${activeTab === 8 ? "active" : ""} `} onClick={() => isOpenSubmenu(8)} >
                       <span className="icon"> <IoIosSettings /> </span>
                         Settings
                     
+                   </button>
+                </Link>
+           </li>
+
+           <li> 
+                <Link to="/blank-page"> 
+                   <button className={` ${activeTab === 13 ? "active" : ""} `} onClick={() => isOpenSubmenu(13)} >
+                      <span className="icon"> <BiFileBlank /> </span>
+                        Blank Pages            
                    </button>
                 </Link>
            </li>
@@ -163,14 +172,7 @@ const SideBar = () => {
                </button>
               </Link>
            </li>
-           <li> 
-                <Link to="/"> 
-                   <button className={` ${activeTab === 13 ? "active" : ""} `} onClick={() => isOpenSubmenu(13)} >
-                      <span className="icon"> <BiFileBlank /> </span>
-                        Blank Pages            
-                   </button>
-                </Link>
-           </li>
+          
           </ul>
           <div className="logoutWrapper">
              <Link to="/">

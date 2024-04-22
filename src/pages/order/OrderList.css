@@ -196,4 +196,6 @@ body.dark .card.shadow.p-3.product-table{
   background-color: #1b2b4d !important;
 }
 
-
+body.dark  .col-single.abcd input::-webkit-input-placeholder {
+  color: #B4B4B4;
+}

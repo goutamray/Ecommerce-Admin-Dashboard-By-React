@@ -10,13 +10,13 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 
 
 // product images
-import goutam from "../../assets/img/goutam.png";
-import sujan from "../../assets/img/sujan.jpeg";
-import shirt1 from "../../assets/product/01.webp";
-import shirt2 from "../../assets/product/02.webp";
-import shirt3 from "../../assets/product/03.webp";
-import shirt4 from "../../assets/product/04.webp";
-import shirt5 from "../../assets/product/05.webp";
+import goutam from "../../..//assets/img/goutam.png";
+import sujan from "../../../assets/img/sujan.jpeg";
+import shirt1 from "../../../assets/product/01.webp";
+import shirt2 from "../../../assets/product/02.webp";
+import shirt3 from "../../../assets/product/03.webp";
+import shirt4 from "../../../assets/product/04.webp";
+import shirt5 from "../../../assets/product/05.webp";
 
 
 
@@ -32,7 +32,7 @@ const ProductView = () => {
             <nav  aria-label="breadcrumb">
               <ol className="breadcrumb">
                 <li className="breadcrumb-item"><a href="#">Home</a></li>
-                <li className="breadcrumb-item"><a href="#">DashBoard</a></li>
+                <li className="breadcrumb-item"><a href="#"> Products </a></li>
                 <li className="breadcrumb-item active" aria-current="page"> Product View  </li>
               </ol>
             </nav>

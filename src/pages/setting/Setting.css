@@ -1,0 +1,143 @@
+
+
+
+.right-content{
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-left: 20px !important;
+}
+
+.right-content .dashboardBoxErapper .dashboard{
+   height: 60px;
+   width: 100%;
+   background: #fff;
+   color: #000000;
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+
+body.dark .right-content .dashboardBoxErapper .dashboard{
+ background-color: #12254e !important;
+}
+
+
+.right-content .dashboardBoxErapper .dashboard nav ol{
+ margin-bottom: 0;
+}
+.right-content .dashboardBoxErapper .dashboard h2{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+body.dark .right-content .dashboardBoxErapper .dashboard h2{ 
+ color: rgba(255, 255, 255, 0.8);
+}
+body.dark .right-content .dashboardBoxErapper .dashboard nav ol li{ 
+ color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* setting part css */
+.left-setting{
+  position: relative;
+}
+
+.left-setting h6::after{
+   content: "";
+  height: 1px;
+  width: 90%;
+  background-color: rgb(222 222 222);
+  position: absolute;
+  top: 50%;
+  left: 10%; 
+}
+
+
+
+p.same-title{
+  font-size: 12px;
+  font-weight: 700;
+  color: #403E57;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+body.dark p.same-title{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+
+input.form-control, textarea.form-control, select.form-control{
+  background-color: #f4f4f4;
+  color: #66769b;
+}
+
+body.dark input.form-control, body.dark textarea.form-control, body.dark select.form-control{
+  background-color: #364a76;
+  color: rgba(255, 255, 255, 0.8) !important;
+  border: none;
+}
+
+input.form-control:focus, textarea.form-control:focus, select.form-control:focus{
+  box-shadow: none;
+  outline: none;
+}
+
+.left-box-check p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #5E5D72;
+  padding-right: 10px;
+}
+
+.checked-message li{
+ padding: 4px 0px;
+ font-size: 16px;
+ font-weight: 400;
+ color: #5E5D72;
+}
+
+.save-btn button{
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  padding: 12px 22px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.save-btn button span svg{
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+
+.copyRight p a{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+body.dark .copyRight p{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+
+body.dark .card.p-5.shadow.mt-4.setting-page{
+  background-color: #112143;
+ }
+
+
+ body.dark .left-box-check p, body.dark .left-setting h6,   body.dark p.left-message  {
+  color: rgba(255, 255, 255, 0.8) !important;
+ }
+
+
+ body.dark  .checked-message li{
+  color: #B4B4B4;
+ }

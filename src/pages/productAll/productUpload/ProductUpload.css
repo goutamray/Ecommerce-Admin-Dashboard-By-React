@@ -173,3 +173,15 @@ body.dark .card.shadow.p-3.media-image{
 body.dark .product-image-upload .box-product-1 a , body.dark  .product-image-upload .box-product-1 .collection svg{
   color: rgba(255, 255, 255, 0.8) !important;
 }
+
+
+body.dark  .col-sm-10.right-part2-category input::-webkit-input-placeholder {
+  color: #B4B4B4;
+}
+
+body.dark  .col-sm-6 input::-webkit-input-placeholder, 
+body.dark  .title input::-webkit-input-placeholder, 
+body.dark .description textarea::-webkit-input-placeholder{
+  color: #B4B4B4;
+}
+

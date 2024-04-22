@@ -1,0 +1,394 @@
+
+
+.search-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+}
+.search-box .left-search{
+ padding: 0px;
+ margin-left: -10px;
+}
+
+.search-box .left-search span{
+ margin: 0px;
+}
+
+.search-box .left-search span svg{
+  position: relative;
+  left: 28px;
+  top: 0px;
+}
+
+
+.search-box .left-search input{
+  outline: none;
+  border: none;
+  background-color: #f0f0f0;
+  width: 285px;
+  height: 40px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.search-box .left-search input:focus{
+  border: 1px solid #0858f7;
+  padding: 10px 30px;
+}
+.search-box p{
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 35px;
+}
+
+body.dark .search-box p{
+  background-color: #1b2b4d;
+}
+body.dark .search-box p svg, body.dark .search-box .left-search span svg {
+  color: rgba(255, 255, 255, 0.8);
+}
+/* bottom css*/
+.bottom-bar-notification {
+  height: auto !important;
+  max-height: 100% !important;
+}
+.bottom-bar-notification .single-item-noti{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #e6eefe;
+  padding: 2px 10px !important;
+  border-radius: 8px;
+}
+
+body.dark .bottom-bar-notification .single-item-noti{
+  background-color: #12254e !important;
+  color: rgba(255, 255, 255, 0.8);
+
+}
+body.dark .bottom-bar-notification .single-item-noti svg{
+  color: rgba(255, 255, 255, 0.8);
+
+}
+
+
+.bottom-bar-notification .single-item-noti.custom{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom-bar-notification .single-item-noti .not-image {
+  position: relative;
+  width: 50px;
+  height: 53px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.bottom-bar-notification .single-item-noti .not-image.cart-abc {
+  position: relative;
+  width: 44px;
+  height: 53px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.bottom-bar-notification .single-item-noti .not-image  .media-act {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #27bf68;
+  cursor: pointer;
+  left: 29px;
+  top: -12px !important;
+  border: 1px solid white;
+}
+.bottom-bar-notification .single-item-noti .not-image  .media-act.not-active {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #818181;
+  cursor: pointer;
+  left: 29px;
+  top: -12px !important;
+  border: 1px solid white;
+}
+
+.bottom-bar-notification .single-item-noti .not-image  img{
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  padding-left: 5px;
+}
+
+.bottom-bar-notification .single-item-noti .not-image  img.mail-img {
+border: 2px solid #0858f7;
+padding: 2px;
+}
+
+.bottom-bar-notification .single-item-noti .not-image .media{
+ position: absolute;
+ top: 25px;
+ left: 5px;
+}
+
+.bottom-bar-notification .single-item-noti .not-image .media svg{
+  color: #fff;
+  background-color: red;
+  font-size: 20px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+
+.bottom-bar-notification .single-item-noti .not-info{
+  cursor: pointer;
+  width: 78%;
+}
+
+
+.bottom-bar-notification .single-item-noti .not-info h4{
+  font-size: 13px;
+}
+
+.bottom-bar-notification .single-item-noti .not-info p{
+  color: #0858f7;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.bottom-bar-notification .single-item-noti .not-info h6 a{
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.single-item-noti.custom.my-2.no-bg{
+  background-color: #fbfbfb !important;
+  border-bottom: 1px solid rgb(239, 239, 239);
+} 
+
+.bottom-bar-notification .single-item-noti .noti-drop button{
+   border: none;
+   background: transparent;
+}
+
+.bottom-bar-notification .single-item-noti .noti-drop button.message-trash{
+  width: 30px;
+  height: 30px;
+  line-height: 26px;
+  background-color: #faf9f9;
+  border-radius: 50%;
+}
+
+body.dark .bottom-bar-notification .single-item-noti .noti-drop button.message-trash{
+  background-color: #071739;
+  transition: all 0.3s ease-in-out;
+}
+body.dark .bottom-bar-notification .single-item-noti .noti-drop button.message-trash:hover{
+  background-color: #0858f7;
+  color: #fff;
+}
+.bottom-bar-notification .single-item-noti .noti-drop button.count{
+   background-color: #0858f7;
+   color: #fff;
+   height: 25px;
+   width: 25px;
+   font-size: 10px;
+   border-radius: 50%;
+   line-height: 25px;
+}
+
+.bottom-bar-notification .single-item-noti .noti-drop button svg{
+font-size: 16px;
+}
+
+/* chat message part css */
+
+.client-message ul li{
+   display: flex;
+   align-items: end;
+
+}
+.client-message ul li .client-photo{
+   width: 5%;
+}
+.client-message ul li .client-photo img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.client-message ul li .client-message{
+  width: 95%;
+}
+.client-message ul li .client-message p.first-message{
+  background-color: #f0f0f0;
+  padding: 10px;
+  width: 400px;
+  display: block;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #5E5D72;
+}
+
+.client-message ul li .client-message{
+  width: 95%;
+}
+
+.client-message .chat-text2 p{
+  background-color: #f0f0f0;
+  padding: 10px;
+  width: 300px ;
+  display: block;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #5E5D72;
+}
+
+.client-message p{
+  font-size: 13px;
+  color: #5E5D72;
+}
+
+
+body.dark .client-message p{
+  background-color: transparent;
+}
+
+.user-message-replay ul li{
+   display: flex;
+   align-items: end;
+}
+.user-message-replay ul li .client-photo{
+  width: 5%;
+}
+
+
+.user-message-replay ul li .client-message{
+  width: auto;
+  margin-left: auto !important;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.user-message-replay ul li .client-message p.first-message{
+  background-color: #f0f0f0;
+  padding: 10px;
+  width: 400px;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #5E5D72;
+}
+.user-message-replay ul li .client-message p.first-message.second {
+  background-color: #dae6fe;
+  padding: 10px;
+  width: 400px;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #5E5D72;
+}
+
+
+.user-message-replay ul li .client-photo img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.user-message-replay .chat-text2 p.second{
+  background-color: #dae6fe;
+}
+
+.message-part-body{
+  height: 350px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.message-part-body::-webkit-scrollbar{
+  opacity: 0 !important;
+  height: 3px !important;
+  width: 3px !important;
+}
+
+.message-part-body:hover::-webkit-scrollbar-thumb{
+  height: 3px !important;
+  width: 3px !important;
+  background: #0858f7 !important;
+  opacity: 1;
+
+}
+
+.send-message-part{
+  margin-top: 10px;
+  position: relative;
+}
+.send-message-part input{
+  background-color: #f0f0f0;
+  width: 100%;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  
+}
+.send-message-part span{
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  background-color: #0858f7;
+  text-align: center;
+}
+.send-message-part span svg{
+  color: #fff;
+}
+
+body.dark .card.px-2.py-4.left-user-search, body.dark .bottom-bar-notification .single-item-noti.custom.my-2.no-bg,  body.dark .left-search input {
+background-color: #112143 !important; 
+border: none !important;
+}
+
+body.dark .left-search input {
+background-color: #071739 !important; 
+border: 1px solid rgb(243, 243, 243, 0.2) !important;
+}
+
+body.dark .card.p-4.shadow.message-and-replay{
+  background-color: #112143 !important;  
+}
+
+body.dark .user-message-replay .chat-text2 p.second ,
+body.dark  .user-message-replay ul li .client-message p.first-message ,
+body.dark .user-message-replay ul li .client-message p.first-message.second ,
+body.dark  .chat-text p.first-message , 
+body.dark  .chat-text2 p{
+  background-color: #132c5f !important; 
+  color: #B4B4B4 !important;
+}
+
+body.dark .client-message p{
+  color: #B4B4B4 !important;
+}
+
+
+body.dark .send-message-part input{
+  background-color: #132c5f !important; 
+}
