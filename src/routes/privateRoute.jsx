@@ -4,6 +4,7 @@ import Crm from "../pages/crm/Crm";
 import Ecommerce from "../pages/ecommerce/Ecommerce";
 import Home from "../pages/home/Home";
 import Login from "../pages/login/Login";
+ import OrderList from "../pages/order/OrderList";
 import ProductList from "../pages/productList/ProductList";
 import ProductUpload from "../pages/productUpload/ProductUpload";
 import ProductView from "../pages/productView/ProductView";
@@ -55,6 +56,11 @@ export const privateRoute = [
             path : "/product-upload",
             element : <ProductUpload /> 
           },
+          {
+            path : "/order-list",
+            element : <OrderList />
+          }
+
         ]
       },
         

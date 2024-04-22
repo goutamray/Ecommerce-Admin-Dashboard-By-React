@@ -1,11 +1,11 @@
 import { FaAngleLeft, FaAngleRight, FaRegEye, FaShoppingBag, FaStar, FaTrashAlt } from "react-icons/fa";
 import { MdWidgets } from "react-icons/md";
 import { MdVerifiedUser } from "react-icons/md";
+import { FiEdit } from "react-icons/fi";
 import jama from "../../assets/img/jama.webp" 
 
 
 import "./ProductList.css"
-import { FiEdit } from "react-icons/fi";
 const ProductList = () => {
   return (
     <>

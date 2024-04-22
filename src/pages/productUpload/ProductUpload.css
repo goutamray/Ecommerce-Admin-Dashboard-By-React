@@ -65,9 +65,24 @@ p.same-title{
   margin-top: 20px;
 }
 
-input.form-control, textarea.form-control, select.form-control{
-  background-color: #f0f0f0;
+body.dark p.same-title{
+  color: rgba(255, 255, 255, 0.8) !important;
 }
+
+
+input.form-control, textarea.form-control, select.form-control{
+  background-color: #f4f4f4;
+  color: #66769b;
+}
+
+body.dark input.form-control, body.dark textarea.form-control, body.dark select.form-control{
+  background-color: #364a76;
+  color: rgba(255, 255, 255, 0.8) !important;
+  border: none;
+}
+
+
+
 
 input.form-control:focus, textarea.form-control:focus, select.form-control:focus{
   box-shadow: none;
@@ -112,6 +127,7 @@ input.form-control:focus, textarea.form-control:focus, select.form-control:focus
 .product-image-upload .box-product-1 img{
   width: 170px;
   cursor: pointer;
+  border-radius: 5px;
 
 }
 
@@ -127,12 +143,13 @@ input.form-control:focus, textarea.form-control:focus, select.form-control:focus
 }
 .product-image-upload .box-product-1 .collection svg{
 font-size: 100px;
+cursor: pointer;
 
 }
 .product-image-upload .box-product-1 a{
   font-size: 15px;
   color: #403E57;
-  
+  cursor: pointer;
 }
 
 .copyRight p a{
@@ -145,4 +162,14 @@ body.dark .copyRight p{
 }
 
 
+body.dark .card.p-4.mt-4.shadow.size-color{
+  background-color: #1b2b4d;
+}
 
+body.dark .card.shadow.p-3.media-image{
+  background-color: #1b2b4d;
+}
+
+body.dark .product-image-upload .box-product-1 a , body.dark  .product-image-upload .box-product-1 .collection svg{
+  color: rgba(255, 255, 255, 0.8) !important;
+}

@@ -50,7 +50,7 @@ const ProductUpload = () => {
                     </div>
                     <div className="description">
                       <p className="same-title"> DESCRIPTION </p>
-                      <textarea name="" id="" cols="30" rows="6" className="form-control"></textarea>
+                      <textarea name="" id="" cols="30" rows="6" className="form-control" placeholder="message"></textarea>
                     </div>
                     <div className="all-details">
                       <div className="row">
@@ -99,7 +99,7 @@ const ProductUpload = () => {
 
                       <div className="description">
                          <p className="same-title"> TAGS </p>
-                          <textarea name="" id="" cols="30" rows="6" className="form-control"></textarea>
+                          <textarea name="" id="" cols="30" rows="6" className="form-control" placeholder="message" ></textarea>
                       </div>
 
                     </div>
@@ -157,7 +157,7 @@ const ProductUpload = () => {
 
             </div>
 
-            <div className="card p-4 mt-4 shadow">
+            <div className="card p-4 mt-4 shadow size-color ">
                      <div className="row">
                         <div className="col-sm-6">
                           <p className="same-title"> SIZE</p>
@@ -201,7 +201,7 @@ const ProductUpload = () => {
 
       <div className="row">
         <div className="col">
-          <div className="card shadow p-3"> 
+          <div className="card shadow p-3 media-image "> 
                <div className="revenue-part">
                    <div className="rev-text">
                       <h4> Media And Published </h4>

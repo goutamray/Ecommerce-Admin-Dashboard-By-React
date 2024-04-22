@@ -8,6 +8,7 @@ import { LiaFileInvoiceSolid } from "react-icons/lia";
 import { BiFileBlank } from "react-icons/bi";
 import { GrOverview } from "react-icons/gr";
 import { CgFileDocument } from "react-icons/cg";
+import { FaCartArrowDown } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 import {  useState } from "react";
@@ -50,7 +51,7 @@ const SideBar = () => {
               </div>
            </li>
             <li> 
-              <Link to="/"> 
+              <Link to="/authentication"> 
                   <button className={` ${activeTab === 1 ? "active" : ""} `} onClick={() => isOpenSubmenu(1)}>
                       <span className="icon"> <MdLock /> </span>
                         Authentication
@@ -58,6 +59,7 @@ const SideBar = () => {
                    </button>   
                   </Link>
              </li>
+
             <li> 
             <Link to="/user"> 
                 <button className={` ${activeTab === 2  ? "active" : ""} `} onClick={() => isOpenSubmenu(2)} >
@@ -67,6 +69,7 @@ const SideBar = () => {
                 </button>
              </Link>
            </li>
+           
             <li>    
                   <button className={` ${activeTab === 3  ? "active" : ""} `} onClick={() => isOpenSubmenu(3)} >
                     <span className="icon"> <FaProductHunt /> </span>
@@ -82,7 +85,7 @@ const SideBar = () => {
                   </div>
            </li>
             <li> 
-                <Link to="/"> 
+                <Link to="/invoice"> 
                   <button className={` ${activeTab === 4 ? "active" : ""} `} onClick={() => isOpenSubmenu(4)} >
                     <span className="icon"> <LiaFileInvoiceSolid /> </span>
                         Invoices 
@@ -91,16 +94,16 @@ const SideBar = () => {
                 </Link>
            </li>
            <li> 
-                <Link to="/"> 
-                  <button className={` ${activeTab === 6 ? "active" : ""} `} onClick={() => isOpenSubmenu(6)} >
-                    <span className="icon"> <IoMail /> </span>
+                <Link to="/order-list"> 
+                  <button className={` ${activeTab === 5 ? "active" : ""} `} onClick={() => isOpenSubmenu(5)} >
+                    <span className="icon"> <FaCartArrowDown /> </span>
                         orders
                     <span className="angle-abc"> 3 </span>
                   </button>
                 </Link>
            </li>
             <li> 
-                <Link to="/"> 
+                <Link to="/message"> 
                   <button className={` ${activeTab === 6 ? "active" : ""} `} onClick={() => isOpenSubmenu(6)} >
                     <span className="icon"> <IoMail /> </span>
                         Messages 

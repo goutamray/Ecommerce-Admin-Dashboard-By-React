@@ -332,10 +332,13 @@ body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .tota
 }
 .name-box img{
   width: 50px;
+  height: 50px;
+  object-fit: cover;
   border-radius: 50%;
   border: 2px solid #0858f7;
   padding: 2px;
 }
+
 
 
 .name-time h3{
@@ -376,6 +379,8 @@ body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .tota
   font-size: 22px;
 }
 
+
+
 .right-part-rev span  {
   background-color: #f8f8f8;
   border-radius: 50%;
@@ -384,6 +389,10 @@ body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .tota
   text-align: center;
   width: 35px !important;
   display: block;
+}
+body.dark .right-part-rev span{
+  background-color: #071739;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .right-part-rev span svg{

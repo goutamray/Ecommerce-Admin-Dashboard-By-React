@@ -4,6 +4,7 @@ import { useContext, useState } from "react";
 
 // images 
 import photo from "../../assets/img/goutam.png";
+import sujan from "../../assets/img/sujan.jpeg";
 import logo from "../../assets/img/logo.webp";
 import shirt from "../../assets/img/shirt.png";
 
@@ -290,7 +291,7 @@ const Header = () => {
                     <div className="bottom-bar-notification">
                       <div className="single-item-noti my-2">
                          <div className="not-image">
-                            <img src={photo} alt="" />
+                            <img src={sujan} alt="" />
                             <div className="media">
                               <FaHeart />
                             </div>
@@ -305,7 +306,7 @@ const Header = () => {
                       </div>
                       <div className="single-item-noti my-2">
                          <div className="not-image">
-                            <img src={photo} alt="" />
+                            <img src={sujan} alt="" />
                             <div className="media">
                               <FaHeart />
                             </div>
@@ -320,7 +321,7 @@ const Header = () => {
                       </div>
                       <div className="single-item-noti my-2">
                          <div className="not-image">
-                            <img src={photo} alt="" />
+                            <img src={sujan} alt="" />
                             <div className="media">
                               <FaHeart />
                             </div>
@@ -335,7 +336,7 @@ const Header = () => {
                       </div>
                       <div className="single-item-noti my-2">
                          <div className="not-image">
-                            <img src={photo} alt="" />
+                            <img src={sujan} alt="" />
                             <div className="media">
                               <FaHeart />
                             </div>
@@ -350,7 +351,7 @@ const Header = () => {
                       </div>
                       <div className="single-item-noti my-2">
                          <div className="not-image">
-                            <img src={photo} alt="" />
+                            <img src={sujan} alt="" />
                             <div className="media">
                               <FaHeart />
                             </div>

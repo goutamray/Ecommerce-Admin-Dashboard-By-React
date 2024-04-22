@@ -11,6 +11,7 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 
 // product images
 import goutam from "../../assets/img/goutam.png";
+import sujan from "../../assets/img/sujan.jpeg";
 import shirt1 from "../../assets/product/01.webp";
 import shirt2 from "../../assets/product/02.webp";
 import shirt3 from "../../assets/product/03.webp";
@@ -229,7 +230,7 @@ const ProductView = () => {
                   <div className="col-sm-11 left-cutomer-rev p-5">
                      <div className="customer-single-box ">
                         <div className="name-box">
-                           <img src={goutam} alt="" />
+                           <img src={sujan} alt="" />
                            <div className="name-time">
                               <h3> Goutam ray </h3>
                               <p> 25 minutes ago! </p>
@@ -255,7 +256,7 @@ const ProductView = () => {
                   <div className="col-sm-10 left-cutomer-rev p-5 admin">
                      <div className="customer-single-box ">
                         <div className="name-box">
-                           <img src={goutam} alt="" />
+                           <img src={goutam} alt="" className="sujan"/>
                            <div className="name-time">
                               <h3> Goutam ray </h3>
                               <p> 25 minutes ago! </p>
@@ -304,7 +305,7 @@ const ProductView = () => {
                   <div className="col-sm-11 left-cutomer-rev p-5">
                      <div className="customer-single-box ">
                         <div className="name-box">
-                           <img src={goutam} alt="" />
+                           <img src={sujan} alt="" />
                            <div className="name-time">
                               <h3> Goutam ray </h3>
                               <p> 25 minutes ago! </p>
@@ -349,7 +350,29 @@ const ProductView = () => {
                   </div>
                 </div>
 
-               
+                <div className="row my-4">
+                  <div className="col-sm-11 left-cutomer-rev p-5">
+                     <div className="customer-single-box ">
+                        <div className="name-box">
+                           <img src={sujan} alt="" className="sujan" />
+                           <div className="name-time">
+                              <h3> Goutam ray </h3>
+                              <p> 25 minutes ago! </p>
+                           </div>
+                        </div>
+                        <div className="replay-btn">
+                          <button className="btn btn-primary"><span> <MdOutlineReply /> </span> Replay </button>
+                        </div>
+                     </div>
+                     <div className="rating-customer mt-2">
+                       <span> <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStarHalfAlt /> </span>
+                     </div>
+                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo nostrum dolore fugiat ducimus labore debitis unde autem recusandae? Eius harum tempora quis minima, adipisci natus quod magni omnis quas. </p>
+                  </div>
+                  <div className="col-sm-1 right-part-rev ">
+                    <span> <BsThreeDotsVertical /> </span>
+                  </div>
+                </div>
 
               </div>
             </div>
