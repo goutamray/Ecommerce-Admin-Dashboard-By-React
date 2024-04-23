@@ -8,6 +8,7 @@ import { FaCartArrowDown } from "react-icons/fa6";
 import { BsThreeDotsVertical } from "react-icons/bs";
 
 
+import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
 
 // product images
 import goutam from "../../..//assets/img/goutam.png";
@@ -25,20 +26,8 @@ const ProductView = () => {
   return (
     <>
       <div className="right-content">
-        <div className="dashboardBoxErapper shadow">
-          <div className="dashboard">
-            <h2> Product View   </h2>
-            <p>
-            <nav  aria-label="breadcrumb">
-              <ol className="breadcrumb">
-                <li className="breadcrumb-item"><a href="#">Home</a></li>
-                <li className="breadcrumb-item"><a href="#"> Products </a></li>
-                <li className="breadcrumb-item active" aria-current="page"> Product View  </li>
-              </ol>
-            </nav>
-            </p>
-          </div>
-        </div>
+        <BreadCrumb title={"Product View"} page={"Products"}/> 
+        
 
 
        <div className="product-view card shadow p-4 my-4 dark-mode ">

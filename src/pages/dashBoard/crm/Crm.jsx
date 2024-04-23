@@ -8,6 +8,7 @@ import Chart from "../../../components/chart/Chart";
 
 import { useEffect } from "react";
 
+import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
 
 import "./Crm.css"; 
 const Crm = () => {
@@ -19,20 +20,8 @@ const Crm = () => {
   return (
     <>
       <div className="right-content">
-        <div className="dashboardBoxErapper shadow">
-          <div className="dashboard">
-            <h2> Crm  </h2>
-            <p>
-            <nav  aria-label="breadcrumb">
-              <ol className="breadcrumb">
-                <li className="breadcrumb-item"><a href="#">Home</a></li>
-                <li className="breadcrumb-item"><a href="#">DashBoard</a></li>
-                <li className="breadcrumb-item active" aria-current="page"> Crm </li>
-              </ol>
-            </nav>
-            </p>
-          </div>
-        </div>
+        <BreadCrumb title={"Crm"} page={"DashBoard"}/> 
+       
 
         <div className="row my-3 crm-part ">
           <div className="col-sm-12">

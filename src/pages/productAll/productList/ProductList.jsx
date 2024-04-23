@@ -3,6 +3,7 @@ import { MdWidgets } from "react-icons/md";
 import { MdVerifiedUser } from "react-icons/md";
 import { FiEdit } from "react-icons/fi";
 import jama from "../../..//assets/img/jama.webp" 
+import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
 
 
 import "./ProductList.css"
@@ -10,20 +11,8 @@ const ProductList = () => {
   return (
     <>
       <div className="right-content">
-        <div className="dashboardBoxErapper shadow">
-          <div className="dashboard">
-            <h2> Product List  </h2>
-            <p>
-            <nav  aria-label="breadcrumb">
-               <ol className="breadcrumb">
-                  <li className="breadcrumb-item"><a href="#">Home</a></li>
-                   <li className="breadcrumb-item"><a href="#"> Products</a></li>
-                   <li className="breadcrumb-item active" aria-current="page">  Product List </li>
-                </ol>
-            </nav>
-            </p>
-          </div>
-        </div>
+        <BreadCrumb title={"Product List "} page={"Products"}/> 
+
 
         <div className="product-list-topper">
             <div className="row">

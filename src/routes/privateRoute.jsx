@@ -23,6 +23,9 @@ import ProductView from "../pages/productAll/productView/ProductView";
 // invoice list 
 import InvoiceList from "../pages/invoiceAll/invoiceList/InvoiceList";
 import InvoiceDetails from "../pages/invoiceAll/invoiceDetails/InvoiceDetails";
+import UserList from "../pages/userAll/userList/UserList";
+import UserProfile from "../pages/userAll/userProfile/UserProfile";
+import MyAccount from "../pages/userAll/myAccount/MyAccount";
 
 
 // create private router 
@@ -97,6 +100,18 @@ export const privateRoute = [
           {
             path : "/invoice-details",
             element : <InvoiceDetails />
+          },
+          {
+            path : "/user-list",
+            element : <UserList />
+          },
+          {
+            path : "/user-profile",
+            element : <UserProfile /> 
+          },
+          {
+            path : "/my-account",
+            element : <MyAccount /> 
           }
 
         ]

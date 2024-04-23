@@ -7,24 +7,12 @@ import goutam from "../../assets/img/goutam.png"
 
 import "./OrderList.css"; 
 import { BiSolidDownload } from "react-icons/bi";
+import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 const OrderList = () => {
   return (
     <>
      <div className="right-content">
-        <div className="dashboardBoxErapper shadow">
-          <div className="dashboard">
-            <h2> Order List  </h2>
-            <p>
-            <nav  aria-label="breadcrumb">
-               <ol className="breadcrumb">
-                  <li className="breadcrumb-item"><a href="#">Home</a></li>
-                   <li className="breadcrumb-item"><a href="#">DashBoard</a></li>
-                   <li className="breadcrumb-item active" aria-current="page">  Order List </li>
-                </ol>
-            </nav>
-            </p>
-          </div>
-        </div>
+         <BreadCrumb title={"Order List "} page={"Orders"}/> 
 
         <div className="product-list-topper">
             <div className="row">

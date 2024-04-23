@@ -16,6 +16,7 @@ import { PiWarningLight } from "react-icons/pi";
 
 import jama from "../../../assets//img/jama.webp"
 import DashBoardBox from "../../../components/dashboardBox/DashBoardBox";
+import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
 
 
 export const data = [
@@ -69,20 +70,8 @@ const Ecommerce = () => {
   return (
     <>
       <div className="right-content">
-        <div className="dashboardBoxErapper shadow">
-          <div className="dashboard">
-            <h2> Ecommerce  </h2>
-            <p>
-            <nav  aria-label="breadcrumb">
-              <ol className="breadcrumb">
-                <li className="breadcrumb-item"><a href="#">Home</a></li>
-                <li className="breadcrumb-item"><a href="#">DashBoard</a></li>
-                <li className="breadcrumb-item active" aria-current="page"> Ecommerce </li>
-              </ol>
-            </nav>
-            </p>
-          </div>
-        </div>
+        <BreadCrumb title={"Ecommerce"} page={"DashBoard"}/>
+
 
         <div className="row">
           <div className="col-sm-8 box-div ">
@@ -122,7 +111,7 @@ const Ecommerce = () => {
 
              </div>
           </div>
-        </div>
+        </div> 
 
         <div className="card table-box p-3 border-0 shadow">
            <div className="top-part">

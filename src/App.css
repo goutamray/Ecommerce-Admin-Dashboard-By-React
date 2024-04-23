@@ -1,7 +1,15 @@
-
-
 :root{
   --primary-color: #5E5D72;
   --primary-bg :  #f0f5ff;
 }
+
+/* global page css */
+.right-content{
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-left: 20px !important;
+}
+
+
 

@@ -7,25 +7,13 @@ import logo from "../../../assets/img/logo.webp"
 import jama from "../../../assets/img/jama.webp"
 
 import "./InvoiceDetails.css"; 
+import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
 const InvoiceDetails = () => {
   return (
     <>
       <div className="right-content">
-        
-      <div className="dashboardBoxErapper shadow">
-          <div className="dashboard">
-            <h2> Invoice Details  </h2>
-            <p>
-            <nav  aria-label="breadcrumb">
-               <ol className="breadcrumb">
-                  <li className="breadcrumb-item"><a href="#">Home</a></li>
-                   <li className="breadcrumb-item"><a href="#"> Invoices </a></li>
-                   <li className="breadcrumb-item active" aria-current="page">  Invoice Details  </li>
-                </ol>
-            </nav>
-            </p>
-          </div>
-        </div>
+         <BreadCrumb title={"Invoice Details"} page={"Invoices"}/> 
+     
 
         <div className="card p-5 shadow invoice-details mt-4">
            <div className="logo-invoice">

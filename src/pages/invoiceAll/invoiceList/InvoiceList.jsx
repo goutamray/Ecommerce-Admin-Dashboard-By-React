@@ -6,24 +6,12 @@ import jama from "../../..//assets/img/jama.webp"
 
 
 import "./InvoiceList.css"; 
+import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
 const InvoiceList = () => {
   return (
     <>
       <div className="right-content">
-        <div className="dashboardBoxErapper shadow">
-          <div className="dashboard">
-            <h2> Invoice List  </h2>
-            <p>
-            <nav  aria-label="breadcrumb">
-               <ol className="breadcrumb">
-                  <li className="breadcrumb-item"><a href="#">Home</a></li>
-                   <li className="breadcrumb-item"><a href="#"> Invoices </a></li>
-                   <li className="breadcrumb-item active" aria-current="page">  Invoice List  </li>
-                </ol>
-            </nav>
-            </p>
-          </div>
-        </div>
+        <BreadCrumb title={"Invoice List"} page={"Invoices"}/> 
 
 
         <div className="product-list-topper">

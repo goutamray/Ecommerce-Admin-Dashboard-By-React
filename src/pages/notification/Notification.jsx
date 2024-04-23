@@ -13,25 +13,12 @@ import goutam from "../../assets/img/goutam.png";
 
 
 import "./Notification.css"; 
+import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 const Notification = () => {
   return (
     <>
        <div className="right-content">
-
-        <div className="dashboardBoxErapper shadow">
-          <div className="dashboard">
-            <h2> Notification  </h2>
-            <p>
-            <nav  aria-label="breadcrumb">
-              <ol className="breadcrumb">
-                <li className="breadcrumb-item"><a href="#">Home</a></li>
-                <li className="breadcrumb-item active" aria-current="page"> Notification </li>
-              </ol>
-            </nav>
-            </p>
-          </div>
-        </div>
-
+           <BreadCrumb title={"Notification"}/> 
 
         <div className="card shadow p-3 my-4 not-part ">
             <div className="top-part">

@@ -19,7 +19,7 @@ import "./SideBar.css";
 const SideBar = () => {
   const [activeTab, setActiveTab ] = useState(0);
   const [isactiveTabToggle, setIsActiveTabToggle ] = useState(false);
-  
+
 
  
   const isOpenSubmenu = (index) => {
@@ -60,14 +60,19 @@ const SideBar = () => {
                   </Link>
              </li>
 
-            <li> 
-            <Link to="/user"> 
+            <li>          
                 <button className={` ${activeTab === 2  ? "active" : ""} `} onClick={() => isOpenSubmenu(2)} >
                     <span className="icon"> <FaRegCircleUser /> </span>
                       Users
                     <span className="angle"> <FaAngleRight /> </span>
                 </button>
-             </Link>
+                  {/* <div className={`submenuWrapper ${activeTab === 2 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
+                  <ul>
+                      <li> <Link to="/user-list"> User List </Link></li>
+                      <li> <Link to="/user-profile"> User Profile </Link></li>
+                      <li> <Link to="/my-account"> My Account  </Link></li>
+                    </ul>
+                  </div> */}
            </li>
            
             <li>    
@@ -84,14 +89,19 @@ const SideBar = () => {
                      </ul>
                   </div>
            </li>
-            <li> 
-                <Link to="/invoice"> 
-                  <button className={` ${activeTab === 4 ? "active" : ""} `} onClick={() => isOpenSubmenu(4)} >
+
+            <li>           
+                  <button  className={` ${activeTab === 4  ? "active" : ""} `} onClick={() => isOpenSubmenu(4)}>
                     <span className="icon"> <LiaFileInvoiceSolid /> </span>
                         Invoices 
                     <span className="angle"> <FaAngleRight /> </span>
                   </button>
-                </Link>
+                  <div className={`submenuWrapper ${activeTab === 4 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
+                  <ul>
+                      <li> <Link to="/invoice-list"> Invoice List </Link></li>
+                      <li> <Link to="/invoice-details"> Invoice Details </Link></li>
+                    </ul>
+                  </div>
            </li>
            <li> 
                 <Link to="/order-list"> 

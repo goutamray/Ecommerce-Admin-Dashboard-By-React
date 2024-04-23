@@ -16,6 +16,7 @@ import sa from "../../../assets/img/sa.webp"
 import us from "../../../assets/img/us.webp"
 import Lines from "../../../components/chart/Lines";
 import { useEffect } from "react";
+import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
 
 
 export const data2 = [
@@ -52,20 +53,8 @@ const Analyticks = () => {
   return (
     <>
       <div className="right-content">
-        <div className="dashboardBoxErapper shadow">
-          <div className="dashboard">
-            <h2> Analytics  </h2>
-            <p>
-            <nav  aria-label="breadcrumb">
-              <ol className="breadcrumb">
-                <li className="breadcrumb-item"><a href="#">Home</a></li>
-                <li className="breadcrumb-item"><a href="#">DashBoard</a></li>
-                <li className="breadcrumb-item active" aria-current="page"> Analytics </li>
-              </ol>
-            </nav>
-            </p>
-          </div>
-        </div>
+        <BreadCrumb title={"Analyticks"} page={"Dashboard"}/>
+
 
 
         <div className="row">

@@ -9,6 +9,7 @@ import shirt3 from "../../../assets/product/03.webp";
 import shirt4 from "../../../assets/product/04.webp";
 
 
+import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
 
 
 
@@ -17,20 +18,8 @@ const ProductUpload = () => {
   return (
     <>
       <div className="right-content">
-         <div className="dashboardBoxErapper shadow">
-          <div className="dashboard">
-            <h2> Product Upload  </h2>
-            <p>
-            <nav  aria-label="breadcrumb">
-              <ol className="breadcrumb">
-                <li className="breadcrumb-item"><a href="#">Home</a></li>
-                <li className="breadcrumb-item"><a href="#">Products</a></li>
-                <li className="breadcrumb-item active" aria-current="page"> Product Upload </li>
-              </ol>
-            </nav>
-            </p>
-          </div>
-        </div>
+        <BreadCrumb title={" Product Upload"} page={"Products"}/> 
+
 
         <div className="row my-4">
           <div className="col-sm-7">

@@ -3,23 +3,13 @@ import { MdOutlineVerified } from "react-icons/md";
 
 
 import "./Setting.css"; 
+import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 const Setting = () => {
   return (
     <>
           <div className="right-content">
-              <div className="dashboardBoxErapper shadow">
-                <div className="dashboard">
-                  <h2> Setting  </h2>
-                  <p>
-                  <nav  aria-label="breadcrumb">
-                    <ol className="breadcrumb">
-                      <li className="breadcrumb-item"><a href="#">Home</a></li>
-                      <li className="breadcrumb-item active" aria-current="page"> Setting </li>
-                    </ol>
-                  </nav>
-                  </p>
-                </div>
-              </div>
+            <BreadCrumb title={"Setting"}/> 
+              
 
           <div className="card p-5 shadow  mt-4 setting-page "> 
                <div className="left-setting">
