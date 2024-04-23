@@ -1,11 +1,8 @@
 
-
-
 .row .col-sm-2{
   width: 20%;
   flex: 0 0 20%;
   padding: 0px !important;
-
 
   transition: all 0.3s ease-in-out;
 }
@@ -19,26 +16,21 @@
 
 .row .col-sm-2 .side-bar{
   transition: all 0.3s ease-in-out;
-
 }
 
 .row .col-sm-2.toggle .side-barr{
 left: -100%;
-
 }
 
 .row .col-sm-10.output{
   width: 80%;
   transition: all 0.3s ease-in-out;
   padding: 0px !important;
- 
 }
 
 body.dark .row .col-sm-10.output{
   background-color: #071739 !important;
 }
-
-
 
 .row .col-sm-10.output.toggle{
   width: 100%; 

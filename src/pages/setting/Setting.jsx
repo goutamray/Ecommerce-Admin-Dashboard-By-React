@@ -1,9 +1,9 @@
 
 import { MdOutlineVerified } from "react-icons/md";
+import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 
 
 import "./Setting.css"; 
-import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 const Setting = () => {
   return (
     <>
@@ -86,9 +86,7 @@ const Setting = () => {
           </div>
          </div>
 
-         <div className="copyRight text-center my-4">
-           <p> © All Rights Reserved by ♥ <a href="#"> DeveloperGoutam </a>  </p>
-         </div>
+
     </>
   )
 }

@@ -1,12 +1,4 @@
 
-.right-content{
-  padding-top: 30px;
-  padding-right: 20px;
-  padding-bottom: 25px;
-  padding-left: 20px !important;
-}
-
-
 /* setting part css */
 .left-setting{
   position: relative;
@@ -22,8 +14,6 @@
   left: 10%; 
 }
 
-
-
 p.same-title{
   font-size: 12px;
   font-weight: 700;
@@ -35,7 +25,6 @@ p.same-title{
 body.dark p.same-title{
   color: rgba(255, 255, 255, 0.8) !important;
 }
-
 
 input.form-control, textarea.form-control, select.form-control{
   background-color: #f4f4f4;
@@ -83,26 +72,13 @@ input.form-control:focus, textarea.form-control:focus, select.form-control:focus
   color: #fff;
 }
 
-
-.copyRight p a{
-  font-size: 16px;
-  font-weight: 500;
-}
-
-body.dark .copyRight p{
-  color: rgba(255, 255, 255, 0.8) !important;
-}
-
-
 body.dark .card.p-5.shadow.mt-4.setting-page{
   background-color: #112143;
  }
 
-
  body.dark .left-box-check p, body.dark .left-setting h6,   body.dark p.left-message  {
   color: rgba(255, 255, 255, 0.8) !important;
  }
-
 
  body.dark  .checked-message li{
   color: #B4B4B4;

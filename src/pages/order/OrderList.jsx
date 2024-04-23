@@ -2,12 +2,13 @@ import { FaAngleLeft, FaAngleRight, FaRegEye, FaShoppingBag,  FaTrashAlt } from 
 
 import { HiDotsCircleHorizontal, HiDotsHorizontal } from "react-icons/hi";
 import { FaCarAlt } from "react-icons/fa";
+import { BiSolidDownload } from "react-icons/bi";
 import goutam from "../../assets/img/goutam.png"
 
 
 import "./OrderList.css"; 
-import { BiSolidDownload } from "react-icons/bi";
 import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
+
 const OrderList = () => {
   return (
     <>
@@ -294,10 +295,6 @@ const OrderList = () => {
               </div>
              </div>
         </div>
-      </div>
-
-      <div className="copyRight text-center my-4">
-        <p> © All Rights Reserved by ♥ <a href="#"> DeveloperGoutam </a>  </p>
       </div>
     </>
   )

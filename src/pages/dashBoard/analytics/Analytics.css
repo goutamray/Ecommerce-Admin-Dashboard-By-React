@@ -1,10 +1,3 @@
-.right-content{
-  padding-top: 30px;
-  padding-right: 20px;
-  padding-bottom: 25px;
-}
-
-
 
 .box-div.analytics{
   margin-top: 30px !important;
@@ -122,18 +115,6 @@ padding-left: 10px;
   color: #403E57;
   margin-top: 3px;
 }
-
-.copyRight p a{
-  font-size: 16px;
-  font-weight: 500;
-}
-
-body.dark .copyRight p{
-  color: rgba(255, 255, 255, 0.8) !important;
-}
-
-
-
 
 body.dark .country .single-country .flag .name h4, 
 body.dark .country .single-country .value h6,

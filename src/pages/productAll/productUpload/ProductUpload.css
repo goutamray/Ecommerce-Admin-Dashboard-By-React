@@ -1,9 +1,3 @@
-.right-content{
-  padding-top: 30px;
-  padding-right: 20px;
-  padding-bottom: 25px;
-  padding-left: 20px !important;
-}
 
 
 /* 2nd part  */
@@ -119,15 +113,6 @@ cursor: pointer;
   font-size: 15px;
   color: #403E57;
   cursor: pointer;
-}
-
-.copyRight p a{
-  font-size: 16px;
-  font-weight: 500;
-}
-
-body.dark .copyRight p{
-  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 

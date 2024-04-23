@@ -199,10 +199,6 @@ const Analyticks = () => {
           </div>
          </div>
         </div>
-
-        <div className="copyRight text-center my-4">
-           <p> © All Rights Reserved by ♥ <a href="#"> DeveloperGoutam </a>  </p>
-        </div>
     </>
   )
 }

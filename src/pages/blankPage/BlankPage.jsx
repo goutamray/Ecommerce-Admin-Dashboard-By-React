@@ -11,9 +11,6 @@ const BlankPage = () => {
             <div className="icon-blank"> <IoExtensionPuzzleSharp /> </div>
             <h3> Blank This Page </h3>
           </div>
-          <div className="copyRight text-center my-4">
-              <p> © All Rights Reserved by ♥ <a href="#"> DeveloperGoutam </a>  </p>
-          </div>
         </div>
       </div>
     </>

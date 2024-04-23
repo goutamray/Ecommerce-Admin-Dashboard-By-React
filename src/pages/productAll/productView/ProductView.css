@@ -1,11 +1,4 @@
 
-.right-content{
-  padding-top: 30px;
-  padding-right: 20px;
-  padding-bottom: 25px;
-  padding-left: 20px !important;
-}
-
 /********** Product galary css *********/
 .product-view .left-view-part h6{
    font-size: 16px;
@@ -398,15 +391,6 @@ button.drop-btn{
   text-transform: uppercase;
  
 }
-.copyRight p a{
-  font-size: 16px;
-  font-weight: 500;
-}
-
-body.dark .copyRight p{
-  color: rgba(255, 255, 255, 0.8) !important;
-}
-
 
 body.dark .product-view.card.shadow.p-4.my-4.dark-mode, body.dark .rating-customer span p, body.dark , body.dark  {
   background-color: #1b2b4d !important;

@@ -7,6 +7,7 @@ import jama from "../../..//assets/img/jama.webp"
 
 import "./InvoiceList.css"; 
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
+
 const InvoiceList = () => {
   return (
     <>
@@ -465,11 +466,6 @@ const InvoiceList = () => {
         </div>
 
       </div>
-
-      <div className="copyRight text-center my-4">
-        <p> © All Rights Reserved by ♥ <a href="#"> DeveloperGoutam </a>  </p>
-      </div>
-
     </>
   )
 }

@@ -1,11 +1,4 @@
 
-.right-content{
-  padding-top: 30px;
-  padding-right: 20px;
-  padding-bottom: 25px;
-  padding-left: 20px !important;
-}
-
 /* 2nd part  */
 .logo-invoice {
   display: flex;
@@ -114,18 +107,6 @@ table{
 
 }
 
-
-.copyRight p a{
-  font-size: 16px;
-  font-weight: 500;
-}
-
-body.dark .copyRight p{
-  color: rgba(255, 255, 255, 0.8) !important;
-}
-
-
-
 body.dark .card.p-5.shadow.invoice-details.mt-4{
   background-color: #112143 !important;
 }
@@ -150,3 +131,6 @@ body.dark .last-text p
  {
   color: #B4B4B4;
 }
+
+
+

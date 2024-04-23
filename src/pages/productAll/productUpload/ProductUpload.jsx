@@ -220,12 +220,6 @@ const ProductUpload = () => {
         </div>
       </div>
       </div>
-
-
-      <div className="copyRight text-center my-5">
-        <p> © All Rights Reserved by ♥ <a href="#"> DeveloperGoutam </a>  </p>
-      </div>
-
     </>
   )
 }

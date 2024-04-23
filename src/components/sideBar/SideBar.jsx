@@ -42,13 +42,13 @@ const SideBar = () => {
                     DashBoard  
                  <span className="angle"> <FaAngleRight /> </span>
               </button>
-                <div className={`submenuWrapper ${activeTab === 0 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
+                {/* <div className={`submenuWrapper ${activeTab === 0 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
                      <ul>
                        <li><Link to="/ecommerce"> Ecommerce </Link></li>
                        <li><Link to="/analytics"> Analytics  </Link></li>
                        <li><Link to="/crm"> Crm </Link></li>
                      </ul>
-              </div>
+              </div> */}
            </li>
             <li> 
               <Link to="/authentication"> 
@@ -66,13 +66,13 @@ const SideBar = () => {
                       Users
                     <span className="angle"> <FaAngleRight /> </span>
                 </button>
-                  {/* <div className={`submenuWrapper ${activeTab === 2 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
+                  <div className={`submenuWrapper ${activeTab === 2 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
                   <ul>
                       <li> <Link to="/user-list"> User List </Link></li>
                       <li> <Link to="/user-profile"> User Profile </Link></li>
                       <li> <Link to="/my-account"> My Account  </Link></li>
                     </ul>
-                  </div> */}
+                  </div>
            </li>
            
             <li>    
@@ -81,13 +81,13 @@ const SideBar = () => {
                         Products  
                     <span className="angle"> <FaAngleRight /> </span>
                   </button>
-                  <div className={`submenuWrapper ${activeTab === 3 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
+                  {/* <div className={`submenuWrapper ${activeTab === 3 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
                      <ul>
                        <li><Link to="/product-list"> Product List </Link></li>
                        <li><Link to="/product-view"> Product View  </Link></li>
                        <li><Link to="/product-upload"> Product Upload </Link></li>
                      </ul>
-                  </div>
+                  </div> */}
            </li>
 
             <li>           

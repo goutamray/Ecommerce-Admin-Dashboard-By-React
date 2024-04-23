@@ -1,13 +1,4 @@
 
-.right-content{
-   padding-top: 30px;
-   padding-right: 20px;
-   padding-bottom: 25px;
-   padding-left: 20px !important;
-}
-
-
-
 .box-div{
   margin-top: 30px !important;
   display: flex;
@@ -28,9 +19,6 @@
 
   padding: 20px;
 }
-
-
-
 
 /* right box */
 .anotherBox{
@@ -393,7 +381,6 @@ body.dark .earning-part .earn-part1 .text-info p, body.dark .earning-part .earn-
 
 
 /* total-box */
-
 .total-box .box-1{
   display: flex;
   align-items: center;
@@ -439,15 +426,6 @@ body.dark .total-box .box-1 .left-dot h6, body.dark .total-box .box-1  p{
 }
 .total-box .box-1 .left-dot p.refunded{
   background-color: #e0a518;
-}
-
-.copyRight p a{
-  font-size: 16px;
-  font-weight: 500;
-}
-
-body.dark .copyRight p{
-  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 body.dark .card.shadow.p-3.right-part2{
