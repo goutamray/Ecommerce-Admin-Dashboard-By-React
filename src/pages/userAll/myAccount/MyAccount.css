@@ -1,15 +1,205 @@
+.tab-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tab-button button {
+  padding: 8px 20px;
+  background-color: #ededed;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.tab-button button:hover{
+  background-color: #0858f7;
+  color: #fff;
+}
+
+.tab-button button.active{
+  background-color: #0858f7;
+  color: #fff;
+}
+.public-info h6 {
+  position: relative;
+}
+
+.public-info h6::after {
+  content: "";
+  height: 1px;
+  width: 89%;
+  background-color: rgb(176, 176, 176, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+fieldset legend {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.profile-photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-photo img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  padding: 3px;
+  border: 1px solid #0858f7;
+
+}
+
+.profile-photo button {
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 8px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile-photo button:hover {
+  background-color: #0858f7;
+  color: #fff;
+}
+
+.profile-photo button svg {
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile-photo button:hover svg {
+  color: #fff;
+}
 
 
 
+button.save-btn {
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+button.save-btn svg {
+  font-size: 20px;
+}
+
+/******* generate-Password *********/
+.generate-Password h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #403E57;
+  position: relative;
+}
+
+.generate-Password h6::after {
+  content: "";
+  height: 1px;
+  width: 85%;
+  background-color: rgb(176, 176, 176, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 14%;
+}
+
+.pass-form {
+  position: relative;
+}
+
+.pass-form .my-2 span.lock {
+  position: relative;
+  left: 16px;
+  top: 32px;
+}
+.pass-form .my-2 span.lock2 {
+  position: relative;
+  left: 16px;
+  top: 32px;
+}
+
+.pass-form .my-2 input {
+  padding: 8px 40px;
+
+}
+
+.pass-form .my-2 span.view-hide {
+  position: absolute;
+  top: 34px;
+  right: 19px;
+}
+.pass-form .my-2 span.view-hide2 {
+  position: absolute;
+  top: 34px;
+  right: 19px;
+}
+.pass-form .my-2 span.lock svg,
+.pass-form .my-2 span.view-hide button svg,
+.pass-form .my-2 span.lock2 svg,
+.pass-form .my-2 span.view-hide2 svg
+{
+  font-size: 20px;
+}
 
 
+.pass-form .my-2 span.view-hide button, .pass-form .my-2 span.view-hide2  button{
+  border: none;
+  background: transparent;
+}
+.activity-email h6{
+  font-size: 16px;
+  font-weight: 600;
+  color: #403E57;
+  position: relative;
+}
+.activity-email h6::after {
+  content: "";
+  height: 1px;
+  width: 65%;
+  background-color: rgb(176, 176, 176, 0.4);
+  position: absolute;
+  top: 52%;
+  left: 36%;
+}
+.activity-email ul li{
+  padding: 5px 0px;
+}
 
 
+body.dark .card.p-3.shadow.tab-content-btn{
+   background-color: #112143;
+}
+body.dark .pass-form .my-2 span.lock svg,
+body.dark .pass-form .my-2 span.view-hide button svg,
+body.dark .pass-form .my-2 span.lock2 svg,
+body.dark .pass-form .my-2 span.view-hide2 svg
+{
+  color: #B4B4B4;
+}
 
+body.dark  .pass-form .my-2 input::-webkit-input-placeholder {
+  color: #B4B4B4;
+}
 
+body.dark .activity-email h6 {
+ color:  #E4E4E4;
+}
 
-
-
-
-
+body.dark ul li .form-check label{
+  color: #B4B4B4;
+}
 

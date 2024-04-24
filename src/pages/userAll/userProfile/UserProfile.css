@@ -1,0 +1,315 @@
+
+
+.user-img-part1{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+
+.user-img-part1 img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #0858f7;
+  padding: 2px;
+}
+
+
+.user-img-part1 .user-info h4{
+   font-size: 18px;
+   color: #403E57;
+   font-weight: 600 !important;
+   
+}
+
+
+.user-img-part1 .user-info p{
+   font-size: 15px;
+   color: #5E5D72;
+   font-weight: 400 !important;
+   margin-top: 4px;
+   
+}
+body.dark  .user-img-part1 .user-info p{
+  color:  #B4B4B4;
+}
+.contact-box h6{
+  font-size: 16px;
+  color: #403E57;
+  font-weight: 600 !important;
+  position: relative;
+  padding: 20px 0px;
+}
+.contact-box h6::after {
+  content: "";
+  height: 1px;
+  width: 70%;
+  background-color: rgb(211, 211, 211, 0.3);
+  position: absolute;
+  top: 49%;
+  left: 29%;
+}
+
+.contact-box ul li{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+  padding: 4px 0px;
+}
+.contact-box ul li span{
+  font-size: 18px !important;
+  color: #0858f7;
+
+}
+
+.biography h6, .Elsewhere h6{
+  font-size: 16px;
+  color: #403E57;
+  font-weight: 600 !important;
+  position: relative;
+  padding: 20px 0px;
+}
+.biography h6::after, .Elsewhere h6::after{
+  content: "";
+  height: 1px;
+  width: 80%;
+  background-color: rgb(211, 211, 211, 0.3);
+  position: absolute;
+  top: 52%;
+  left: 20%;
+}
+.biography p{
+  font-size: 15px;
+  color: #5E5D72;
+  font-weight: 400 !important;
+}
+.social-media{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.social-media button{
+   padding: 8px 20px !important;
+   border-radius: 8px;
+   color: #fff;
+}
+
+.social-media button.btn.facebook{
+background-color: #3b5998;
+
+}
+
+.social-media button.btn.twitter{
+background-color: #00acee;
+}
+
+.social-media button.btn.linkedin{
+  background-color: #0e76a8;
+}
+
+.social-media button.btn.whatsapp{
+background-color: #25d366;
+}
+
+.social-media button.btn.youtube{
+  background-color: #ff0000;
+}
+
+
+
+/* product-list-topper  */
+.product-list-topper{
+  padding: 30px 0px;
+  }
+  
+  .product-list-topper .part1 .total-product{
+    background: linear-gradient(#64b3f6,#2b77e5);
+    border-radius: 8px;
+    padding: 16px;
+  }
+
+.product-list-topper .part1 .total-product.category{
+  background: linear-gradient(#ed68ff, #be0ee1); 
+}
+
+.product-list-topper .part1 .total-product.brand{
+    background: linear-gradient(#e5a014, #f3cf2a); 
+}
+  .product-list-topper .part1 .total-product.cancel{
+    background: linear-gradient(#4eda89, #1a9f53);
+  }
+  
+  .product-list-topper .part1 .total-product .left-top-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+.product-list-topper .part1 .total-product .left-top-part h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+  }
+.product-list-topper .part1 .total-product .left-top-part span {
+    position: absolute;
+    top: -34px;
+    right: -5px;
+  }
+  
+.product-list-topper .part1 .total-product .left-top-part span svg {
+    font-size: 42px;
+    color: #96cefa;
+  }
+.product-list-topper .part1 .total-product .left-top-part span.widget svg {
+    color: #ed68ff;
+  }
+.product-list-topper .part1 .total-product .left-top-part span.verify svg {
+    color: #f3cf2a;
+  }
+
+.product-list-topper .part1 .total-product .left-top-part span.cansel2 svg {
+    color: #ff9baa;
+  }
+
+.product-list-topper .part1 .total-product  p{
+     font-size: 16px;
+     color: #fff;
+     text-transform: capitalize;
+     margin-top: 8px;
+  }
+
+
+  .user-profile-time ul li {
+    position: relative;
+  } 
+
+  .user-profile-time ul li::before {
+    content: "";
+    height: 18px;
+    width: 18px;
+    border-radius: 12px;
+    background-color: #5E5D72;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    border: 4px solid #d8d7d7;
+}
+
+
+.user-profile-time ul li .all-content {
+  width: 93%;
+  margin-left: auto;
+  padding-right: 5px;
+}
+
+ 
+.user-profile-time ul li  .all-content p{
+   font-size: 14px;
+   font-weight: 400;
+   color: #5E5D72;
+   padding: 10px 0px;
+}
+.user-profile-time ul li   .all-content .user-details-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-profile-time ul li  .all-content .user-details-time h6{
+   font-size: 14px;
+   font-weight: 600;
+   color: #403E57;
+}
+
+.user-profile-time ul li  .all-content .user-details-time h6::after {
+  content: "";
+  height: 1px;
+  width: 53%;
+  background-color: rgb(176 176 176 / 30%);
+  position: absolute;
+  top: 15%;
+  left: 35%;
+}
+.user-profile-time ul li  .all-content .user-details-time h6.changed::after {
+  width: 45%;
+  top: 16%;
+  left: 47%;
+}
+.user-profile-time ul li  .all-content .user-details-time h6.changed::after {
+  width: 43%;
+  top: 16%;
+  left: 47%;
+}
+
+.user-profile-time ul li  .all-content .user-details-time p{
+  font-size: 12px;
+  font-weight: 400;
+  color: #5E5D72;
+}
+.user-cart-media {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+}
+.user-cart-media img{
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.user-cart-media p{
+  font-size: 13px;
+  font-weight: 500;
+  color: #5E5D72;
+}
+
+.user-profile-time button{
+  width: 100px !important;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.all-data-box{
+  height: 350px;
+  overflow-y: scroll;
+}
+
+.all-data-box::-webkit-scrollbar{
+  width: 4px;
+  background-color: #0858f7;
+
+}
+
+body.dark .user-img-part1 .user-info h4, 
+body.dark  .contact-box h6,
+body.dark .biography h6, .Elsewhere h6,
+body.dark .user-profile-time ul li  .all-content .user-details-time h6
+{
+  color: #E4E4E4;
+}
+
+
+body.dark .card.p-3.shadow.profile-left{
+  background-color: #112143;
+}
+
+body.dark .contact-box ul li, 
+body.dark .biography p,
+body.dark .user-profile-time ul li  .all-content .user-details-time p,
+body.dark .user-profile-time ul li .all-content p 
+{
+  color: #B4B4B4;
+}
+
+body.dark .card.p-3.shadow.right-part-user{
+  background-color: #112143;
+}
+
+
+
