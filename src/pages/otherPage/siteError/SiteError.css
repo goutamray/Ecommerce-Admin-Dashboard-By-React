@@ -1,0 +1,37 @@
+
+.all-error{
+   text-align: center;
+   padding: 50px 0px;
+}
+
+.all-error img{
+  width: 400px;
+  margin: auto;
+}
+
+.all-error .content-error{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 20px 0px;
+}
+
+.all-error .content-error h2{
+   font-size: 22px;
+   font-weight: 500;
+   color: #403E57;
+   padding: 10px 0px;
+}
+
+.all-error .content-error p{ 
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+body.dark .all-error .content-error h2, body.dark .all-error .content-error p{
+  color: var(--dark-text-color);
+} 
+
+
+

@@ -1,0 +1,61 @@
+
+.overview{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.logo-part{
+  text-align: center;
+}
+
+.logo-part img{
+  width: 60px;
+
+}
+.logo-part h2{
+ font-size: 35px;
+ font-weight: 800;
+ margin-top: 10px;
+}
+
+.content-react {
+  text-align: center;
+}
+.content-react h1{
+  font-size: 45px;
+  font-weight: 800;
+  color: #333;
+}
+.content-react h6{
+font-size: 20px;
+color: #333;
+font-size: 500;
+margin-top: 20px;
+}
+
+.build-width{
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   gap: 15px;
+}
+.build-width h3{
+   font-size: 25px;
+   font-weight: 500;
+}
+.build-width img{
+  width: 40px;
+
+}
+button.btn a{
+  color: #fff;
+  font-size: 20px !important;
+  font-weight: 500;
+}
+
+body.dark .logo-part h2 , body.dark .content-react h1, body.dark .content-react h6 ,body.dark .build-width h3{
+  color: var(--dark-text-color);
+}
+

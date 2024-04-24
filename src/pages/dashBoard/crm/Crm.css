@@ -71,7 +71,7 @@ tbody tr td .delBtn{
   align-items: center;
   justify-content: space-between;
   padding: 10px 0px;
-  border-bottom: 1px solid rgb(207, 207, 207);
+  border-bottom: 1px solid var(--dark-text-color);
 }
 
 .total-box .box-1 .left-dot{
@@ -161,4 +161,7 @@ body.dark .row.my-3.crm-part .card.p-3{
 body.dark .card.shadow.p-3.deals-part{
   background-color: #1b2b4d !important;
 }
+
+
+
 

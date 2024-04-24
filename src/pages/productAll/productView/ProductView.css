@@ -15,14 +15,14 @@
    position: relative;
 }
 body.dark .product-view .right-view-part h6, body.dark .product-view .left-view-part h6{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .product-view .left-view-part h6::after {
   content: "";
   height: 1px;
   width: 73%;
-  background-color: rgb(222 222 222);
+  background-color: var(--dark-text-color);
   position: absolute;
   top: 49%;
   left: 27%;
@@ -31,7 +31,7 @@ body.dark .product-view .right-view-part h6, body.dark .product-view .left-view-
   content: "";
   height: 1px;
   width: 81%;
-  background-color: rgb(222 222 222);
+  background-color: var(--dark-text-color);
   position: absolute;
   top: 49%;
   left: 19%;
@@ -42,7 +42,7 @@ body.dark .product-view .right-view-part h6, body.dark .product-view .left-view-
 }
 .product-view .left-view-part .product-view-galary img{
    width: 480px;
-   border: 2px dashed rgb(198, 198, 198) ;
+   border: 2px dashed var(--dark-text-color) ;
    border-radius: 8px;
 }
 
@@ -69,7 +69,7 @@ body.dark .product-view .right-view-part h6, body.dark .product-view .left-view-
   margin-bottom: 10px;
 }
 body.dark .product-description h3{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .product-view-meta {
@@ -78,9 +78,7 @@ body.dark .product-description h3{
    gap: 10px;
    padding-top: 11px;
 }
-.product-view-meta span{
 
-}
 .product-view-meta h5{
   width: 90px;
   font-size: 15px;
@@ -111,7 +109,7 @@ body.dark .product-description h3{
   text-transform: uppercase;
 }
 body.dark .product-view-meta h5, body.dark .product-view-meta span.brand svg, body.dark .product-view-meta p{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .product-view-meta p span.reg-price{
@@ -137,7 +135,7 @@ body.dark .product-view-meta h5, body.dark .product-view-meta span.brand svg, bo
   content: "";
   height: 1px;
   width: 85%;
-  background-color: rgb(222 222 222);
+  background-color:var(--dark-text-color);
   position: absolute;
   top: 14%;
   left: 15%;
@@ -147,7 +145,7 @@ body.dark .product-view-meta h5, body.dark .product-view-meta span.brand svg, bo
   content: "";
   height: 1px;
   width: 85%;
-  background-color: rgb(222 222 222);
+  background-color: var(--dark-text-color);
   position: absolute;
   top: 82%;
   left: 12%;
@@ -162,7 +160,7 @@ body.dark .product-view-meta h5, body.dark .product-view-meta span.brand svg, bo
 }
 
 body.dark .customer h6, body.dark .product-short-desc p , body.dark .product-short-desc h6 {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .progress-box ul{
@@ -178,7 +176,7 @@ margin-top: 20px;
 .progress-box li .review-width{
    height: 5px;
    width: 250px;
-   background-color: #e4e4e4;
+   background-color: var(--dark-text-color);
    padding: 5px 0px;
    position: relative;
    border-radius: 5px;
@@ -240,14 +238,14 @@ margin-top: 20px;
 }
 
 body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .total-review h4 , body.dark .total-review p{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .customer.bottom h6::after{
   content: "";
   height: 1px;
   width: 85%;
-  background-color: rgb(222 222 222);
+  background-color: var(--dark-text-color);
   position: absolute;
   top: 82%;
   left: 14%;
@@ -260,7 +258,7 @@ body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .tota
 }
 
 .left-cutomer-rev.admin{
-  background-color: #f8f8f8;
+  background-color: var(--dark-text-color);
   border-radius: 10px;
   
   width: 82% !important;
@@ -294,7 +292,7 @@ body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .tota
   height: 50px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid #0858f7;
+  border: 2px solid var(--secondary-color);
   padding: 2px;
 }
 
@@ -341,7 +339,7 @@ body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .tota
 
 
 .right-part-rev span  {
-  background-color: #f8f8f8;
+  background-color: var(--dark-text-color);
   border-radius: 50%;
   height: 35px !important;
   line-height: 35px;
@@ -351,7 +349,7 @@ body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .tota
 }
 body.dark .right-part-rev span{
   background-color: #071739;
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .right-part-rev span svg{
@@ -362,7 +360,7 @@ body.dark .right-part-rev span{
   content: "";
   height: 1px;
   width: 85%;
-  background-color: rgb(222 222 222);
+  background-color: var(--dark-text-color);
   position: absolute;
   top: 82%;
   left: 14%;
@@ -378,7 +376,7 @@ body.dark .right-part-rev span{
   width: 100% !important;
   padding: 10px;
   border-radius: 10px;
-  background-color: #f8f8f8;
+  background-color: var(--dark-text-color);
 }
 
 body.dark .message-form textarea{
@@ -401,10 +399,10 @@ body.dark  .col-sm-11.left-cutomer-rev.p-5{
 }
 
 body.dark  .name-time h3{
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: var(--dark-text-color);
 }
 body.dark  .name-time h3 , body.dark .name-time p, body.dark .left-cutomer-rev p {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 

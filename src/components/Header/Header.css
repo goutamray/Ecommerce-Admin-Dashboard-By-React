@@ -1,5 +1,4 @@
 
-
 header{
   width: 100%;
   height: auto;
@@ -65,7 +64,7 @@ body.dark .menu-part button.open-btn svg{
 }
 
 .menu-part button.open-btn:hover svg{
-  color: #0858f7;
+  color: var(--secondary-color);
 }
 
 
@@ -94,7 +93,7 @@ body.dark .menu-part button.open-btn svg{
 }
 
 .myAcc .user-img{
-  border: 1px solid #0858f7;
+  border: 1px solid var(--secondary-color);
   padding: 2px;
   height: 35px;
   width: 35px;
@@ -134,7 +133,7 @@ body.dark .menu-part button.open-btn svg{
 }
 
 button.signUp-btn{
-  background-color: #0858f7;
+  background-color: var(--secondary-color);
   color: #fff;
   padding: 8px 22px !important;
   display: block;
@@ -155,10 +154,10 @@ text-align: left;
 
 
 body.dark .myAcc .user-name .name h4{
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--dark-text-color);
 }
 body.dark .myAcc .user-name .nick-name{
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--dark-text-color);
 }
 
 
@@ -187,7 +186,7 @@ body.dark .menu-part ul.dropdown-menu-item {
    display: block;
 } 
 body.dark .menu-part ul.dropdown-menu-item li a{
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--dark-text-color);
 } 
 
 .menu-part ul.dropdown-menu-item li a svg{
@@ -196,7 +195,7 @@ body.dark .menu-part ul.dropdown-menu-item li a{
 }
 
 body.dark .menu-part ul.dropdown-menu-item li a svg{
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--dark-text-color);
 } 
 
 
@@ -236,7 +235,7 @@ body.dark .notification-drop{
   align-items: center;
   justify-content: space-between;
   padding-bottom: 10px;
-  border-bottom: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid var(--dark-text-color);
 }
 
 .notification-drop .top-bar-notification h4{
@@ -246,14 +245,14 @@ body.dark .notification-drop{
 }
 
 body.dark  .notification-drop .top-bar-notification h4{
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--dark-text-color);
 }
 
 .notification-drop .top-bar-notification p svg{
   font-size: 22px;
 }
 body.dark  .notification-drop .top-bar-notification p svg{
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--dark-text-color);
 }
 
 
@@ -270,7 +269,7 @@ body.dark  .notification-drop .top-bar-notification p svg{
 }
 
 .bottom-bar-notification::-webkit-scrollbar-thumb{
-background: #0858f7 !important;
+  background-color: var(--secondary-color);
 
 }
 
@@ -286,11 +285,11 @@ background: #0858f7 !important;
 
 body.dark .bottom-bar-notification .single-item-noti{
   background-color: #12254e !important;
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--dark-text-color);
 
 }
 body.dark .bottom-bar-notification .single-item-noti svg{
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--dark-text-color);
 
 }
 
@@ -327,7 +326,7 @@ body.dark .bottom-bar-notification .single-item-noti svg{
   cursor: pointer;
   left: 29px;
   top: -12px !important;
-  border: 1px solid white;
+  border: 1px solid var(--dark-text-color);
 }
 
 .bottom-bar-notification .single-item-noti .not-image  img{
@@ -337,7 +336,7 @@ body.dark .bottom-bar-notification .single-item-noti svg{
 }
 
 .bottom-bar-notification .single-item-noti .not-image  img.mail-img {
-border: 2px solid #0858f7;
+border: 2px solid var(--secondary-color);
 padding: 2px;
 }
 
@@ -351,7 +350,7 @@ padding: 2px;
   color: #fff;
   background-color: red;
   font-size: 20px;
-  border: 2px solid #fff;
+  border: 2px solid var(--dark-text-color);
   border-radius: 50%;
   padding: 2px;
 }
@@ -367,7 +366,7 @@ padding: 2px;
 }
 
 .bottom-bar-notification .single-item-noti .not-info p{
-  color: #0858f7;
+  color: var(--secondary-color);
   font-size: 12px;
   font-weight: 600;
   margin-top: 5px;
@@ -395,7 +394,7 @@ font-size: 20px;
 .footer-bar button{
  width: 100%;
  color: #fff;
- background-color: #0858f7;
+ background-color: var(--secondary-color);
  border: none;
  border-radius: 5px;
  padding: 4px 0px;
@@ -408,7 +407,7 @@ font-size: 20px;
 
 .topper-box {
   position: absolute;
-  background-color: #0858f7;
+  background-color: var(--secondary-color);
   height: 22px;
   width: 22px;
   border-radius: 50%;

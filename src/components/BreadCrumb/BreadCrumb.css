@@ -11,9 +11,13 @@
   padding: 20px;
 }
 
+.breadcrumb-item a{
+  color: var(--secondary-color);
+}
 .right-content .dashboardBoxErapper .dashboard nav ol{
 margin-bottom: 0;
 }
+
 .right-content .dashboardBoxErapper .dashboard h2{
  font-size: 20px;
  font-weight: 500;
@@ -24,11 +28,11 @@ body.dark .right-content .dashboardBoxErapper .dashboard{
 }
   
 body.dark .right-content .dashboardBoxErapper .dashboard h2{ 
-color: rgba(255, 255, 255, 0.8);
+color: var(--dark-text-color);
 }
 
 body.dark .right-content .dashboardBoxErapper .dashboard nav ol li{ 
-color: rgba(255, 255, 255, 0.8);
+color: var(--dark-text-color);
 }
 
 

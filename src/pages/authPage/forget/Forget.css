@@ -1,0 +1,52 @@
+
+.logo-box-text{
+  text-align: center;
+}
+
+.logo-box-text img{
+   width: 50px;
+}
+
+.logo-box-text h4{
+   font-size: 20px;
+   font-weight: 600;
+   color: #403E57;
+   margin-top: 10px;
+}
+
+.forget-box {
+  margin-top: 20px;
+   background-color: var(--dark-text-color);
+   border-radius: 5px;
+}
+.forget-box span{
+  position: relative;
+}
+.forget-box span svg{
+   position: absolute;
+   left: 13px;
+   top: 12px;
+   font-size: 20px;
+}
+
+.forget-box input{
+background-color: #fff !important;
+padding: 8px 40px;
+}
+.forget-box button{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+
+.login-box{
+  margin-top: 20px;
+  padding: 20px 30px;
+  background-color: var(--dark-text-color);
+  border-radius: 10px;
+}
+
+body.dark .logo-box-text h4{
+  color: var(--dark-text-color);
+}

@@ -1,5 +1,4 @@
 
-
 /* 2nd part  */
 .revenue-part {
   display: flex;
@@ -15,10 +14,8 @@ body.dark .revenue-part {
   color: #403E57;
 }
 body.dark .revenue-part .rev-text h4, body.dark .revenue-part p svg{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
-
-
 
 p.same-title{
   font-size: 12px;
@@ -29,23 +26,20 @@ p.same-title{
 }
 
 body.dark p.same-title{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 
 input.form-control, textarea.form-control, select.form-control{
-  background-color: #f4f4f4;
+  background-color: var(--dark-text-color);
   color: #66769b;
 }
 
 body.dark input.form-control, body.dark textarea.form-control, body.dark select.form-control{
   background-color: #364a76;
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
   border: none;
 }
-
-
-
 
 input.form-control:focus, textarea.form-control:focus, select.form-control:focus{
   box-shadow: none;
@@ -79,7 +73,7 @@ input.form-control:focus, textarea.form-control:focus, select.form-control:focus
   
 }
 .product-image-upload .box-product-1{
-  border: 1px solid rgb(220, 220, 220);
+  border: 1px solid var(--dark-text-color);
   border-radius: 8px;
   height: 200px;
   width: 205px;
@@ -95,7 +89,7 @@ input.form-control:focus, textarea.form-control:focus, select.form-control:focus
 }
 
 .product-image-upload .box-product-1:hover{
-  border: 2px dashed #0858f7;
+  border: 2px dashed var(--secondary-color);
   border-radius: 8px;
 }
 .product-image-upload .box-product-1{
@@ -125,17 +119,17 @@ body.dark .card.shadow.p-3.media-image{
 }
 
 body.dark .product-image-upload .box-product-1 a , body.dark  .product-image-upload .box-product-1 .collection svg{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 
 body.dark  .col-sm-10.right-part2-category input::-webkit-input-placeholder {
-  color: #B4B4B4;
+  color: var(--dark-text-color);
 }
 
 body.dark  .col-sm-6 input::-webkit-input-placeholder, 
 body.dark  .title input::-webkit-input-placeholder, 
 body.dark .description textarea::-webkit-input-placeholder{
-  color: #B4B4B4;
+  color: var(--dark-text-color);
 }
 

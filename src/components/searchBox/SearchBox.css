@@ -1,5 +1,4 @@
 
-
 .searchbox{
   width: 300px;
   height: 40px;
@@ -23,11 +22,11 @@ body.dark .searchbox {
 }
  
 body.dark .searchbox .icon svg{
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--dark-text-color);
 }
 
 .searchbox input::-webkit-input-placeholder{
-    color: color(0,0,0, 0.5);
+    color: var(--dark-text-color);
 }
 
 .searchbox input{
@@ -40,7 +39,7 @@ body.dark .searchbox .icon svg{
 }
 
 body.dark .searchbox input::-webkit-input-placeholder{
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--dark-text-color);
 }
 
 

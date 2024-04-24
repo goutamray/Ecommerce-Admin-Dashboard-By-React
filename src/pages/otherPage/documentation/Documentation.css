@@ -1,0 +1,32 @@
+
+.first-box h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #403E57;
+  margin-top: 10px;
+}
+.first-box p{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px 0px;
+}
+.first-box img{
+  padding: 10px 20px;
+}
+
+.footer-text{
+  text-align: center;
+}
+.footer-text h1{
+  font-size: 40px;
+  font-weight: 700;
+  padding: 30px 0px;
+}
+
+body.dark .card.p-4.shadow.my-4.document{
+  background-color: #112143;
+}
+
+body.dark .footer-text h1, body.dark .first-box h2, body.dark .first-box p {
+  color: var(--dark-text-color);
+}

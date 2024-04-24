@@ -42,22 +42,28 @@ const SideBar = () => {
                     DashBoard  
                  <span className="angle"> <FaAngleRight /> </span>
               </button>
-                {/* <div className={`submenuWrapper ${activeTab === 0 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
+                <div className={`submenuWrapper ${activeTab === 0 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
                      <ul>
                        <li><Link to="/ecommerce"> Ecommerce </Link></li>
                        <li><Link to="/analytics"> Analytics  </Link></li>
                        <li><Link to="/crm"> Crm </Link></li>
                      </ul>
-              </div> */}
+              </div>
            </li>
             <li> 
-              <Link to="/authentication"> 
+             
                   <button className={` ${activeTab === 1 ? "active" : ""} `} onClick={() => isOpenSubmenu(1)}>
                       <span className="icon"> <MdLock /> </span>
                         Authentication
                       <span className="angle"> <FaAngleRight /> </span>
                    </button>   
-                  </Link>
+                   <div className={`submenuWrapper ${activeTab === 1 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
+                  <ul>
+                      <li> <Link to="/login"> Login </Link></li>
+                      <li> <Link to="/register"> Registation </Link></li>
+                      <li> <Link to="/forget"> Forget Password  </Link></li>
+                    </ul>
+                  </div>
              </li>
 
             <li>          
@@ -81,13 +87,13 @@ const SideBar = () => {
                         Products  
                     <span className="angle"> <FaAngleRight /> </span>
                   </button>
-                  {/* <div className={`submenuWrapper ${activeTab === 3 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
+                  <div className={`submenuWrapper ${activeTab === 3 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
                      <ul>
                        <li><Link to="/product-list"> Product List </Link></li>
                        <li><Link to="/product-view"> Product View  </Link></li>
                        <li><Link to="/product-upload"> Product Upload </Link></li>
                      </ul>
-                  </div> */}
+                  </div>
            </li>
 
             <li>           
@@ -151,7 +157,7 @@ const SideBar = () => {
 
           <h3>  Other pages </h3>
             <li> 
-                <Link to="/"> 
+                <Link to="/overview"> 
                   <button className={` ${activeTab === 9 ? "active" : ""} `} onClick={() => isOpenSubmenu(9)} >
                     <span className="icon"> <GrOverview /> </span>
                         over view              
@@ -159,15 +165,15 @@ const SideBar = () => {
                 </Link>
            </li>
             <li> 
-              <Link to="/"> 
+              <Link to="/site-error"> 
                  <button className={` ${activeTab === 10 ? "active" : ""} `} onClick={() => isOpenSubmenu(10)} >
                    <span className="icon"> <MdError /> </span>
-                          site error              
+                      site error              
                  </button>
                 </Link>
            </li>
             <li> 
-              <Link to="/"> 
+              <Link to="/documentation"> 
                 <button className={` ${activeTab === 11 ? "active" : ""} `} onClick={() => isOpenSubmenu(11)} >
                 <span className="icon"> <CgFileDocument /> </span>
                   documentation             
@@ -175,7 +181,7 @@ const SideBar = () => {
               </Link>
            </li>
             <li> 
-              <Link to="/"> 
+              <Link to="/change-log"> 
                 <button className={` ${activeTab === 12 ? "active" : ""} `} onClick={() => isOpenSubmenu(12)} >
                   <span className="icon"> <FaMicroblog /> </span>
                     change log             
@@ -185,7 +191,7 @@ const SideBar = () => {
           
           </ul>
           <div className="logoutWrapper">
-             <Link to="/">
+             <Link to="/login">
                 <button> <span> <MdLock /></span> Logout </button>
               </Link>
           </div>

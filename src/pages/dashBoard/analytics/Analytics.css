@@ -6,7 +6,7 @@
 .box-div.analytics .dashboardBox{
   width: 23% !important;
   height: 180px;
-  background-color: #ccc;
+  background-color: var(--dark-text-color);
   border-radius: 10px;
   overflow: hidden;
 
@@ -37,11 +37,11 @@ body.dark .card.shadow.p-3.analytic-part , body.dark  .card.shadow.p-3.overview-
  .year-select {
   display: flex;
   align-items: center;
-  background-color: #f8f8f8;
+  background-color: var(--dark-text-color);
   width: 200px;
   height: auto;
   border-radius: 5px;
-  border: 1px solid rgb(218, 218, 218);
+  border: 1px solid var(--dark-text-color);
   padding-left: 5px;
 }
 
@@ -68,7 +68,7 @@ padding-left: 10px;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   border-bottom: 1px solid rgb(204, 204, 204);
+   border-bottom: 1px solid var(--dark-text-color);
    padding-bottom: 15px;
    padding-top: 14px;
 
@@ -119,7 +119,7 @@ padding-left: 10px;
 body.dark .country .single-country .flag .name h4, 
 body.dark .country .single-country .value h6,
 body.dark .country .single-country .seo h5 {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
  
@@ -127,7 +127,7 @@ body.dark .country .single-country .flag .name h5,
 body.dark .country .single-country .value p,
 body.dark .country .single-country .seo p
  {
-  color: #B4B4B4 !important;
+  color: var(--dark-text-color);
 }
 
 

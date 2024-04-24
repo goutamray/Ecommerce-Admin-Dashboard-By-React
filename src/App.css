@@ -1,6 +1,8 @@
 :root{
   --primary-color: #5E5D72;
   --primary-bg :  #f0f5ff;
+  --secondary-color : #0858f7 !important; 
+  --dark-text-color : #b4b4b4 !important;
 }
 
 /* global page css */

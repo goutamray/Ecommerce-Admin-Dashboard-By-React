@@ -8,7 +8,7 @@
 .box-div .dashboardBox{
   width: 48%;
   height: 200px;
-  background-color: #ccc;
+  background-color: var(--dark-text-color);
   border-radius: 10px;
   overflow: hidden;
 
@@ -40,9 +40,7 @@
   text-transform: capitalize;
   color: #fff;
 }
-.anotherBox .right-box .dot-abcd{
-    
-}
+
 .anotherBox .right-box .dot-abcd svg{
   font-size: 18px;
   color: #fff;
@@ -82,8 +80,6 @@
   position: absolute;
   left: 20px;
   top: 0px;
-
-  
 }
 
 .dashboardBox .cart svg{
@@ -110,7 +106,7 @@ body.dark .card.table-box {
    color: #403E57;
 }
 body.dark .top-part h4, body.dark .top-part p svg{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 
@@ -127,7 +123,7 @@ body.dark .cartFilter .col-single select.form-select{
 }
 
 body.dark .cartFilter .col-single select.form-select {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .cartFilter .col-single h4{
@@ -138,7 +134,7 @@ body.dark .cartFilter .col-single select.form-select {
   margin-bottom: 8px;
 }
 body.dark .cartFilter .col-single h4{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .col-single .search input{
@@ -148,13 +144,13 @@ body.dark .cartFilter .col-single h4{
 
 body.dark .col-single .search input{
   background-color: #1b2b4d !important;
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
   border: none;
 }
 
 /* box table */
  table thead .table-primary th{
-  background-color: #1b61e4 !important;
+  background-color: var(--secondary-color);
   color: #fff !important;
   border-color: rgba(0, 0, 0, 0.1);
 }
@@ -178,7 +174,7 @@ tbody tr td .reg-price{
   text-decoration: line-through;
 }
 body.dark tbody tr td .reg-price{
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: var(--dark-text-color);
 }
 
 tbody tr td .sale-price{
@@ -214,7 +210,7 @@ tbody tr td .three-item p{
   margin-top: 3px;
 }
 body.dark tbody tr td .three-item p, body.dark tbody tr td .three-item span{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 tbody tr td button{
   border: none;
@@ -260,7 +256,7 @@ tbody tr td .delBtn{
 }
 
  body.dark .tab-content p{
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: var(--dark-text-color);
 }
 body.dark .tab-content h6{
   color: rgba(255, 255, 255, 0.5) !important;
@@ -278,7 +274,7 @@ font-weight: 500;
 font-size: 14px;
 }
 body.dark .table-footer p{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .revenue-part {
@@ -295,7 +291,7 @@ body.dark .revenue-part {
   color: #403E57;
 }
 body.dark .revenue-part .rev-text h4, body.dark .revenue-part p svg{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
  body.dark .card.shadow.p-3.abcd{
@@ -305,18 +301,18 @@ body.dark .revenue-part .rev-text h4, body.dark .revenue-part p svg{
  .year-select {
   display: flex;
   align-items: center;
-  background-color: #f8f8f8;
+  background-color: transparent !important;
   width: 200px;
   height: auto;
   border-radius: 5px;
-  border: 1px solid rgb(218, 218, 218);
+  border: 1px solid var(--dark-text-color);
   padding-left: 5px;
 }
 body.dark  .year-select {
   background-color: #1b2b4d !important;
 }
 body.dark  .year-select svg {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 .year-select p{
 padding-left: 5px;
@@ -325,12 +321,12 @@ padding-left: 5px;
 .year-select select{
 width: 180px;
 border: none;
-
+background-color: transparent;
 padding-left: 10px;
 }
 body.dark .year-select select{
   background-color: #1b2b4d !important;
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .year-select select:focus{
@@ -349,7 +345,7 @@ body.dark .year-select select{
   display: flex;
   align-items: center;
   gap: 10px;
-  border: 1px solid rgb(215, 215, 215);
+  border: 1px solid var(--dark-text-color);
   padding: 15px;
 }
 
@@ -375,7 +371,7 @@ body.dark .year-select select{
 }
 
 body.dark .earning-part .earn-part1 .text-info p, body.dark .earning-part .earn-part1 .text-info h4{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 
@@ -386,7 +382,7 @@ body.dark .earning-part .earn-part1 .text-info p, body.dark .earning-part .earn-
   align-items: center;
   justify-content: space-between;
   padding: 10px 0px;
-  border-bottom: 1px solid rgb(207, 207, 207);
+  border-bottom: 1px solid var(--dark-text-color);
 }
 
 .total-box .box-1 .left-dot{
@@ -413,7 +409,7 @@ body.dark .earning-part .earn-part1 .text-info p, body.dark .earning-part .earn-
   font-weight: 400;
 }
 body.dark .total-box .box-1 .left-dot h6, body.dark .total-box .box-1  p{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 .total-box .box-1 .left-dot p.shipped{
   background-color:#3e87e0;

@@ -72,7 +72,7 @@ body.dark .cartFilter .col-single select.form-select{
 }
 
 body.dark .cartFilter .col-single select.form-select {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .cartFilter .col-single h4{
@@ -83,7 +83,7 @@ body.dark .cartFilter .col-single select.form-select {
   margin-bottom: 8px;
 }
 body.dark .cartFilter .col-single h4{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .col-single .search input{
@@ -93,14 +93,14 @@ body.dark .cartFilter .col-single h4{
 
 body.dark .col-single .search input{
   background-color: #1b2b4d !important;
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
   border: none;
 }
 
 /* box table */
  table thead .table-primary th{
-  background-color: #1b61e4 !important;
-  color: #fff !important;
+  background-color: var(--secondary-color) !important;
+  color: var(--dark-text-color);
   border-color: rgba(0, 0, 0, 0.1);
 }
 .table-responsive table thead tr th{
@@ -159,7 +159,7 @@ tbody tr td .three-item p{
   margin-top: 3px;
 }
 body.dark tbody tr td .three-item p, body.dark tbody tr td .three-item span{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 tbody tr td button{
   border: none;

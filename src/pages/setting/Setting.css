@@ -8,7 +8,7 @@
    content: "";
   height: 1px;
   width: 90%;
-  background-color: rgb(222 222 222);
+  background-color: var(--dark-text-color);
   position: absolute;
   top: 50%;
   left: 10%; 
@@ -23,7 +23,7 @@ p.same-title{
 }
 
 body.dark p.same-title{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 input.form-control, textarea.form-control, select.form-control{
@@ -33,7 +33,7 @@ input.form-control, textarea.form-control, select.form-control{
 
 body.dark input.form-control, body.dark textarea.form-control, body.dark select.form-control{
   background-color: #364a76;
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
   border: none;
 }
 
@@ -77,9 +77,9 @@ body.dark .card.p-5.shadow.mt-4.setting-page{
  }
 
  body.dark .left-box-check p, body.dark .left-setting h6,   body.dark p.left-message  {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
  }
 
  body.dark  .checked-message li{
-  color: #B4B4B4;
+  color: var(--dark-text-color);
  }

@@ -1,5 +1,6 @@
 import Layout from "../components/layout/Layout";
-import BlankPage from "../pages/blankPage/BlankPage";
+
+// single page list 
 import Home from "../pages/home/Home";
 import Message from "../pages/message/Message";
 import Notification from "../pages/notification/Notification";
@@ -7,8 +8,10 @@ import Setting from "../pages/setting/Setting";
 import OrderList from "../pages/order/OrderList";
 
 // login &  register 
-import Login from "../pages/login/Login";
-import Register from "../pages/register/Register";
+import Login from "../pages/authPage/login/Login";
+import Register from "../pages/authPage/register/Register";
+import Forget from "../pages/authPage/forget/Forget";
+
 
 //dashboard list all
 import Ecommerce from "../pages/dashBoard/ecommerce/Ecommerce"
@@ -23,9 +26,17 @@ import ProductView from "../pages/productAll/productView/ProductView";
 // invoice list 
 import InvoiceList from "../pages/invoiceAll/invoiceList/InvoiceList";
 import InvoiceDetails from "../pages/invoiceAll/invoiceDetails/InvoiceDetails";
+// user list 
 import UserList from "../pages/userAll/userList/UserList";
 import UserProfile from "../pages/userAll/userProfile/UserProfile";
 import MyAccount from "../pages/userAll/myAccount/MyAccount";
+
+// other page list
+import OverView from "../pages/otherPage/overView/OverView";
+import SiteError from "../pages/otherPage/siteError/SiteError";
+import Documentation from "../pages/otherPage/documentation/Documentation";
+import ChangeLog from "../pages/otherPage/changeLog/ChangeLog";
+import BlankPage from "../pages/otherPage/blankPage/BlankPage";
 
 
 // create private router 
@@ -60,6 +71,10 @@ export const privateRoute = [
           {
             path : "/register",
             element : <Register /> 
+          },
+          {
+            path : "/forget",
+            element : <Forget /> 
           },
           {
             path : "/product-list",
@@ -112,6 +127,22 @@ export const privateRoute = [
           {
             path : "/my-account",
             element : <MyAccount /> 
+          },
+          {
+            path : "/overview",
+            element: <OverView />
+          },
+          {
+            path : "site-error",
+            element: <SiteError /> 
+          },
+          {
+            path : "/documentation",
+            element : <Documentation />
+          },
+          {
+          path : "/change-log",
+          element : <ChangeLog /> 
           }
 
         ]

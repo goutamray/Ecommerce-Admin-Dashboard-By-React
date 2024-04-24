@@ -1,7 +1,4 @@
 
-
-
-
 .col1 h3{
     font-size: 16px !important;
     font-weight: 600;
@@ -26,7 +23,6 @@
 
   opacity: 0.5;
 }
-
 
 .last-month-box h4{
   font-size: 14px;
@@ -70,12 +66,10 @@
   z-index: 999 !important;
 }
 
-
 .dot-icon  ul li{
  padding: 5px ;
 }
 .dot-icon ul li a{
-    
    color: #240f0f;
    font-size: 14px;
    font-weight: 500;

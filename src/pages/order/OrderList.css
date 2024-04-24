@@ -71,7 +71,7 @@ padding: 30px 0px;
   color: #403E57;
 }
 body.dark .top-part h4, body.dark .top-part p svg{
- color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 
@@ -89,7 +89,7 @@ body.dark .cartFilter .col-single select.form-select{
 }
 
 body.dark .cartFilter .col-single select.form-select {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .cartFilter .col-single h4{
@@ -100,7 +100,7 @@ body.dark .cartFilter .col-single select.form-select {
   margin-bottom: 8px;
 }
 body.dark .cartFilter .col-single h4{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .col-single .search input{
@@ -109,19 +109,19 @@ body.dark .cartFilter .col-single h4{
 }
 
 body.dark .col-single.abcd input.form-control{
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 body.dark .col-single .search input{
   background-color: #1b2b4d !important;
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
   border: none;
 }
 
 /* box table */
  table thead .table-primary th{
-  background-color: #1b61e4 !important;
-  color: #fff !important;
+  background-color: var(--secondary-color) !important;
+  color: var(--dark-text-color);
   border-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -145,5 +145,5 @@ body.dark .card.shadow.p-3.product-table{
 }
 
 body.dark  .col-single.abcd input::-webkit-input-placeholder {
-  color: #B4B4B4;
+  color: var(--dark-text-color);
 }

@@ -6,7 +6,7 @@
 
 .tab-button button {
   padding: 8px 20px;
-  background-color: #ededed;
+  background-color: var(--dark-text-color);
   color: #000000;
   border: none;
   border-radius: 5px;
@@ -16,12 +16,12 @@
 }
 
 .tab-button button:hover{
-  background-color: #0858f7;
+  background-color: var(--secondary-color);
   color: #fff;
 }
 
 .tab-button button.active{
-  background-color: #0858f7;
+  background-color: var(--secondary-color);
   color: #fff;
 }
 .public-info h6 {
@@ -57,7 +57,7 @@ fieldset legend {
   width: 120px;
   border-radius: 50%;
   padding: 3px;
-  border: 1px solid #0858f7;
+  border: 1px solid var(--secondary-color);
 
 }
 
@@ -71,7 +71,7 @@ fieldset legend {
 }
 
 .profile-photo button:hover {
-  background-color: #0858f7;
+  background-color: var(--secondary-color);
   color: #fff;
 }
 
@@ -111,7 +111,7 @@ button.save-btn svg {
   content: "";
   height: 1px;
   width: 85%;
-  background-color: rgb(176, 176, 176, 0.4);
+  background-color: var(--dark-text-color);
   position: absolute;
   top: 50%;
   left: 14%;
@@ -170,7 +170,7 @@ button.save-btn svg {
   content: "";
   height: 1px;
   width: 65%;
-  background-color: rgb(176, 176, 176, 0.4);
+  background-color: var(--dark-text-color);
   position: absolute;
   top: 52%;
   left: 36%;
@@ -188,18 +188,18 @@ body.dark .pass-form .my-2 span.view-hide button svg,
 body.dark .pass-form .my-2 span.lock2 svg,
 body.dark .pass-form .my-2 span.view-hide2 svg
 {
-  color: #B4B4B4;
+  color: var(--dark-text-color);
 }
 
 body.dark  .pass-form .my-2 input::-webkit-input-placeholder {
-  color: #B4B4B4;
+  color: var(--dark-text-color);
 }
 
 body.dark .activity-email h6 {
- color:  #E4E4E4;
+  color: var(--dark-text-color);
 }
 
 body.dark ul li .form-check label{
-  color: #B4B4B4;
+  color: var(--dark-text-color);
 }
 

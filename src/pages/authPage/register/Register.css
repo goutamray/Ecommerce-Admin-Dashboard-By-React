@@ -3,17 +3,14 @@
   height: auto;
   padding: 30px 30px;
   z-index: -1;
- 
 }
-
-
 
 .loginSection .loginBox h3{
   width: 80px;
   color: black;
 }
 body.dark .loginSection .loginBox h4 {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 .form-wrapper  form .mb-3.pass-field{
@@ -52,7 +49,7 @@ body.dark .loginSection .loginBox h4 {
 }
 
 body.dark .banner-content p , body.dark  .banner-content h2 {
-  color: #B4B4B4 !important;
+  color: var(--dark-text-color);
 }
 
 .banner-content button.my-btn.home-page {
@@ -107,25 +104,28 @@ font-size: 18px;
 form .mb-3 .form-control:focus{
   outline: none;
   box-shadow: none;
-  border: 1px solid  #408deb;
+  border: 1px solid  var(--secondary-color);
 }
 
 form .mb-3 input {
   padding-left: 35px;
   padding-top: 8px;
   padding-bottom: 8px;
+  background-color: transparent;
 }
 
 form .mb-3 .form-select{
   padding-left: 35px;
   padding-top: 8px;
   padding-bottom: 8px;
+  background-color: transparent !important;
 } 
 
 form .mb-3 .form-select:focus{
+  
   outline: none;
   box-shadow: none;
-  border: 1px solid  #408deb;
+  border: 1px solid  var(--secondary-color);
 } 
 form input[type="checkbox"] {
   height: 16px;
@@ -170,7 +170,7 @@ position: relative;
   text-transform: uppercase;
 }
 .or-div::before {
-  background-color: #d1d1d1;
+  background-color: #d1d1d1 !important;
   content: "";
   height: 1px;
   left: 0px;
@@ -190,7 +190,7 @@ position: relative;
 
 .my-btn{
   text-transform: uppercase;
-  background-color: #0858f7;
+  background-color: var(--secondary-color);
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -246,7 +246,7 @@ body.dark .form-wrapper.res-form.card.shadow.register , body.dark .or-div p, bod
 
 
 body.dark span.checkBox {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: var(--dark-text-color);
 }
 
 

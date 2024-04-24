@@ -1,5 +1,4 @@
 
-
 .full-collum{
   display: flex;
   flex-direction: column;
@@ -8,22 +7,17 @@
   padding: 150px 0px;
 }
 
-
-
 .full-collum .icon-blank svg{
    font-size: 150px;
-   color: #d8d8d8;
+   color: var(--dark-text-color);
 }
-
 
 .full-collum h3{
    font-size: 22px;
    color: #9A9A9A;
    font-weight: 500;
    margin-top: 20px;
-
 }
-
 
 body.dark .full-collum .icon-blank svg{
    color: #263658;

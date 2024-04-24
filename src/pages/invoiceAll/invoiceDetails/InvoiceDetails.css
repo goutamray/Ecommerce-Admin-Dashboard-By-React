@@ -62,7 +62,7 @@
 }
 
 table{
-  border: 1px solid rgb(225, 225, 225) !important;
+  border: 1px solid var(--dark-text-color);
   border-width: 1px;
 }
 .sub-box ul li{
@@ -81,7 +81,7 @@ table{
 
 }
 .sub-box ul li.last-border {
- border-top: 1px solid rgb(224, 224, 224);
+ border-top: 1px solid var(--dark-text-color);
 
 }
 
@@ -90,7 +90,7 @@ table{
   font-weight: 400;
   color: #5E5D72;
   padding: 20px 0px;
-  border-top: 1px solid rgb(224, 224, 224);
+  border-top: 1px solid var(--dark-text-color);
 }
 
 .download-print-button {
@@ -112,14 +112,14 @@ body.dark .card.p-5.shadow.invoice-details.mt-4{
 }
 
 body.dark table thead tr th {
-  color: #E4E4E4;
+  color: var(--dark-text-color);
   background-color: #112143 !important;
 }
 
 body.dark  .logo-invoice h3 , 
 body.dark  .received-details .left-received ul li h5,
 body.dark  .received-details .right-received ul li h5 {
-  color: #E4E4E4;
+  color: var(--dark-text-color);
 }
 
 body.dark .received-details .left-received  ul li,
@@ -129,7 +129,7 @@ body.dark .sub-box ul li span.left,
 body.dark .sub-box ul li span.right ,
 body.dark .last-text p
  {
-  color: #B4B4B4;
+  color: var(--dark-text-color);
 }
 
 
