@@ -17,7 +17,7 @@
 p.same-title{
   font-size: 12px;
   font-weight: 700;
-  color: #403E57;
+  color: var(--heading-color);
   margin-bottom: 10px;
   margin-top: 20px;
 }
@@ -45,7 +45,7 @@ input.form-control:focus, textarea.form-control:focus, select.form-control:focus
 .left-box-check p{
   font-size: 16px;
   font-weight: 400;
-  color: #5E5D72;
+  color: var(--primary-color);
   padding-right: 10px;
 }
 
@@ -53,7 +53,7 @@ input.form-control:focus, textarea.form-control:focus, select.form-control:focus
  padding: 4px 0px;
  font-size: 16px;
  font-weight: 400;
- color: #5E5D72;
+ color: var(--primary-color);
 }
 
 .save-btn button{

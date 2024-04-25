@@ -14,13 +14,11 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-
   padding: 20px;
 }
 
-
 body.dark .card.shadow.p-3.analytic-part , body.dark  .card.shadow.p-3.overview-part{
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color);
 }
 
 .revenue-part {
@@ -31,7 +29,7 @@ body.dark .card.shadow.p-3.analytic-part , body.dark  .card.shadow.p-3.overview-
 .revenue-part .rev-text h4{
   font-size: 17px;
   font-weight: 600;
-  color: #403E57;
+  color: var(--heading-color);
 }
 
  .year-select {
@@ -85,34 +83,35 @@ padding-left: 10px;
 .country .single-country .flag .name h5{
    font-weight: 500;
    font-size: 11px;
-   color: #5E5D72;
+   color: var(--primary-color);
+
 }
 .country .single-country .flag .name h4{
   font-weight: 600;
    font-size: 15px;
-   color: #403E57;
+   color: var(--primary-color);
    margin-top: 3px;
 }
 .country .single-country .value p{
   font-weight: 500;
    font-size: 11px;
-   color: #5E5D72;
+   color: var(--primary-color);
 }
 .country .single-country .value h6{
   font-weight: 600;
   font-size: 14px;
-  color: #403E57;
+  color: var(--heading-color);
   margin-top: 3px;
 }
 .country .single-country .seo p{
   font-weight: 500;
    font-size: 11px;
-   color: #5E5D72;
+   color: var(--primary-color);
 }
 .country .single-country .seo h5{
   font-weight: 600;
   font-size: 14px;
-  color: #403E57;
+  color: var(--heading-color);
   margin-top: 3px;
 }
 
@@ -121,8 +120,6 @@ body.dark .country .single-country .value h6,
 body.dark .country .single-country .seo h5 {
   color: var(--dark-text-color);
 }
-
- 
 body.dark .country .single-country .flag .name h5, 
 body.dark .country .single-country .value p,
 body.dark .country .single-country .seo p

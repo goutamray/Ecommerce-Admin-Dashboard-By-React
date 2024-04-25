@@ -12,7 +12,6 @@
   border-radius: 5px;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
-
 }
 
 .tab-button button:hover{
@@ -27,7 +26,6 @@
 .public-info h6 {
   position: relative;
 }
-
 .public-info h6::after {
   content: "";
   height: 1px;
@@ -37,13 +35,10 @@
   top: 50%;
   left: 15%;
 }
-
 fieldset legend {
   font-size: 16px;
   font-weight: 500;
 }
-
-
 .profile-photo {
   display: flex;
   flex-direction: column;
@@ -51,16 +46,13 @@ fieldset legend {
   align-items: center;
   gap: 10px;
 }
-
 .profile-photo img {
   height: 120px;
   width: 120px;
   border-radius: 50%;
   padding: 3px;
   border: 1px solid var(--secondary-color);
-
 }
-
 .profile-photo button {
   width: 120px;
   border: none;
@@ -69,23 +61,17 @@ fieldset legend {
   padding: 8px 20px;
   transition: all 0.3s ease-in-out;
 }
-
 .profile-photo button:hover {
   background-color: var(--secondary-color);
   color: #fff;
 }
-
 .profile-photo button svg {
   font-size: 18px;
   transition: all 0.3s ease-in-out;
 }
-
 .profile-photo button:hover svg {
   color: #fff;
 }
-
-
-
 button.save-btn {
   font-size: 14px;
   font-weight: 600;
@@ -103,10 +89,9 @@ button.save-btn svg {
 .generate-Password h6 {
   font-size: 16px;
   font-weight: 600;
-  color: #403E57;
+  color: var(--heading-color);
   position: relative;
 }
-
 .generate-Password h6::after {
   content: "";
   height: 1px;
@@ -116,11 +101,9 @@ button.save-btn svg {
   top: 50%;
   left: 14%;
 }
-
 .pass-form {
   position: relative;
 }
-
 .pass-form .my-2 span.lock {
   position: relative;
   left: 16px;
@@ -131,12 +114,9 @@ button.save-btn svg {
   left: 16px;
   top: 32px;
 }
-
 .pass-form .my-2 input {
   padding: 8px 40px;
-
 }
-
 .pass-form .my-2 span.view-hide {
   position: absolute;
   top: 34px;
@@ -155,7 +135,6 @@ button.save-btn svg {
   font-size: 20px;
 }
 
-
 .pass-form .my-2 span.view-hide button, .pass-form .my-2 span.view-hide2  button{
   border: none;
   background: transparent;
@@ -163,7 +142,7 @@ button.save-btn svg {
 .activity-email h6{
   font-size: 16px;
   font-weight: 600;
-  color: #403E57;
+  color: var(--heading-color);
   position: relative;
 }
 .activity-email h6::after {

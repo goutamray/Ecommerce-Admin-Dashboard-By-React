@@ -7,12 +7,11 @@
 
 .loginSection .loginBox h3{
   width: 80px;
-  color: black;
+  color: var(--heading-color);
 }
 body.dark .loginSection .loginBox h4 {
   color: var(--dark-text-color);
 }
-
 .form-wrapper  form .mb-3.pass-field{
   position: relative;
 }
@@ -28,21 +27,17 @@ body.dark .loginSection .loginBox h4 {
 .form-wrapper  form .mb-3.pass-field span button svg{
   font-size: 20px;
 } 
-
-
 .left-part1{
    display: flex;
    justify-content: center;
    align-items: center;
 }
-
 .banner-content h2 {
   font-size: 45px;
   font-weight: 900;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
-
 .banner-content p {
   font-size: 17px;
   margin-bottom: 40px;
@@ -51,7 +46,6 @@ body.dark .loginSection .loginBox h4 {
 body.dark .banner-content p , body.dark  .banner-content h2 {
   color: var(--dark-text-color);
 }
-
 .banner-content button.my-btn.home-page {
   text-transform: uppercase;
   padding: 10px 25px;
@@ -61,34 +55,26 @@ body.dark .banner-content p , body.dark  .banner-content h2 {
 
 .banner-content button.my-btn.home-page a{
   text-transform: uppercase;
-
 }
 .banner-content button svg{
   font-size: 20px;
 }
-
 .loginSection .loginBox{
   text-align: center;
 }
-
-
 .loginSection .loginBox img{
    width: 60px;
 }
 .loginSection .loginBox h3{
    width: 80px;
-   color: black;
+   color: var(--heading-color);
 }
-
-
 .loginSection .form-wrapper.res-form {
   margin-top: 20px;
   width: 400px;
   height: auto !important;
   padding: 30px;
 }
-
-
 form .mb-3{
   position: relative;
 }
@@ -97,7 +83,6 @@ form .mb-3 .icon{
   left: 10px;
   top: 7px;
 }
-
 form .mb-3 .icon svg{
 font-size: 18px;
 } 
@@ -106,21 +91,18 @@ form .mb-3 .form-control:focus{
   box-shadow: none;
   border: 1px solid  var(--secondary-color);
 }
-
 form .mb-3 input {
   padding-left: 35px;
   padding-top: 8px;
   padding-bottom: 8px;
   background-color: transparent;
 }
-
 form .mb-3 .form-select{
   padding-left: 35px;
   padding-top: 8px;
   padding-bottom: 8px;
   background-color: transparent !important;
 } 
-
 form .mb-3 .form-select:focus{
   
   outline: none;
@@ -136,8 +118,7 @@ form input[type="checkbox"] {
 }
 form input span.checkBox{
   font-size: 15px;
-  color: #5E5D72;
-
+  color: var(--primary-color);
 }
 .forget{
   text-align: center;
@@ -146,7 +127,7 @@ form input span.checkBox{
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 500;
-  color: #5E5D72;
+  color: var(--primary-color);
 }
 .forget a:hover{
 text-decoration: underline;
@@ -156,11 +137,10 @@ text-decoration: underline;
 margin-bottom: 10px;
 position: relative;
 }
-
 .or-div p{
   margin: auto;
   font-size: 12px;
-  color: #5E5D72;
+  color: var(--primary-color);
   height: 30px;
   width: 30px;
   text-align: center;
@@ -187,7 +167,6 @@ position: relative;
   top: 14px;
   width: 45%;
 }
-
 .my-btn{
   text-transform: uppercase;
   background-color: var(--secondary-color);
@@ -198,7 +177,6 @@ position: relative;
   border: none;
   border-radius: 8px;
 }
-
 .my-btn a{
   color: #fff;
   font-size: 14px;
@@ -208,7 +186,6 @@ position: relative;
 .my-btn.twiter{
   background-color: #00acee;
 }
-
 .my-btn.twiter svg{
  margin-right: 8px;
  
@@ -216,7 +193,6 @@ position: relative;
 .my-btn.facebook{
   background-color: #3b5998;
 }
-
 .wrapperCard{
   margin-top: 20px;
   width: 400px;
@@ -228,7 +204,7 @@ position: relative;
 .wrapperCard p{
   font-size: 15px;
   font-weight: 400;
-  color: #5E5D72;
+  color: var(--primary-color);
 }
 .wrapperCard p a{
   font-size: 15px;
@@ -238,12 +214,11 @@ position: relative;
 .wrapperCard p a:hover{
   text-decoration: underline;
 }
-
-
-body.dark .form-wrapper.res-form.card.shadow.register , body.dark .or-div p, body.dark .forget a,  body.dark .wrapperCard{
-  background-color: #1b2b4d !important;
+body.dark .form-wrapper.res-form.card.shadow.register ,
+body.dark .or-div p, body.dark .forget a,  
+body.dark .wrapperCard{
+  background-color: var(--dark-bg-color);
 }
-
 
 body.dark span.checkBox {
   color: var(--dark-text-color);

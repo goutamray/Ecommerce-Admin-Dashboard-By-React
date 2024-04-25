@@ -3,7 +3,6 @@
     font-size: 16px !important;
     font-weight: 600;
 }
-
 .col1 span{
    font-size: 32px !important;
    font-weight: 600;
@@ -65,7 +64,6 @@
 
   z-index: 999 !important;
 }
-
 .dot-icon  ul li{
  padding: 5px ;
 }
@@ -76,7 +74,6 @@
    margin-left: 3px;
    text-transform: capitalize;
 }
-
 .dot-icon  ul li a span svg{
   cursor: pointer;
 }

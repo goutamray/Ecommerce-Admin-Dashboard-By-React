@@ -3,21 +3,20 @@
 .product-view .left-view-part h6{
    font-size: 16px;
    font-weight: 600;
-   color: #403E57;
+   color: var(--heading-color);
    margin-bottom: 20px;
    position: relative;
 }
 .product-view .right-view-part h6{
    font-size: 16px;
    font-weight: 600;
-   color: #403E57;
+   color: var(--heading-color);
    margin-bottom: 20px;
    position: relative;
 }
 body.dark .product-view .right-view-part h6, body.dark .product-view .left-view-part h6{
   color: var(--dark-text-color);
 }
-
 .product-view .left-view-part h6::after {
   content: "";
   height: 1px;
@@ -36,7 +35,6 @@ body.dark .product-view .right-view-part h6, body.dark .product-view .left-view-
   top: 49%;
   left: 19%;
 }
-
 .product-view .left-view-part .product-view-galary{
   padding-left: 10px;
 }
@@ -45,7 +43,6 @@ body.dark .product-view .right-view-part h6, body.dark .product-view .left-view-
    border: 2px dashed var(--dark-text-color) ;
    border-radius: 8px;
 }
-
 .galary-view .single-img-view{
   padding: 20px 0px;
  display: flex;
@@ -53,47 +50,41 @@ body.dark .product-view .right-view-part h6, body.dark .product-view .left-view-
  justify-content: space-between;
  gap: 10px;
 }
-
 .galary-view .single-img-view .img-box img{
    width: 100px;
 }
-
 .product-description{
   padding-left: 10px;
 }
-
 .product-description h3{
   font-size: 22px;
   font-weight: 600;
-  color: #403E57;
+  color: var(--heading-color);
   margin-bottom: 10px;
 }
 body.dark .product-description h3{
   color: var(--dark-text-color);
 }
-
 .product-view-meta {
    display: flex;
    align-items: center;
    gap: 10px;
    padding-top: 11px;
 }
-
 .product-view-meta h5{
   width: 90px;
   font-size: 15px;
   text-transform: capitalize;
-  color: #403E57;
+  color: var(--heading-color);
 }
-
 .product-view-meta span.brand svg{
   font-size: 16px;
-  color: #000000;
+  color: var(--heading-color);
 }
 .product-view-meta p{
   font-size: 15px;
   text-transform: capitalize;
-  color: #5E5D72;
+  color: var(--primary-color);
 }
 .product-view-meta ul{
   display: flex;
@@ -108,29 +99,25 @@ body.dark .product-description h3{
   padding: 4px 8px;
   text-transform: uppercase;
 }
-body.dark .product-view-meta h5, body.dark .product-view-meta span.brand svg, body.dark .product-view-meta p{
+body.dark .product-view-meta h5, 
+body.dark .product-view-meta span.brand svg,
+body.dark .product-view-meta p{
   color: var(--dark-text-color);
 }
-
 .product-view-meta p span.reg-price{
   font-size: 15px;
   text-transform: capitalize;
   color: red;
   text-decoration: line-through;
 }
-
-
 .product-short-desc{
   position: relative;
   padding-top: 20px;
 }
-
 .customer{
   position: relative;
   padding-top: 20px;
 }
-
-
 .product-short-desc h6::after {
   content: "";
   height: 1px;
@@ -140,7 +127,6 @@ body.dark .product-view-meta h5, body.dark .product-view-meta span.brand svg, bo
   top: 14%;
   left: 15%;
 }
-
 .customer h6::after {
   content: "";
   height: 1px;
@@ -150,19 +136,16 @@ body.dark .product-view-meta h5, body.dark .product-view-meta span.brand svg, bo
   top: 82%;
   left: 12%;
 }
-
 .product-short-desc p{
   margin-top: 30px;
   font-size: 15px;
   font-weight: 400;
-  color: #5E5D72;
+  color: var(--primary-color);
   line-height: 28px;
 }
-
 body.dark .customer h6, body.dark .product-short-desc p , body.dark .product-short-desc h6 {
   color: var(--dark-text-color);
 }
-
 .progress-box ul{
 margin-top: 20px;
 
@@ -210,7 +193,7 @@ text-align: center;
 margin-top: 20px;
 }
 .total-review h3 {
-   color: #5E5D72;
+  color: var(--primary-color);
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -218,7 +201,7 @@ margin-top: 20px;
 }
 
 .total-review h4{
-  color: #000000;
+  color: var(--primary-color);
   font-size: 80px;
   font-weight: 800;
   letter-spacing: -1px;
@@ -234,13 +217,12 @@ margin-top: 20px;
 .total-review p{
   font-size: 16px;
   text-transform: capitalize;
-  color: #5E5D72;
+  color: var(--primary-color);
 }
 
 body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .total-review h4 , body.dark .total-review p{
   color: var(--dark-text-color);
 }
-
 .customer.bottom h6::after{
   content: "";
   height: 1px;
@@ -269,18 +251,15 @@ body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .tota
 .left-cutomer-gap{
   width: 6%;
 }
-
 .left-cutomer-rev p{
   margin-top: 10px;
   font-size: 15px;
-  color: #5E5D72;
+  color: var(--primary-color);
 }
 .customer-single-box{
    display: flex;
    align-items: center;
    justify-content: space-between;
-
-
 }
 .name-box {
   display: flex;
@@ -295,17 +274,14 @@ body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .tota
   border: 2px solid var(--secondary-color);
   padding: 2px;
 }
-
-
-
 .name-time h3{
   font-size: 15px;
-  color: #5E5D72;
+  color: var(--primary-color);
   font-weight: 600;
 }
 .name-time p{
   font-size: 14px;
-  color: #5E5D72;
+  color: var(--primary-color);
   font-weight: 400;
 }
 
@@ -330,14 +306,10 @@ body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .tota
   position: absolute;
   top: -25px;
   left: 0px;
- 
 }
 .replay-btn button svg{
   font-size: 22px;
 }
-
-
-
 .right-part-rev span  {
   background-color: var(--dark-text-color);
   border-radius: 50%;
@@ -351,11 +323,9 @@ body.dark .right-part-rev span{
   background-color: #071739;
   color: var(--dark-text-color);
 }
-
 .right-part-rev span svg{
   font-size: 16px;
 }
-
 .customer.review-replay h6::after {
   content: "";
   height: 1px;
@@ -365,47 +335,36 @@ body.dark .right-part-rev span{
   top: 82%;
   left: 14%;
 }
-
-
 .message-form {
    margin-top: 20px;
-
 }
-
 .message-form textarea{
   width: 100% !important;
   padding: 10px;
   border-radius: 10px;
   background-color: var(--dark-text-color);
 }
-
 body.dark .message-form textarea{
-  background-color: #1b2b4d;
+   background-color: var(--dark-bg-color);
 }
-
 button.drop-btn{
   width: 100%;
   padding: 10px 0px;
   text-transform: uppercase;
- 
 }
 
 body.dark .product-view.card.shadow.p-4.my-4.dark-mode, body.dark .rating-customer span p, body.dark , body.dark  {
   background-color: #1b2b4d !important;
 }
-
 body.dark  .col-sm-11.left-cutomer-rev.p-5{
   background-color: #071739 !important;
 }
-
 body.dark  .name-time h3{
   color: var(--dark-text-color);
 }
 body.dark  .name-time h3 , body.dark .name-time p, body.dark .left-cutomer-rev p {
   color: var(--dark-text-color);
 }
-
-
 body.dark .col-sm-10.left-cutomer-rev.p-5.admin{
   background-color: #071739 !important;
 }

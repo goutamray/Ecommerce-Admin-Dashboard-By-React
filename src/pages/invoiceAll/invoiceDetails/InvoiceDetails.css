@@ -13,9 +13,8 @@
 .logo-invoice h3{
   font-size: 22px;
   font-weight: 800;
-  color: #403E57;
+  color: var(--heading-color);
 }
-
 .received-details {
   display: flex;
   justify-content: space-between;
@@ -23,11 +22,10 @@
   margin-top: 20px;
 }
 
-
 .received-details .left-received ul li h5,
 .received-details .right-received ul li h5{
   font-size: 16px;
-  color: #403E57;
+  color: var(--heading-color);
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -35,19 +33,17 @@
 .received-details .left-received ul li{
   font-size: 14px;
   font-weight: 400;
-  color-scheme: #5E5D72;
+  color: var(--primary-color);
   padding: 4px 0px;
 }
 
 .received-details .right-received ul li{
   font-size: 14px;
   font-weight: 400;
-  color: #5E5D72;
+  color: var(--primary-color);
   padding: 4px 0px;
   text-align: end;
 }
-
-
 .table-responsive table tbody tr td.image-box {
    display: flex;
    align-items: center;
@@ -82,13 +78,12 @@ table{
 }
 .sub-box ul li.last-border {
  border-top: 1px solid var(--dark-text-color);
-
 }
 
 .last-text p{
   font-size: 13px;
   font-weight: 400;
-  color: #5E5D72;
+  color: var(--primary-color);
   padding: 20px 0px;
   border-top: 1px solid var(--dark-text-color);
 }

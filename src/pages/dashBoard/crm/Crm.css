@@ -7,15 +7,13 @@
 .top-part h4{
   font-size: 17px;
   font-weight: 600;
-  color: #403E57;
+  color: var(--heading-color);
 }
 
 /* table */
-
 .table-box {
   margin-top: 20px;
 }
-
 .top-part {
    display: flex;
    justify-content: space-between;
@@ -23,7 +21,7 @@
 .top-part h4{
    font-size: 17px;
    font-weight: 600;
-   color: #403E57;
+   color: var(--heading-color);
 }
 .cartFilter{
   margin-bottom: 20px;
@@ -35,7 +33,7 @@
 .cartFilter .col-single h4{
   font-size: 12px;
   font-weight: 700;
-  color: #403E57;
+  color: var(--heading-color);
 
   margin-bottom: 8px;
 }
@@ -65,7 +63,6 @@ tbody tr td .delBtn{
 
 
 /* table */
-
 .total-box .box-1{
   display: flex;
   align-items: center;
@@ -93,7 +90,7 @@ tbody tr td .delBtn{
   font-weight: 400;
 }
 .total-box .box-1 .left-dot h6{
-  color: #5E5D72;
+  color: var(--primary-color);
   font-size: 15px;
   font-weight: 400;
 }
@@ -117,18 +114,13 @@ tr td .table-product img{
 tbody tr td{
   font-size: 14px;
 }
-
-
-
 tr td p{
   font-size: 13px;
   font-weight: 500;
   padding: 2px 4px;
   border-radius: 4px;
   text-align: center;
-
 }
-
 tr td p.won{
   background-color:  RGB(189, 245, 211);
   color: #187D44;
@@ -137,7 +129,6 @@ tr td p.new{
   background-color: RGB(193, 225, 252);
   color: #2262D3;
 }
-
 tr td p.open{
   background-color: RGB(246, 202, 255);
   color: #A808C3;
@@ -147,19 +138,16 @@ tr td p.lost{
   color: #E00B2B;
 }
 
-
-
 .single-chart{
   height: 600px;
   width: 100%;
 }
-
 body.dark .row.my-3.crm-part .card.p-3{
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color);
 }
 
 body.dark .card.shadow.p-3.deals-part{
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color);
 }
 
 

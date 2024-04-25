@@ -1,8 +1,10 @@
 :root{
-  --primary-color: #5E5D72;
-  --primary-bg :  #f0f5ff;
+  --primary-color: #5E5D72 !important;
+  --heading-color : #403E57 !important;
+  --primary-bg :  #f0f5ff !important;
   --secondary-color : #0858f7 !important; 
   --dark-text-color : #b4b4b4 !important;
+  --dark-bg-color : #1b2b4d !important;
 }
 
 /* global page css */

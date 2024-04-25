@@ -1,12 +1,10 @@
 
-
 .version-1 {
   background-color: #bdf5d3;
   border-radius: 10px;
   display: flex;
   align-items: center;
   gap: 20px;
-  
 }
 .version-2 {
   background-color: #ffe1a5;
@@ -14,7 +12,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  
+
 }
 .version-1  .icon{
   width: 50px;
@@ -50,24 +48,22 @@
   padding: 8px 0px;
   margin-left: 40px;
   font-size: 16px;
-  color: #5E5D72;
+  color: var(--primary-color);
   font-weight: 400;
   position: relative;
 }
-
 .card ul li::before {
   content: "";
   height: 5px;
   width: 5px;
   border-radius: 50%;
-  background-color: #5E5D72;
+  background-color: var(--primary-color);
   position: absolute;
   left: -24px;
   top: 42%;
 }
-
 body.dark .card.p-3.shadow.change-log{
-  background-color: #112143;
+  background-color: var(--dark-bg-color);
 }
 body.dark .card ul li {
   color: var(--dark-text-color);

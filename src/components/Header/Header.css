@@ -14,24 +14,19 @@ header{
 body.dark header{
   background-color: #112143 !important;
 }
-
-
 .header-row {
   display: flex;
   align-items: center;
 }
-
 .logo a img{
   width: 45px;
 }
-
 .logo a span{
   font-size: 25px;
   font-weight: 800;
   color: #403E57;
   margin-left: 2px;
 }
-
 body.dark .logo a span{
   color: #fff !important;
   opacity: 0.9;
@@ -53,8 +48,6 @@ body.dark .logo a span{
   transition: all 0.3s ease-in-out;
   position: relative;
 }
-
-
 body.dark .menu-part button.open-btn{
   background-color: #12254e !important;
 }
@@ -62,36 +55,26 @@ body.dark .menu-part button.open-btn svg{
   color: #fff !important;
   opacity: 0.8;
 }
-
 .menu-part button.open-btn:hover svg{
   color: var(--secondary-color);
 }
-
-
-
-
 .menu-part button svg{
   color: var(--primary-color);
   font-size: 22px;
 }
-
 .menu-part.menu-last{
   display: flex;
   align-items: center;
   justify-content: end;
 }
-
 .menu-part.menu-last .open-btn{
   margin-right: 15px;
 }
-
 .myAcc{
   background: transparent;
   border: none;
   position: relative;
-
 }
-
 .myAcc .user-img{
   border: 1px solid var(--secondary-color);
   padding: 2px;
@@ -100,21 +83,14 @@ body.dark .menu-part button.open-btn svg{
   border-radius: 50%;
   cursor: pointer;
 }
-
-
 .myAcc .rounded-circle img{
   width: 33px;
   border-radius: 50%;
   overflow: hidden;
-
 }
-
-
 .myAcc .user-name{
   margin-left: 5px;
 }
-
-
 .myAcc .user-name .name{
    display: flex;
    align-items: center;
@@ -143,24 +119,18 @@ button.signUp-btn{
   border: none;
 }
 
-
-
 .myAcc .user-name .nick-name{
 font-size: 12px;
 color: #403E57;
 text-align: left;
 
 }  
-
-
 body.dark .myAcc .user-name .name h4{
   color: var(--dark-text-color);
 }
 body.dark .myAcc .user-name .nick-name{
   color: var(--dark-text-color);
 }
-
-
 .menu-part ul.dropdown-menu-item {
   position: absolute;
   top: 58px ;
@@ -197,13 +167,9 @@ body.dark .menu-part ul.dropdown-menu-item li a{
 body.dark .menu-part ul.dropdown-menu-item li a svg{
   color: var(--dark-text-color);
 } 
-
-
 .menu-part ul.dropdown-menu-item li:last-child a{
   color: red;
 }
-
-
 .notification-drop{
   position: absolute;
   top: 60px;
@@ -217,7 +183,6 @@ body.dark .menu-part ul.dropdown-menu-item li a svg{
 body.dark .notification-drop{
   background-color: #12254e !important;
 }
-
 .notification-drop.cart-dropd{
   position: absolute;
   top: 60px;
@@ -226,9 +191,7 @@ body.dark .notification-drop{
   padding: 10px;
   width: 260px;
   border-radius: 5px;
-  
 }
-
 
 .notification-drop .top-bar-notification{
   display: flex;
@@ -286,19 +249,14 @@ body.dark  .notification-drop .top-bar-notification p svg{
 body.dark .bottom-bar-notification .single-item-noti{
   background-color: #12254e !important;
   color: var(--dark-text-color);
-
 }
 body.dark .bottom-bar-notification .single-item-noti svg{
   color: var(--dark-text-color);
-
 }
-
-
 .bottom-bar-notification .single-item-noti.custom{
   display: flex;
   align-items: center;
 }
-
 .bottom-bar-notification .single-item-noti .not-image {
   position: relative;
   width: 100px;
@@ -307,7 +265,6 @@ body.dark .bottom-bar-notification .single-item-noti svg{
   cursor: pointer;
   margin-top: 5px;
 }
-
 .bottom-bar-notification .single-item-noti .not-image.cart-abc {
   position: relative;
   width: 44px;
@@ -316,7 +273,6 @@ body.dark .bottom-bar-notification .single-item-noti svg{
   cursor: pointer;
   margin-top: 5px;
 }
-
 .bottom-bar-notification .single-item-noti .not-image  .media-act {
   position: relative;
   width: 12px;
@@ -328,7 +284,6 @@ body.dark .bottom-bar-notification .single-item-noti svg{
   top: -12px !important;
   border: 1px solid var(--dark-text-color);
 }
-
 .bottom-bar-notification .single-item-noti .not-image  img{
   width: 40px;
   height: 40px;
@@ -339,13 +294,11 @@ body.dark .bottom-bar-notification .single-item-noti svg{
 border: 2px solid var(--secondary-color);
 padding: 2px;
 }
-
 .bottom-bar-notification .single-item-noti .not-image .media{
  position: absolute;
  top: 25px;
  left: 5px;
 }
-
 .bottom-bar-notification .single-item-noti .not-image .media svg{
   color: #fff;
   background-color: red;
@@ -354,17 +307,12 @@ padding: 2px;
   border-radius: 50%;
   padding: 2px;
 }
-
-
 .bottom-bar-notification .single-item-noti .not-info{
   cursor: pointer;
 }
-
-
 .bottom-bar-notification .single-item-noti .not-info h4{
   font-size: 13px;
 }
-
 .bottom-bar-notification .single-item-noti .not-info p{
   color: var(--secondary-color);
   font-size: 12px;
@@ -376,18 +324,13 @@ padding: 2px;
   font-weight: 600;
   margin-top: 5px;
 }
-
-
-
 .bottom-bar-notification .single-item-noti .noti-drop button{
    border: none;
    background: transparent;
 }
-
 .bottom-bar-notification .single-item-noti .noti-drop button svg{
 font-size: 20px;
 }
-
 .footer-bar{
   padding: 10px 0px;
 }
@@ -404,7 +347,6 @@ font-size: 20px;
  button.open-btn.cart-icon-top{
   position: relative;
 }
-
 .topper-box {
   position: absolute;
   background-color: var(--secondary-color);
@@ -414,7 +356,6 @@ font-size: 20px;
   left: 18px;
   top: -11px;
 }
-
 .topper-box span{
 color: #fff;
 font-size: 11px;
@@ -423,10 +364,6 @@ padding: 2px;
 text-align: center;
 font-weight: 500;
 }
-
-
-
-
 .col-sm-7.part3{
   width: 54% !important;
 }

@@ -7,22 +7,18 @@
 .top-part h4{
   font-size: 17px;
   font-weight: 600;
-  color: #403E57;
+  color: var(--heading-color);
 }
 body.dark .top-part h4, body.dark .top-part p svg{
   color: var(--dark-text-color);
 }
-
-
 /* bottom bar  */
 .bottom-bar-notification.not-page{
   height: auto !important;
   overflow-y: auto !important;
   overflow-x: auto !important;
   max-height: 100%;
-
 }
-
 .bottom-bar-notification.not-page  .single-item-noti{
   display: flex;
   align-items: center;
@@ -34,7 +30,6 @@ body.dark .top-part h4, body.dark .top-part p svg{
   display: flex;
   align-items: center;
   gap: 15px;
-
 }
 
 body.dark .bottom-bar-notification.not-page  .single-item-noti{
@@ -44,10 +39,7 @@ body.dark .bottom-bar-notification.not-page  .single-item-noti{
 }
 body.dark .bottom-bar-notification.not-page  .single-item-noti svg{
   color: var(--dark-text-color);
-
 }
-
-
 .bottom-bar-notification.not-page  .single-item-noti.custom{
   display: flex;
   align-items: center;
@@ -61,8 +53,6 @@ body.dark .bottom-bar-notification.not-page  .single-item-noti svg{
   cursor: pointer;
   margin-top: 5px;
 }
-
-
 .bottom-bar-notification.not-page  .single-item-noti .not-image.cart-abc {
   position: relative;
   width: 44px;
@@ -71,7 +61,6 @@ body.dark .bottom-bar-notification.not-page  .single-item-noti svg{
   cursor: pointer;
   margin-top: 5px;
 }
-
 .bottom-bar-notification.not-page  .single-item-noti .not-image  .media-act {
   position: relative;
   width: 12px;
@@ -109,40 +98,33 @@ padding: 2px;
   border-radius: 50%;
   padding: 2px;
 }
-
-
 .bottom-bar-notification.not-page  .single-item-noti .not-info{
   cursor: pointer;
 }
-
-
 .bottom-bar-notification.not-page  .single-item-noti .not-info h4{
   font-size: 13px;
 }
-
- .single-item-noti .not-info p{
+.single-item-noti .not-info p{
   color: var(--secondary-color);
   font-size: 12px;
   font-weight: 600;
   margin-top: 5px;
 }
- .single-item-noti .not-info h6{
+.single-item-noti .not-info h6{
   font-size: 12px;
   font-weight: 600;
   margin-top: 5px;
 }
-
- .single-item-noti .noti-drop button{
+.single-item-noti .noti-drop button{
    border: none;
    background: transparent;
 }
-
- .single-item-noti .noti-drop button svg{
+.single-item-noti .noti-drop button svg{
 font-size: 20px;
 }
 
 body.dark .card.shadow.p-3.my-4.not-part{
-  background-color: #112143;
+  background-color: var(--dark-bg-color);
 }
 
 

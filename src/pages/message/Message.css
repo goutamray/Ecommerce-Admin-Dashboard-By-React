@@ -1,5 +1,4 @@
 
-
 .search-box{
   display: flex;
   align-items: center;
@@ -22,8 +21,6 @@
   left: 28px;
   top: 0px;
 }
-
-
 .search-box .left-search input{
   outline: none;
   border: none;
@@ -49,7 +46,7 @@
 }
 
 body.dark .search-box p{
-  background-color: #1b2b4d;
+  background-color: var(--dark-bg-color);
 }
 body.dark .search-box p svg, body.dark .search-box .left-search span svg {
   color: var(--dark-text-color);
@@ -76,16 +73,13 @@ body.dark .bottom-bar-notification .single-item-noti{
 }
 body.dark .bottom-bar-notification .single-item-noti svg{
   color: var(--dark-text-color);
-
 }
-
 
 .bottom-bar-notification .single-item-noti.custom{
   display: flex;
   align-items: center;
   gap: 10px;
 }
-
 .bottom-bar-notification .single-item-noti .not-image {
   position: relative;
   width: 50px;
@@ -94,7 +88,6 @@ body.dark .bottom-bar-notification .single-item-noti svg{
   cursor: pointer;
   margin-top: 5px;
 }
-
 .bottom-bar-notification .single-item-noti .not-image.cart-abc {
   position: relative;
   width: 44px;
@@ -133,18 +126,15 @@ body.dark .bottom-bar-notification .single-item-noti svg{
   border-radius: 50%;
   padding-left: 5px;
 }
-
 .bottom-bar-notification .single-item-noti .not-image  img.mail-img {
 border: 2px solid var(--secondary-color);
 padding: 2px;
 }
-
 .bottom-bar-notification .single-item-noti .not-image .media{
  position: absolute;
  top: 25px;
  left: 5px;
 }
-
 .bottom-bar-notification .single-item-noti .not-image .media svg{
   color: #fff;
   background-color: red;
@@ -153,18 +143,13 @@ padding: 2px;
   border-radius: 50%;
   padding: 2px;
 }
-
-
 .bottom-bar-notification .single-item-noti .not-info{
   cursor: pointer;
   width: 78%;
 }
-
-
 .bottom-bar-notification .single-item-noti .not-info h4{
   font-size: 13px;
 }
-
 .bottom-bar-notification .single-item-noti .not-info p{
   color: var(--secondary-color);
   font-size: 12px;
@@ -218,11 +203,9 @@ font-size: 16px;
 }
 
 /* chat message part css */
-
 .client-message ul li{
    display: flex;
    align-items: end;
-
 }
 .client-message ul li .client-photo{
    width: 5%;
@@ -242,13 +225,11 @@ font-size: 16px;
   display: block;
   border-radius: 8px;
   font-size: 13px;
-  color: #5E5D72;
+  color: var(--primary-color);
 }
-
 .client-message ul li .client-message{
   width: 95%;
 }
-
 .client-message .chat-text2 p{
   background-color: #f0f0f0;
   padding: 10px;
@@ -256,15 +237,12 @@ font-size: 16px;
   display: block;
   border-radius: 8px;
   font-size: 13px;
-  color: #5E5D72;
+  color: var(--primary-color);
 }
-
 .client-message p{
   font-size: 13px;
-  color: #5E5D72;
+  color: var(--primary-color);
 }
-
-
 body.dark .client-message p{
   background-color: transparent;
 }
@@ -276,8 +254,6 @@ body.dark .client-message p{
 .user-message-replay ul li .client-photo{
   width: 5%;
 }
-
-
 .user-message-replay ul li .client-message{
   width: auto;
   margin-left: auto !important;
@@ -292,7 +268,7 @@ body.dark .client-message p{
   width: 400px;
   border-radius: 8px;
   font-size: 13px;
-  color: #5E5D72;
+  color: var(--primary-color);
 }
 .user-message-replay ul li .client-message p.first-message.second {
   background-color: #dae6fe;
@@ -300,7 +276,7 @@ body.dark .client-message p{
   width: 400px;
   border-radius: 8px;
   font-size: 13px;
-  color: #5E5D72;
+  color: var(--primary-color);
 }
 
 
@@ -319,21 +295,17 @@ body.dark .client-message p{
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
 .message-part-body::-webkit-scrollbar{
   opacity: 0 !important;
   height: 3px !important;
   width: 3px !important;
 }
-
 .message-part-body:hover::-webkit-scrollbar-thumb{
   height: 3px !important;
   width: 3px !important;
   background-color: var(--secondary-color);
   opacity: 1;
-
 }
-
 .send-message-part{
   margin-top: 10px;
   position: relative;
@@ -344,7 +316,6 @@ body.dark .client-message p{
   border: none;
   padding: 12px 30px;
   border-radius: 25px;
-  
 }
 .send-message-part span{
   position: absolute;

@@ -25,49 +25,48 @@
     align-items: center;
     position: relative;
   }
+.product-list-topper .part1 .total-product .left-top-part h2{
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;
+}
+.product-list-topper .part1 .total-product .left-top-part span {
+  position: absolute;
+  top: -34px;
+  right: -5px;
+}
   
-  .product-list-topper .part1 .total-product .left-top-part h2{
+.product-list-topper .part1 .total-product .left-top-part span svg {
+  font-size: 42px;
+  color: #96cefa;
+}
+.product-list-topper .part1 .total-product .left-top-part span.widget svg {
+  color: #89ecb3;
+}
+.product-list-topper .part1 .total-product .left-top-part span.verify svg {
+   color: #f3a0ff;
+ }
+.product-list-topper .part1 .total-product .left-top-part span.cansel2 svg {
+   color: #ff9baa;
+}
+  
+.product-list-topper .part1 .total-product  p{
+    font-size: 16px;
     color: #fff;
-    font-weight: 700;
-    font-size: 26px;
-  }
-  .product-list-topper .part1 .total-product .left-top-part span {
-    position: absolute;
-    top: -34px;
-    right: -5px;
-  }
+    text-transform: capitalize;
+    margin-top: 8px;
+}
   
-  .product-list-topper .part1 .total-product .left-top-part span svg {
-    font-size: 42px;
-    color: #96cefa;
-  }
-  .product-list-topper .part1 .total-product .left-top-part span.widget svg {
-    color: #89ecb3;
-  }
-  .product-list-topper .part1 .total-product .left-top-part span.verify svg {
-    color: #f3a0ff;
-  }
-  .product-list-topper .part1 .total-product .left-top-part span.cansel2 svg {
-    color: #ff9baa;
-  }
-  
-  .product-list-topper .part1 .total-product  p{
-     font-size: 16px;
-     color: #fff;
-     text-transform: capitalize;
-     margin-top: 8px;
-  }
-  
-  /* top part css */
-  .top-part {
+/* top part css */
+.top-part {
     display: flex;
     justify-content: space-between;
-  }
-  .top-part h4{
+}
+.top-part h4{
     font-size: 17px;
     font-weight: 600;
-    color: #403E57;
-  }
+    color: var(--heading-color);
+ }
   body.dark .top-part h4, body.dark .top-part p svg{
     color: var(--dark-text-color);
   }
@@ -81,7 +80,7 @@
      margin-top: 15px;
   }
   body.dark .cartFilter .col-single select.form-select{
-    background-color: #1b2b4d !important;
+    background-color: var(--dark-bg-color);
     border: none;
   }
   
@@ -92,7 +91,7 @@
   .cartFilter .col-single h4{
     font-size: 12px;
     font-weight: 700;
-    color: #403E57;
+    color: var(--heading-color);
     margin-bottom: 8px;
   }
   body.dark .cartFilter .col-single h4{
@@ -109,7 +108,7 @@
   }
   
   body.dark .col-single .search input{
-    background-color: #1b2b4d !important;
+    background-color: var(--dark-bg-color);
     color: var(--dark-text-color);
     border: none;
   }
@@ -131,7 +130,7 @@
     border-radius: 5px;
   }
   body.dark .card.shadow.p-3.product-table{
-    background-color: #1b2b4d !important;
+    background-color: var(--dark-bg-color);
   }
   body.dark  .col-single.abcd input::-webkit-input-placeholder {
     color: var(--dark-text-color);

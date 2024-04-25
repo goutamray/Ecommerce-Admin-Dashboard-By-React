@@ -6,12 +6,10 @@
   align-items: center;
   padding: 150px 0px;
 }
-
 .full-collum .icon-blank svg{
    font-size: 150px;
    color: var(--dark-text-color);
 }
-
 .full-collum h3{
    font-size: 22px;
    color: #9A9A9A;
@@ -20,7 +18,7 @@
 }
 
 body.dark .full-collum .icon-blank svg{
-   color: #263658;
+   background-color: var(--dark-bg-color);
 }
 
 

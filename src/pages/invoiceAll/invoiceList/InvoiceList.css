@@ -22,8 +22,6 @@
     align-items: center;
     position: relative;
   }
-  
-  
   .product-list-topper .part1 .total-product .left-top-part h2{
     color: #fff;
     font-weight: 700;
@@ -54,34 +52,32 @@
      margin-top: 8px;
   }
   
-  
-  /* cart filter  */
-  .cartFilter{
+/* cart filter  */
+.cartFilter{
     margin-bottom: 20px;
-  }
-  
-  .cartFilter .col-single {
+}
+.cartFilter .col-single {
      margin-top: 15px;
   }
-  body.dark .cartFilter .col-single select.form-select{
-    background-color: #1b2b4d !important;
+body.dark .cartFilter .col-single select.form-select{
+    background-color: var(--dark-bg-color);
     border: none;
-  }
+}
   
-  body.dark .cartFilter .col-single select.form-select {
-    color: var(--dark-text-color);
-  }
+body.dark .cartFilter .col-single select.form-select {
+  color: var(--dark-text-color);
+}
   
-  .cartFilter .col-single h4{
+.cartFilter .col-single h4{
     font-size: 12px;
     font-weight: 700;
-    color: #403E57;
+    color: var(--heading-color);
   
     margin-bottom: 8px;
-  }
-  body.dark .cartFilter .col-single h4{
+}
+body.dark .cartFilter .col-single h4{
     color: var(--dark-text-color);
-  }
+}
   
   .col-single .search input{
     padding: 3px 5px;
@@ -89,7 +85,7 @@
   }
   
   body.dark .col-single .search input{
-    background-color: #1b2b4d !important;
+    background-color: var(--dark-bg-color);
     color: var(--dark-text-color);
     border: none;
   }
@@ -104,19 +100,19 @@
     text-transform: uppercase;
     font-size: 13px;
   }
-  .table-responsive table thead tr td{
-    color:#5E5D72;
+.table-responsive table thead tr td{
+    color: var(--primary-color);
     font-size: 13px;
   }
   
-  tbody tr td input {
+tbody tr td input {
     font-size: 20px;
     top: 2px;
     position: relative;
   }
-  tbody tr td .reg-price{
+tbody tr td .reg-price{
     font-size: 14px;
-    color: #5E5D72;
+    color: var(--primary-color);
     text-decoration: line-through;
   }
   body.dark tbody tr td .reg-price{
@@ -132,64 +128,61 @@
     align-items: center;
   }
   
-  body.dark tbody tr td{
-    background-color: #1b2b4d !important;
+body.dark tbody tr td{
+    background-color: var(--dark-bg-color);
     color: #B4B4B4;
   }
-  tbody tr td .three-item .star{
+tbody tr td .three-item .star{
   color: #edb213;
   font-size: 13px;
   }
   
-  tbody tr td .three-item span{
+tbody tr td .three-item span{
     font-size: 14px;
-    color: #403E57;
+    color: var(--heading-color);
     font-weight: 700;
     padding: 0px 4px;
     margin-top: 3px;
   }
   
-  tbody tr td .three-item p{
+tbody tr td .three-item p{
     font-size: 13px;
     font-weight: 400;
-    color: #5E5D72;
+    color: var(--primary-color);
     margin-top: 3px;
   }
-  body.dark tbody tr td .three-item p, body.dark tbody tr td .three-item span{
+body.dark tbody tr td .three-item p, body.dark tbody tr td .three-item span{
     color: var(--dark-text-color);
   }
-  tbody tr td button{
+tbody tr td button{
     border: none;
     border-radius: 4px;
   }
-  tbody tr td .eyeBtn{
+tbody tr td .eyeBtn{
     background-color: #fbe5ff;
       color: #be0ee1;
   }
-  tbody tr td .editBtn{
+tbody tr td .editBtn{
     background-color: #ddfbe9;
     color: #1a9f53;
     margin: 0px 8px;
   }
-  tbody tr td .delBtn{
+tbody tr td .delBtn{
     background-color: #ffdfe4;
     color: #f11133;
   }
-  
   .table-product{
      display: flex;
      align-items: center;
      gap: 10px;
      width: 100%;
-   
   }
   .table-product img{
     width: 40px;
     border-radius: 5px;
   }
-  
   body.dark .card.shadow.p-3.product-table{
-    background-color: #1b2b4d !important;
+    background-color: var(--dark-bg-color);
   }
   
   

@@ -2,7 +2,7 @@
 .first-box h2 {
   font-size: 20px;
   font-weight: 700;
-  color: #403E57;
+  color: var(--heading-color);
   margin-top: 10px;
 }
 .first-box p{
@@ -24,7 +24,7 @@
 }
 
 body.dark .card.p-4.shadow.my-4.document{
-  background-color: #112143;
+  background-color: var(--dark-bg-color);
 }
 
 body.dark .footer-text h1, body.dark .first-box h2, body.dark .first-box p {

@@ -1,9 +1,8 @@
 
 /* product-list-topper  */
 .product-list-topper{
-padding: 30px 0px;
+  padding: 30px 0px;
 }
-
 .product-list-topper .part1 .total-product{
   background: linear-gradient(#64b3f6,#2b77e5);
   border-radius: 8px;
@@ -15,7 +14,6 @@ padding: 30px 0px;
 .product-list-topper .part1 .total-product.brand{
   background: linear-gradient(#ed68ff, #be0ee1); 
 }
-
 .product-list-topper .part1 .total-product .left-top-part{
   display: flex;
   justify-content: space-between;
@@ -23,12 +21,10 @@ padding: 30px 0px;
   position: relative;
 }
 
-
 .product-list-topper .part1 .total-product .left-top-part h2{
   color: #fff;
   font-weight: 700;
   font-size: 26px;
-
 }
 .product-list-topper .part1 .total-product .left-top-part span {
   position: absolute;
@@ -54,11 +50,7 @@ padding: 30px 0px;
    margin-top: 8px;
 }
 
-
-
-
 /* cart filter  */
-
 .cartFilter{
   margin-bottom: 20px;
 }
@@ -67,19 +59,16 @@ padding: 30px 0px;
    margin-top: 15px;
 }
 body.dark .cartFilter .col-single select.form-select{
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color);
   border: none;
 }
-
 body.dark .cartFilter .col-single select.form-select {
   color: var(--dark-text-color);
 }
-
 .cartFilter .col-single h4{
   font-size: 12px;
   font-weight: 700;
-  color: #403E57;
-
+  color: var(--heading-color);
   margin-bottom: 8px;
 }
 body.dark .cartFilter .col-single h4{
@@ -92,7 +81,7 @@ body.dark .cartFilter .col-single h4{
 }
 
 body.dark .col-single .search input{
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color);
   color: var(--dark-text-color);
   border: none;
 }
@@ -108,7 +97,7 @@ body.dark .col-single .search input{
   font-size: 13px;
 }
 .table-responsive table thead tr td{
-  color:#5E5D72;
+  color: var(--primary-color);
   font-size: 13px;
 }
 
@@ -119,7 +108,7 @@ tbody tr td input {
 }
 tbody tr td .reg-price{
   font-size: 14px;
-  color: #5E5D72;
+  color: var(--primary-color);
   text-decoration: line-through;
 }
 body.dark tbody tr td .reg-price{
@@ -136,7 +125,7 @@ tbody tr td .three-item{
 }
 
 body.dark tbody tr td{
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color);
   color: #B4B4B4;
 }
 tbody tr td .three-item .star{
@@ -146,7 +135,7 @@ font-size: 13px;
 
 tbody tr td .three-item span{
   font-size: 14px;
-  color: #403E57;
+  color: var(--heading-color);
   font-weight: 700;
   padding: 0px 4px;
   margin-top: 3px;
@@ -155,7 +144,7 @@ tbody tr td .three-item span{
 tbody tr td .three-item p{
   font-size: 13px;
   font-weight: 400;
-  color: #5E5D72;
+  color: var(--primary-color);
   margin-top: 3px;
 }
 body.dark tbody tr td .three-item p, body.dark tbody tr td .three-item span{
@@ -184,7 +173,6 @@ tbody tr td .delBtn{
    align-items: center;
    gap: 10px;
    width: 100%;
- 
 }
 .table-product img{
   width: 40px;
@@ -192,7 +180,7 @@ tbody tr td .delBtn{
 }
 
 body.dark .card.shadow.p-3.product-table{
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color);
 }
 
 

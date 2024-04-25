@@ -88,12 +88,11 @@ color: #6a6a6a3b;
 
 
 /* table */
-
 .table-box {
   margin-top: 20px;
 }
 body.dark .card.table-box {
-  background-color: #112143 !important;
+  background-color: var(--heading-color) !important;
 }
 
 .top-part {
@@ -103,22 +102,20 @@ body.dark .card.table-box {
 .top-part h4{
    font-size: 17px;
    font-weight: 600;
-   color: #403E57;
+   color: var(--heading-color);
 }
 body.dark .top-part h4, body.dark .top-part p svg{
   color: var(--dark-text-color);
 }
 
-
 .cartFilter{
   margin-bottom: 20px;
 }
-
 .cartFilter .col-single {
    margin-top: 15px;
 }
 body.dark .cartFilter .col-single select.form-select{
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color);
   border: none;
 }
 
@@ -129,7 +126,7 @@ body.dark .cartFilter .col-single select.form-select {
 .cartFilter .col-single h4{
   font-size: 12px;
   font-weight: 700;
-  color: #403E57;
+  color: var(--heading-color);
 
   margin-bottom: 8px;
 }
@@ -143,7 +140,7 @@ body.dark .cartFilter .col-single h4{
 }
 
 body.dark .col-single .search input{
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color);
   color: var(--dark-text-color);
   border: none;
 }
@@ -159,7 +156,7 @@ body.dark .col-single .search input{
   font-size: 13px;
 }
 .table-responsive table thead tr td{
-  color:#5E5D72;
+  color: var(--primary-color);
   font-size: 13px;
 }
 
@@ -170,7 +167,7 @@ tbody tr td input {
 }
 tbody tr td .reg-price{
   font-size: 14px;
-  color: #5E5D72;
+  color: var(--primary-color);
   text-decoration: line-through;
 }
 body.dark tbody tr td .reg-price{
@@ -187,7 +184,7 @@ tbody tr td .three-item{
 }
 
 body.dark tbody tr td{
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color) !important;
   color: #B4B4B4;
 }
 tbody tr td .three-item .star{
@@ -197,7 +194,7 @@ font-size: 13px;
 
 tbody tr td .three-item span{
   font-size: 14px;
-  color: #403E57;
+  color: var(--heading-color);
   font-weight: 700;
   padding: 0px 4px;
   margin-top: 3px;
@@ -206,7 +203,8 @@ tbody tr td .three-item span{
 tbody tr td .three-item p{
   font-size: 13px;
   font-weight: 400;
-  color: #5E5D72;
+  color: var(--primary-color);
+
   margin-top: 3px;
 }
 body.dark tbody tr td .three-item p, body.dark tbody tr td .three-item span{
@@ -243,13 +241,13 @@ tbody tr td .delBtn{
 }
 
 .tab-content p{
- color: #403E57;
+  color: var(--heading-color);
  font-weight: 500;
  font-size: 14px;
  padding-left:  0px;
 } 
 .tab-content h6{
-  color: #403E57;
+  color: var(--heading-color);
   font-weight: 400;
   font-size: 14px;
 
@@ -269,7 +267,7 @@ body.dark .tab-content h6{
 }
 
 .table-footer p{
-color:#5E5D72;
+  color: var(--primary-color);
 font-weight: 500;
 font-size: 14px;
 }
@@ -283,19 +281,19 @@ body.dark .table-footer p{
   align-items: center;
 }
 body.dark .revenue-part {
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color);
 }
 .revenue-part .rev-text h4{
   font-size: 17px;
   font-weight: 600;
-  color: #403E57;
+  color: var(--heading-color);
 }
 body.dark .revenue-part .rev-text h4, body.dark .revenue-part p svg{
   color: var(--dark-text-color);
 }
 
  body.dark .card.shadow.p-3.abcd{
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color);
  }  
 
  .year-select {
@@ -309,7 +307,7 @@ body.dark .revenue-part .rev-text h4, body.dark .revenue-part p svg{
   padding-left: 5px;
 }
 body.dark  .year-select {
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color);
 }
 body.dark  .year-select svg {
   color: var(--dark-text-color);
@@ -325,7 +323,7 @@ background-color: transparent;
 padding-left: 10px;
 }
 body.dark .year-select select{
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color) !important;
   color: var(--dark-text-color);
 }
 
@@ -361,20 +359,18 @@ body.dark .year-select select{
 }
 .earning-part .earn-part1 .text-info p{
  font-size: 14px;
- color: #5E5D72;
+ color: var(--primary-color);
 }
 .earning-part .earn-part1 .text-info h4{
  font-size: 20px;
  font-weight: 700;
- color: #403E57;
+ color: var(--heading-color);
 
 }
 
 body.dark .earning-part .earn-part1 .text-info p, body.dark .earning-part .earn-part1 .text-info h4{
   color: var(--dark-text-color);
 }
-
-
 
 /* total-box */
 .total-box .box-1{
@@ -404,7 +400,7 @@ body.dark .earning-part .earn-part1 .text-info p, body.dark .earning-part .earn-
   font-weight: 400;
 }
 .total-box .box-1 .left-dot h6{
-  color: #5E5D72;
+  color: var(--primary-color);
   font-size: 15px;
   font-weight: 400;
 }
@@ -425,5 +421,5 @@ body.dark .total-box .box-1 .left-dot h6, body.dark .total-box .box-1  p{
 }
 
 body.dark .card.shadow.p-3.right-part2{
-  background-color: #1b2b4d !important;
+  background-color: var(--dark-bg-color);
 }
