@@ -1,0 +1,56 @@
+
+
+.custom-heading h4{
+  font-size: 17px;
+  font-weight: 600;
+  color: var( --heading-color);
+}
+.all-headings h1{
+  color: var(--heading-color);
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.all-headings h2{
+  color: var(--heading-color);
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.all-headings h3{
+  color: var(--heading-color);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.all-headings h4{
+  color: var(--heading-color);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.all-headings h5{
+  color: var(--heading-color);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.all-headings h6{
+  color: var(--heading-color);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+body.dark .card.p-3.my-4.shadow.custom-heading{
+  background-color: var(--dark-bg-color);
+} 
+body.dark .custom-heading h1,
+body.dark .custom-heading h2,
+body.dark .custom-heading h3,
+body.dark .custom-heading h4,
+body.dark .custom-heading h5,
+body.dark .custom-heading h6{
+   color: var(--dark-text-color);
+}
+

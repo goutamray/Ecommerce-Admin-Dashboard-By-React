@@ -1,0 +1,58 @@
+
+
+
+.custom-avater{
+  display: flex;
+  gap: 15px;
+  align-items: end;
+  margin-top: 20px;
+}
+
+.custom-ava h4{
+  font-size: 17px;
+  font-weight: 600;
+  color: var( --heading-color);
+}
+
+.custom-avater .first-image{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 2px solid var(--secondary-color);
+   padding: 2px;
+}
+.custom-avater .second-image{
+   width: 130px;
+   height: 130px;
+   border-radius: 50%;
+   border: 2px solid var(--secondary-color);
+   padding: 2px;
+}
+.custom-avater .third-image{
+   width: 110px;
+   height: 110px;
+   border-radius: 50%;
+   border: 2px solid var(--secondary-color);
+   padding: 2px;
+}
+.custom-avater .four-image{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid var(--secondary-color);
+  padding: 2px;
+}
+.custom-avater .five-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--secondary-color);
+  padding: 2px;
+}
+
+body.dark .card.p-3.my-4.shadow.custom-ava{
+  background-color: var(--dark-bg-color);
+} 
+body.dark .custom-ava h4{
+   color: var(--dark-text-color);
+}

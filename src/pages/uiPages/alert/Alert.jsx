@@ -1,6 +1,6 @@
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb"
 
-
+import "./Alert.css"
 
 const Alert = () => {
   return (
@@ -8,8 +8,8 @@ const Alert = () => {
       <div className="right-content">
         <BreadCrumb title={"Alerts Variant"} page={"User Interface"}/> 
 
-        <div className="card my-4 p-3">
-            <h6 className="mb-3"> Bootstrap Alerts </h6>
+        <div className="card my-4 p-3 custom-alert">
+            <h4 className="mb-3"> Bootstrap Alerts </h4>
 
             <div className="alert alert-primary  d-flex justify-content-between" role="alert">
               A simple primary alert—check it out!

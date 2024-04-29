@@ -173,7 +173,7 @@ const SideBar = () => {
                 </Link>
            </li>
             <li> 
-                <Link to="/alert"> 
+                <Link to="/avaters"> 
                   <button className={` ${activeTab === 11 ? "active" : ""} `} onClick={() => isOpenSubmenu(11)} >
                     <span className="icon"> <RxAvatar /> </span>
                         Avater             

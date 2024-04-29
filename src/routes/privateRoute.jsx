@@ -38,6 +38,8 @@ import Documentation from "../pages/otherPage/documentation/Documentation";
 import ChangeLog from "../pages/otherPage/changeLog/ChangeLog";
 import BlankPage from "../pages/otherPage/blankPage/BlankPage";
 import Alert from "../pages/uiPages/alert/Alert";
+import Avater from "../pages/uiPages/avater/Avater";
+import Heading from "../pages/uiPages/heading/Heading";
 
 
 // create private router 
@@ -148,6 +150,14 @@ export const privateRoute = [
           {
             path : "/alert",
             element : <Alert /> 
+          },
+          {
+            path :"/avaters",
+            element : <Avater /> 
+          },
+          {
+            path :"/heading",
+            element : <Heading /> 
           }
 
         ]
