@@ -10,7 +10,7 @@ import { MdOutlineVerifiedUser } from "react-icons/md";
 import { IoEyeOutline } from "react-icons/io5";
  import { FaRegEyeSlash } from "react-icons/fa"; 
 
-import "./Login.css"
+import "./Login.css"; 
 const Login = () => {
 
    const [openPass, setOpenPass ] = useState(false); 

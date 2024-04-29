@@ -9,6 +9,14 @@ import { BiFileBlank } from "react-icons/bi";
 import { GrOverview } from "react-icons/gr";
 import { CgFileDocument } from "react-icons/cg";
 import { FaCartArrowDown } from "react-icons/fa";
+import { IoAlertCircle } from "react-icons/io5";
+import { FaTableCells } from "react-icons/fa6";
+import { TbSoccerField } from "react-icons/tb";
+import { FaHeading } from "react-icons/fa";
+import { RxAvatar } from "react-icons/rx";
+import { FaMouse } from "react-icons/fa";
+import { TbChartDonutFilled } from "react-icons/tb";
+import { FaPalette } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 import {  useState } from "react";
@@ -148,9 +156,75 @@ const SideBar = () => {
 
            <li> 
                 <Link to="/blank-page"> 
-                   <button className={` ${activeTab === 13 ? "active" : ""} `} onClick={() => isOpenSubmenu(13)} >
+                   <button className={` ${activeTab === 9 ? "active" : ""} `} onClick={() => isOpenSubmenu(9)} >
                       <span className="icon"> <BiFileBlank /> </span>
                         Blank Pages            
+                   </button>
+                </Link>
+           </li>
+
+           <h3>  Ui pages  </h3>
+            <li> 
+                <Link to="/alert"> 
+                  <button className={` ${activeTab === 10 ? "active" : ""} `} onClick={() => isOpenSubmenu(10)} >
+                    <span className="icon"> <IoAlertCircle /> </span>
+                        Alert              
+                   </button>
+                </Link>
+           </li>
+            <li> 
+                <Link to="/alert"> 
+                  <button className={` ${activeTab === 11 ? "active" : ""} `} onClick={() => isOpenSubmenu(11)} >
+                    <span className="icon"> <RxAvatar /> </span>
+                        Avater             
+                   </button>
+                </Link>
+           </li>
+            <li> 
+                <Link to="/heading"> 
+                  <button className={` ${activeTab === 12 ? "active" : ""} `} onClick={() => isOpenSubmenu(12)} >
+                    <span className="icon"><FaHeading /> </span>
+                        Heading              
+                   </button>
+                </Link>
+           </li>
+            <li> 
+                <Link to="/buttons"> 
+                  <button className={` ${activeTab === 13 ? "active" : ""} `} onClick={() => isOpenSubmenu(13)} >
+                    <span className="icon"><FaMouse /></span>
+                        Buttons              
+                   </button>
+                </Link>
+           </li>
+            <li> 
+                <Link to="/colors"> 
+                  <button className={` ${activeTab === 14 ? "active" : ""} `} onClick={() => isOpenSubmenu(14)} >
+                    <span className="icon"> <FaPalette /> </span>
+                        colors              
+                   </button>
+                </Link>
+           </li>
+            <li> 
+                <Link to="/charts"> 
+                  <button className={` ${activeTab === 15 ? "active" : ""} `} onClick={() => isOpenSubmenu(15)} >
+                    <span className="icon"> <TbChartDonutFilled /> </span>
+                        Charts             
+                   </button>
+                </Link>
+           </li>
+            <li> 
+                <Link to="/fields"> 
+                  <button className={` ${activeTab === 16 ? "active" : ""} `} onClick={() => isOpenSubmenu(16)} >
+                    <span className="icon"> <TbSoccerField /> </span>
+                        Fields             
+                   </button>
+                </Link>
+           </li>
+            <li> 
+                <Link to="/tables"> 
+                  <button className={` ${activeTab === 17 ? "active" : ""} `} onClick={() => isOpenSubmenu(17)} >
+                    <span className="icon"> <FaTableCells /> </span>
+                        Tables             
                    </button>
                 </Link>
            </li>
@@ -158,7 +232,7 @@ const SideBar = () => {
           <h3>  Other pages </h3>
             <li> 
                 <Link to="/overview"> 
-                  <button className={` ${activeTab === 9 ? "active" : ""} `} onClick={() => isOpenSubmenu(9)} >
+                  <button className={` ${activeTab === 18 ? "active" : ""} `} onClick={() => isOpenSubmenu(18)} >
                     <span className="icon"> <GrOverview /> </span>
                         over view              
                    </button>
@@ -166,7 +240,7 @@ const SideBar = () => {
            </li>
             <li> 
               <Link to="/site-error"> 
-                 <button className={` ${activeTab === 10 ? "active" : ""} `} onClick={() => isOpenSubmenu(10)} >
+                 <button className={` ${activeTab === 19 ? "active" : ""} `} onClick={() => isOpenSubmenu(19)} >
                    <span className="icon"> <MdError /> </span>
                       site error              
                  </button>
@@ -174,7 +248,7 @@ const SideBar = () => {
            </li>
             <li> 
               <Link to="/documentation"> 
-                <button className={` ${activeTab === 11 ? "active" : ""} `} onClick={() => isOpenSubmenu(11)} >
+                <button className={` ${activeTab === 20 ? "active" : ""} `} onClick={() => isOpenSubmenu(20)} >
                 <span className="icon"> <CgFileDocument /> </span>
                   documentation             
                </button>
@@ -182,7 +256,7 @@ const SideBar = () => {
            </li>
             <li> 
               <Link to="/change-log"> 
-                <button className={` ${activeTab === 12 ? "active" : ""} `} onClick={() => isOpenSubmenu(12)} >
+                <button className={` ${activeTab === 21 ? "active" : ""} `} onClick={() => isOpenSubmenu(21)} >
                   <span className="icon"> <FaMicroblog /> </span>
                     change log             
                </button>

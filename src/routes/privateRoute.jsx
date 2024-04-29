@@ -8,7 +8,7 @@ import Setting from "../pages/setting/Setting";
 import OrderList from "../pages/order/OrderList";
 
 // login &  register 
-import Login from "../pages/authPage/login/Login";
+import Login from "../pages/authPage/login/Login"
 import Register from "../pages/authPage/register/Register";
 import Forget from "../pages/authPage/forget/Forget";
 
@@ -37,6 +37,7 @@ import SiteError from "../pages/otherPage/siteError/SiteError";
 import Documentation from "../pages/otherPage/documentation/Documentation";
 import ChangeLog from "../pages/otherPage/changeLog/ChangeLog";
 import BlankPage from "../pages/otherPage/blankPage/BlankPage";
+import Alert from "../pages/uiPages/alert/Alert";
 
 
 // create private router 
@@ -66,7 +67,7 @@ export const privateRoute = [
           },
           {
             path : "/login",
-            element : <Login /> 
+            element : <Login />
           },
           {
             path : "/register",
@@ -143,6 +144,10 @@ export const privateRoute = [
           {
           path : "/change-log",
           element : <ChangeLog /> 
+          },
+          {
+            path : "/alert",
+            element : <Alert /> 
           }
 
         ]
