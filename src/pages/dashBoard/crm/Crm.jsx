@@ -4,7 +4,7 @@ import { BiSolidDownload } from "react-icons/bi";
 import { HiDotsHorizontal } from "react-icons/hi";
 
 import goutam from "../../../assets/img/goutam.png"
-import Chart from "../../../components/chart/Chart";
+import Chart2 from "../../../components/chart/Chart2";
 
 import { useEffect } from "react";
 
@@ -32,7 +32,7 @@ const Crm = () => {
                   <p><HiDotsHorizontal /></p>
                 </div>
                 <div className="single-chart">
-                      <Chart /> 
+                      <Chart2 /> 
                 </div>
               </div>  
             </div>

@@ -1,0 +1,22 @@
+
+
+
+.step-area-chart h3, .step-pie-chart h3{
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.col-sm-8.box-div.abcd {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.box-div {
+  margin-top: 30px !important;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+

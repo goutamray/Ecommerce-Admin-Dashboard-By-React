@@ -31,7 +31,7 @@ export const options = {
 
 
 
-const Chart = () => {
+const Chart2 = () => {
 
   const labels = ['January', 'February', 'March', 'April', "May", "June", "July", "Augest", "September", "October", "November", "December"];
   const data = {
@@ -70,5 +70,5 @@ const Chart = () => {
   )
 }
 
-export default Chart
+export default Chart2  
 
