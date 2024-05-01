@@ -41,6 +41,7 @@ import Alert from "../pages/uiPages/alert/Alert";
 import Avater from "../pages/uiPages/avater/Avater";
 import Heading from "../pages/uiPages/heading/Heading";
 import Button from "../pages/uiPages/button/Button";
+import Color from "../pages/uiPages/color/Color";
 
 
 // create private router 
@@ -163,7 +164,12 @@ export const privateRoute = [
           {
             path : "/buttons",
             element : <Button /> 
+          },
+          {
+            path : "/colors",
+            element : <Color /> 
           }
+
 
         ]
       },

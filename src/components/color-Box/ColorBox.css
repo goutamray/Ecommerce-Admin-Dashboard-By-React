@@ -1,0 +1,21 @@
+
+.color-all .color-box{
+  height: 100px;
+  width: auto;
+  border-radius: 10px;
+}
+
+
+.color-all .color-text{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.color-all.color-text p{
+ font-weight: 400;
+ font-size: 14px;
+ color: var(--primary-color);
+}
+
+

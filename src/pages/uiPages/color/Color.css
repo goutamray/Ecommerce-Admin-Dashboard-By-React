@@ -1,0 +1,31 @@
+
+.row.color-row {
+  display: flex;
+  gap: 25px;
+}
+
+.col-sm-2.custom-coll{
+  width: 20% !important;
+ 
+} 
+
+.row.color-row{
+  padding: 20px !important;
+}
+
+.card.p-3.shadow.my-4 h4{
+   font-size: 18px !important;
+   font-weight: 600;
+   color: var(--heading-color);
+}
+body.dark .card.p-3.shadow.my-4{
+  background-color: var(--dark-bg-color);
+}
+
+body.dark .card.p-3.shadow.my-4 h4{
+  color: var(--dark-text-color);
+}
+
+
+
+
