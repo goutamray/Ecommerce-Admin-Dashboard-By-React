@@ -1,0 +1,5 @@
+
+
+body.dark .card.table-box.p-3.border-0.shadow{
+  background-color: var(--dark-bg-color) !important;
+}

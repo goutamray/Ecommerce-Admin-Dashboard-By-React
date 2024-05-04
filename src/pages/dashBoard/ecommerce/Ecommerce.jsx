@@ -485,6 +485,7 @@ const Ecommerce = () => {
                  </div>
              </div>
           </div>
+          
           <div className="col-sm-4">
             <div className="card shadow p-3 right-part2 ">
                 <div className="revenue-part">

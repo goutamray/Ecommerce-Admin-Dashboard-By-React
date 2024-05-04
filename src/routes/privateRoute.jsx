@@ -44,6 +44,7 @@ import Button from "../pages/uiPages/button/Button";
 import Color from "../pages/uiPages/color/Color";
 import ChartP from "../pages/uiPages/charts/ChartP";
 import Fields from "../pages/otherPage/fields/Fields";
+import Table from "../pages/uiPages/table/Table";
 
 
 // create private router 
@@ -178,6 +179,10 @@ export const privateRoute = [
           {
             path : "/fields",
             element : <Fields /> 
+          },
+          {
+            path : "/tables",
+            element : <Table /> 
           }
 
 
