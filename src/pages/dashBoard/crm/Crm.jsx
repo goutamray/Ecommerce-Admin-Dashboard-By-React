@@ -292,7 +292,7 @@ const Crm = () => {
   )
 }
 
-export default Crm
+export default Crm; 
 
 
 
