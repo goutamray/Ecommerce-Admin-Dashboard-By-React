@@ -31,7 +31,7 @@ const ProductView = () => {
 
 
        <div className="product-view card shadow p-4 my-4 dark-mode ">
-           <div className="row">
+           <div className="row product-view-part ">
             <div className="col-md-5 left-view-part ">
                 <h6> Product Gallery </h6>
                 <div className="product-view-galary">
@@ -156,7 +156,7 @@ const ProductView = () => {
                    <div className="row">
                     <div className="col-sm-3"></div>
 
-                    <div className="col-sm-4">
+                    <div className="col-sm-4 custom-progress">
                         <div className="progress-box">
                             <ul>
                               <li>
@@ -198,7 +198,7 @@ const ProductView = () => {
                         </div> 
                     </div>
 
-                    <div className="col-sm-3">
+                    <div className="col-sm-3 custom-progress">
                       <div className="total-review">
                          <h3> Total Review (38) </h3>
                          <h4> 4.9  </h4>

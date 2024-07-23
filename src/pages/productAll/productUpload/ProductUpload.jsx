@@ -21,9 +21,9 @@ const ProductUpload = () => {
         <BreadCrumb title={" Product Upload"} page={"Products"}/> 
 
 
-        <div className="row my-4">
-          <div className="col-sm-7">
-          <div className="card shadow p-3 right-part2 ">
+        <div className="row my-4 product-upload-part ">
+          <div className="col-sm-7 upload-part1 ">
+             <div className="card shadow p-3 right-part2 ">
                 <div className="revenue-part">
                    <div className="rev-text">
                       <h4> Basic Information </h4>
@@ -97,7 +97,7 @@ const ProductUpload = () => {
             </div>
           </div>
 
-          <div className="col-sm-5">
+          <div className="col-sm-5 upload-part2">
           <div className="card shadow p-3 right-part2 ">
                 <div className="revenue-part">
                    <div className="rev-text">

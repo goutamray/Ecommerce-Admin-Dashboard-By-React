@@ -10,7 +10,7 @@ import "./OrderList.css";
 import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 
 const OrderList = () => {
-  return (
+  return ( 
     <>
      <div className="right-content">
          <BreadCrumb title={"Order List "} page={"Orders"}/> 

@@ -24,26 +24,27 @@ import {  useState } from "react";
 
 
 import "./SideBar.css"; 
+
 const SideBar = () => {
   const [activeTab, setActiveTab ] = useState(0);
   const [isactiveTabToggle, setIsActiveTabToggle ] = useState(false);
 
 
- 
+
+
   const isOpenSubmenu = (index) => {
     setActiveTab(index); 
     setIsActiveTabToggle(!isactiveTabToggle)
   }
 
-
-
   return (
     <>
-      <div className="sideBar-wrapper">
-        <div className="all-left-menu">
-          <h4 className="mt-3"> MAIN PAGES </h4>
-          <ul>
-            <li> 
+      
+        <div className='sideBar-wrapper'>
+         <div className="all-left-menu">
+            <h4 className="mt-3"> MAIN PAGES </h4>
+           <ul>
+             <li> 
              
                <button className={` ${activeTab === 0 ? "active" : ""} `} onClick={() => isOpenSubmenu(0)}>
                  <span className="icon"> <MdDashboard /> </span>
@@ -65,13 +66,13 @@ const SideBar = () => {
                         Authentication
                       <span className="angle"> <FaAngleRight /> </span>
                    </button>   
-                   <div className={`submenuWrapper ${activeTab === 1 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
-                  <ul>
-                      <li> <Link to="/login"> Login </Link></li>
-                      <li> <Link to="/register"> Registation </Link></li>
-                      <li> <Link to="/forget"> Forget Password  </Link></li>
-                    </ul>
-                  </div>
+                   {/* <div className={`submenuWrapper ${activeTab === 1 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
+                    <ul>
+                        <li> <Link to="/login"> Login </Link></li>
+                        <li> <Link to="/register"> Registation </Link></li>
+                        <li> <Link to="/forget"> Forget Password  </Link></li>
+                      </ul>
+                  </div> */}
              </li>
 
             <li>          
@@ -80,13 +81,13 @@ const SideBar = () => {
                       Users
                     <span className="angle"> <FaAngleRight /> </span>
                 </button>
-                  <div className={`submenuWrapper ${activeTab === 2 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
+                  {/* <div className={`submenuWrapper ${activeTab === 2 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
                   <ul>
                       <li> <Link to="/user-list"> User List </Link></li>
                       <li> <Link to="/user-profile"> User Profile </Link></li>
                       <li> <Link to="/my-account"> My Account  </Link></li>
                     </ul>
-                  </div>
+                  </div> */}
            </li>
            
             <li>    
@@ -110,12 +111,12 @@ const SideBar = () => {
                         Invoices 
                     <span className="angle"> <FaAngleRight /> </span>
                   </button>
-                  <div className={`submenuWrapper ${activeTab === 4 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
+                  {/* <div className={`submenuWrapper ${activeTab === 4 && isactiveTabToggle === true ? "colapse" : "colapsed"}`}> 
                   <ul>
                       <li> <Link to="/invoice-list"> Invoice List </Link></li>
                       <li> <Link to="/invoice-details"> Invoice Details </Link></li>
                     </ul>
-                  </div>
+                  </div> */}
            </li>
            <li> 
                 <Link to="/order-list"> 
@@ -271,7 +272,10 @@ const SideBar = () => {
           </div>
         
         </div>
-      </div>
+        </div>
+      
+      
+     
     </>
   )
 }

@@ -11,3 +11,16 @@ body.dark .card.my-4.p-3.custom-alert {
 body.dark .custom-alert h4{
    color: var(--dark-text-color);
 }
+
+/**** Responsive csss *******/
+@media (min-width : 576px) and (max-width: 768px){
+.custom-avater {
+  display: flex;
+  gap: 8px !important;
+}
+
+
+
+}
+
+

@@ -1,10 +1,8 @@
-
-import error from "../../../assets/img/404.webp"
 import { Link } from "react-router-dom";
+import error from "../../assets/img/404.webp"
 
 
-import "./SiteError.css"; 
-const SiteError = () => {
+const NotFound = () => {
   return (
     <>
       <div className="right-content">
@@ -13,7 +11,8 @@ const SiteError = () => {
           <div className="content-error">
             <h2> OOOPS! THIS PAGE CANT BE FOUND. </h2>
             <p> Its looks like nothing was found at this location. </p>
-            <button className="btn btn-primary btn-lg"><Link to="/ecommerce">  Back To Home </Link> </button>
+            <button className="btn btn-primary btn-lg">
+              <Link to="/ecommerce">  Back To Home </Link> </button>
           </div>
          </div>
       </div>
@@ -21,5 +20,8 @@ const SiteError = () => {
   )
 }
 
-export default SiteError
+export default NotFound; 
+
+
+
 

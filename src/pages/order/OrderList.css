@@ -3,7 +3,6 @@
 .product-list-topper{
 padding: 30px 0px;
 }
-
 .product-list-topper .part1 .total-product{
   background: linear-gradient(#64b3f6,#2b77e5);
   border-radius: 8px;
@@ -34,7 +33,6 @@ padding: 30px 0px;
   top: -34px;
   right: -5px;
 }
-
 .product-list-topper .part1 .total-product .left-top-part span svg {
   font-size: 42px;
   color: #96cefa;
@@ -48,7 +46,6 @@ padding: 30px 0px;
 .product-list-topper .part1 .total-product .left-top-part span.cansel2 svg {
   color: #ff9baa;
 }
-
 .product-list-topper .part1 .total-product  p{
    font-size: 16px;
    color: #fff;
@@ -56,7 +53,7 @@ padding: 30px 0px;
    margin-top: 8px;
 }
 
-/* top part css */
+/******* top part css ******/
 .top-part {
   display: flex;
   justify-content: space-between;
@@ -70,7 +67,7 @@ body.dark .top-part h4, body.dark .top-part p svg{
   color: var(--dark-text-color);
 }
 
-/* cart filter css */
+/******* cart filter css ******/
 .cartFilter{
   margin-bottom: 20px;
 }
@@ -81,38 +78,32 @@ body.dark .cartFilter .col-single select.form-select{
   background-color: var(--dark-bg-color);
   border: none;
 }
-
 body.dark .cartFilter .col-single select.form-select {
   color: var(--dark-text-color);
 }
-
 .cartFilter .col-single h4{
   font-size: 12px;
   font-weight: 700;
   color: var(--heading-color);
-
   margin-bottom: 8px;
 }
 body.dark .cartFilter .col-single h4{
   color: var(--dark-text-color);
 }
-
 .col-single .search input{
   padding: 3px 5px;
   width: 100%;
 }
-
 body.dark .col-single.abcd input.form-control{
   color: var(--dark-text-color);
 }
-
 body.dark .col-single .search input{
   background-color: var(--dark-bg-color) !important;
   color: var(--dark-text-color);
   border: none;
 }
 
-/* box table */
+/******* box table *******/
  table thead .table-primary th{
   background-color: var(--secondary-color) !important;
   color: var(--dark-text-color);
@@ -131,7 +122,21 @@ body.dark .col-single .search input{
 body.dark .card.shadow.p-3.product-table{
   background-color: var(--dark-bg-color);
 }
-
 body.dark  .col-single.abcd input::-webkit-input-placeholder {
   color: var(--dark-text-color);
 }
+
+/****** min-width 576px && max-width: 768px  *******/
+@media (min-width : 576px) and (max-width: 768px){
+.product-list-topper .part1 .total-product  p {
+  font-size: 12px;
+}
+.product-list-topper .part1 .total-product {
+  padding: 6px;
+}
+}
+
+
+
+
+

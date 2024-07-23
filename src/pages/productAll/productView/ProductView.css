@@ -147,8 +147,7 @@ body.dark .customer h6, body.dark .product-short-desc p , body.dark .product-sho
   color: var(--dark-text-color);
 }
 .progress-box ul{
-margin-top: 20px;
-
+ margin-top: 20px;
 }
 .progress-box li{
   display: flex;
@@ -165,7 +164,6 @@ margin-top: 20px;
    border-radius: 5px;
    overflow: hidden;
 }
-
 .progress-box li .review-width .review-color{
    height: 5px;
    width: 220px;
@@ -187,7 +185,6 @@ margin-top: 20px;
 .progress-box li .review-width .review-color.one{
    width: 50px;
 }
-
 .total-review{
 text-align: center;
 margin-top: 20px;
@@ -199,7 +196,6 @@ margin-top: 20px;
   margin-bottom: 20px;
   text-transform: capitalize;
 }
-
 .total-review h4{
   color: var(--primary-color);
   font-size: 80px;
@@ -208,7 +204,6 @@ margin-top: 20px;
   line-height: 60px;
   margin-bottom: 20px;
 }
-
 .total-review .rev-icon svg{
   color: #edb213;
   font-size: 20px;
@@ -219,7 +214,6 @@ margin-top: 20px;
   text-transform: capitalize;
   color: var(--primary-color);
 }
-
 body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .total-review h4 , body.dark .total-review p{
   color: var(--dark-text-color);
 }
@@ -238,7 +232,6 @@ body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .tota
   margin-left: 10px;
   width: 90% !important;
 }
-
 .left-cutomer-rev.admin{
   background-color: var(--dark-text-color);
   border-radius: 10px;
@@ -284,7 +277,6 @@ body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .tota
   color: var(--primary-color);
   font-weight: 400;
 }
-
 .rating-customer span svg{
   color: #edb213;
  font-size: 20px;
@@ -292,7 +284,6 @@ body.dark .progress-box ul li span, body.dark .total-review h3 , body.dark .tota
 }
 .rating-customer span{
   position: relative;
-
 }
 .rating-customer span p{
   background-color: #5a5a5a;
@@ -352,7 +343,6 @@ button.drop-btn{
   padding: 10px 0px;
   text-transform: uppercase;
 }
-
 body.dark .product-view.card.shadow.p-4.my-4.dark-mode, body.dark .rating-customer span p, body.dark , body.dark  {
   background-color: #1b2b4d !important;
 }
@@ -368,3 +358,72 @@ body.dark  .name-time h3 , body.dark .name-time p, body.dark .left-cutomer-rev p
 body.dark .col-sm-10.left-cutomer-rev.p-5.admin{
   background-color: #071739 !important;
 }
+
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 576px){
+.product-description h3 {
+    font-size: 20px;
+}
+.product-view-meta {
+  align-items: flex-start; 
+}
+.product-view-meta ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card ul li {
+  padding: 4px 9px !important;
+  font-size: 13px;
+}
+.customer-single-box {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 14px;
+}
+.right-part-rev span {
+  margin-top: 15px;
+}
+.rating-customer span p {
+  top: -84px;
+  left: 8px;
+}
+.replay-btn button{
+ font-size: 13px !important;
+}
+
+}
+
+
+@media (min-width : 576px) and (max-width: 768px){
+.product-view-part {
+  display: flex;
+  flex-direction: column;
+}
+.col-md-5.left-view-part {
+ width: 100%;
+}
+.col-md-7.right-view-part {
+  width: 100% !important;
+}
+.product-view-meta ul {
+  flex-wrap: wrap;
+}
+.product-view-meta ul li{
+  padding: 5px 10px !important;
+}
+.col-sm-4.custom-progress {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.col-sm-3.custom-progress {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.col-sm-1.right-part-rev {
+  margin-top: 10px;
+}
+
+
+
+}
+

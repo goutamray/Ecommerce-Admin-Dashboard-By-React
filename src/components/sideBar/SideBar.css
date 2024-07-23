@@ -9,17 +9,14 @@
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
 body.dark .sideBar-wrapper{
   background-color: #12254e !important;
 } 
-
 .sideBar-wrapper::-webkit-scrollbar{
   opacity: 0 !important;
   height: 3px !important;
   width: 3px !important;
 }
-
 .sideBar-wrapper:hover::-webkit-scrollbar-thumb{
   height: 3px !important;
   width: 3px !important;
@@ -45,7 +42,6 @@ body.dark .sideBar-wrapper{
   padding-bottom: 10px;
   text-transform: uppercase;
 }
-
 .sideBar-wrapper .all-left-menu ul{
 padding: 0px 5px;
 position: relative;
@@ -66,14 +62,11 @@ position: relative;
    align-items: center;
    padding: 10px 8px;
    border-radius: 5px;
-
    transition: all 0.3s ease-in-out;
 }
-
- body.dark .sideBar-wrapper .all-left-menu ul li button {
+body.dark .sideBar-wrapper .all-left-menu ul li button {
   color: var(--dark-text-color);
  }
-
 .sideBar-wrapper .all-left-menu ul li button span.icon svg {
   margin-right: 15px;
   font-size: 23px;
@@ -82,18 +75,15 @@ position: relative;
 body.dark .sideBar-wrapper .all-left-menu ul li button span.icon svg {
   color: var(--dark-text-color);
 }
-
 .sideBar-wrapper .all-left-menu ul li button .angle {
   text-align: end;
   width: 30px;
   margin-left: auto;
   color: #b0adad;
-
 }
 .sideBar-wrapper .all-left-menu ul li button span.angle svg{
   font-size: 16px;
 }
-
 .sideBar-wrapper .all-left-menu ul li button .angle-abc {
   height: 21px;
   width: 22px;
@@ -104,14 +94,12 @@ body.dark .sideBar-wrapper .all-left-menu ul li button span.icon svg {
   border-radius: 50%;
   text-align: center;
 }
-
 .sideBar-wrapper .all-left-menu ul li  button:hover{
   background-color: #f1f1f1 !important;
 }
 body.dark .sideBar-wrapper .all-left-menu ul li  button:hover{
   background-color:rgba(255, 255, 255, 0.2) !important;
 }
-
 .sideBar-wrapper .all-left-menu ul li  button.active{
   background-color: #ebf6ff !important;
 }
@@ -132,10 +120,8 @@ margin-left: 17px;
   color: #363535;
   display: block;
   padding: 3px 0px;
-
   transition: all 0.3s ease-in-out;
 }
-
 body.dark .sideBar-wrapper .all-left-menu ul li ul li a{
   color: var(--dark-text-color);
 }
@@ -172,7 +158,7 @@ body.dark .sideBar-wrapper .all-left-menu ul li ul::before{
 }
 
 
-/* logout  */
+/******* logout  *****/
 .logoutWrapper{
   width: 90%;
   height: 120px;
@@ -186,12 +172,9 @@ body.dark .sideBar-wrapper .all-left-menu ul li ul::before{
 
   overflow: hidden;
 }
-
 body.dark .logoutWrapper{
   background-color: #183b85;
 }
-
-
 .logoutWrapper a button{
   color: #fff;
   font-size: 14px;
@@ -206,8 +189,6 @@ body.dark .logoutWrapper{
    font-size: 20px;
    color: #fff;
 }
-
-
 .logoutWrapper::before {
   content: "";
   width: 30px;
@@ -229,8 +210,27 @@ body.dark .logoutWrapper{
   top: -20px;
   overflow: hidden;
 }
-
-
 body.dark .logoutWrapper::before, body.dark .logoutWrapper::after {
   background-color: #1b4aa7;
 }
+
+/***** reaponsive css *******/
+@media (min-width : 320px) and (max-width: 768px){
+  .sideBar-wrapper{
+    opacity: 0;
+    visibility: hidden;
+    width: 0% !important;
+  }
+  .sideBar-wrapper.open{
+    opacity: 1;
+    visibility: visible;
+    width: 100% !important;
+    z-index: 999;
+  }
+
+
+
+}
+
+
+

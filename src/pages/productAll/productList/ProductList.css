@@ -20,7 +20,6 @@
   align-items: center;
   position: relative;
 }
-
 .product-list-topper .part1 .total-product .left-top-part h2{
   color: #fff;
   font-weight: 700;
@@ -31,7 +30,6 @@
   top: -34px;
   right: -5px;
 }
-
 .product-list-topper .part1 .total-product .left-top-part span svg {
   font-size: 42px;
   color: #96cefa;
@@ -42,7 +40,6 @@
 .product-list-topper .part1 .total-product .left-top-part span.verify svg {
   color: #f3a0ff;
 }
-
 .product-list-topper .part1 .total-product  p{
    font-size: 16px;
    color: #fff;
@@ -50,11 +47,10 @@
    margin-top: 8px;
 }
 
-/* cart filter  */
+/****** cart filter  *******/
 .cartFilter{
   margin-bottom: 20px;
 }
-
 .cartFilter .col-single {
    margin-top: 15px;
 }
@@ -74,19 +70,17 @@ body.dark .cartFilter .col-single select.form-select {
 body.dark .cartFilter .col-single h4{
   color: var(--dark-text-color);
 }
-
 .col-single .search input{
   padding: 3px 5px;
   width: 100%;
 }
-
 body.dark .col-single .search input{
   background-color: var(--dark-bg-color);
   color: var(--dark-text-color);
   border: none;
 }
 
-/* box table */
+/****** box table ******/
  table thead .table-primary th{
   background-color: var(--secondary-color) !important;
   color: var(--dark-text-color);
@@ -100,7 +94,6 @@ body.dark .col-single .search input{
   color: var(--primary-color);
   font-size: 13px;
 }
-
 tbody tr td input {
   font-size: 20px;
   top: 2px;
@@ -114,7 +107,6 @@ tbody tr td .reg-price{
 body.dark tbody tr td .reg-price{
   color: rgba(255, 255, 255, 0.5) !important;
 }
-
 tbody tr td .sale-price{
   font-size: 14px;
   color: red;
@@ -123,7 +115,6 @@ tbody tr td .three-item{
   display: flex;
   align-items: center;
 }
-
 body.dark tbody tr td{
   background-color: var(--dark-bg-color);
   color: #B4B4B4;
@@ -132,7 +123,6 @@ tbody tr td .three-item .star{
 color: #edb213;
 font-size: 13px;
 }
-
 tbody tr td .three-item span{
   font-size: 14px;
   color: var(--heading-color);
@@ -140,7 +130,6 @@ tbody tr td .three-item span{
   padding: 0px 4px;
   margin-top: 3px;
 }
-
 tbody tr td .three-item p{
   font-size: 13px;
   font-weight: 400;
@@ -167,7 +156,6 @@ tbody tr td .delBtn{
   background-color: #ffdfe4;
   color: #f11133;
 }
-
 .table-product{
    display: flex;
    align-items: center;
@@ -178,12 +166,51 @@ tbody tr td .delBtn{
   width: 40px;
   border-radius: 5px;
 }
-
 body.dark .card.shadow.p-3.product-table{
   background-color: var(--dark-bg-color);
 }
 
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 576px){
+.product-list-topper .part1 .total-product {
+    margin-bottom: 20px;
+}
+}
 
 
+@media (min-width : 576px) and (max-width: 768px){
+/* .tab-content {
+  display: block; 
+}
+.table-product {
+  flex-direction: row !important;
+}
+.table-responsive.custom-table table{
+  display: flex;
+}
+.table-responsive.custom-table table thead{
+  width: 30% !important;
+}
+.table-responsive.custom-table table thead tr{
+  display: flex;
+  flex-direction: column;
+}
+.table-responsive.custom-table table tbody{
+  width: 70% !important;
+}
+.table-responsive.custom-table table tbody tr{
+  display: flex;
+  flex-direction: column;
+}
+.table-footer {
+  flex-direction: column;
+} */
+tbody tr td .reg-price {
+  text-align: left !important;
+}
+tbody tr td .sale-price {
+  text-align: left !important;
+}
 
 
+} 

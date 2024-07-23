@@ -3,7 +3,6 @@
   align-items: center;
   gap: 10px;
 }
-
 .tab-button button {
   padding: 8px 20px;
   background-color: var(--dark-text-color);
@@ -13,12 +12,10 @@
   font-weight: 500;
   transition: all 0.3s ease-in-out;
 }
-
 .tab-button button:hover{
   background-color: var(--secondary-color);
   color: #fff;
 }
-
 .tab-button button.active{
   background-color: var(--secondary-color);
   color: #fff;
@@ -80,7 +77,6 @@ button.save-btn {
   gap: 6px;
   margin-bottom: 20px;
 }
-
 button.save-btn svg {
   font-size: 20px;
 }
@@ -134,7 +130,6 @@ button.save-btn svg {
 {
   font-size: 20px;
 }
-
 .pass-form .my-2 span.view-hide button, .pass-form .my-2 span.view-hide2  button{
   border: none;
   background: transparent;
@@ -157,8 +152,6 @@ button.save-btn svg {
 .activity-email ul li{
   padding: 5px 0px;
 }
-
-
 body.dark .card.p-3.shadow.tab-content-btn{
    background-color: #112143;
 }
@@ -169,16 +162,22 @@ body.dark .pass-form .my-2 span.view-hide2 svg
 {
   color: var(--dark-text-color);
 }
-
 body.dark  .pass-form .my-2 input::-webkit-input-placeholder {
   color: var(--dark-text-color);
 }
-
 body.dark .activity-email h6 {
   color: var(--dark-text-color);
 }
-
 body.dark ul li .form-check label{
   color: var(--dark-text-color);
 }
 
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 576px){
+
+
+
+
+
+  
+}

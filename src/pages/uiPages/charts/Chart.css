@@ -1,17 +1,13 @@
 
-
-
 .step-area-chart h3, .step-pie-chart h3{
   font-size: 17px;
   font-weight: 600;
   color: var(--heading-color);
 }
-
 .col-sm-8.box-div.abcd {
   flex: 0 0 auto;
   width: 100%;
 }
-
 .box-div {
   margin-top: 30px !important;
   display: flex;
@@ -19,4 +15,45 @@
   gap: 16px;
 }
 
+/****** min-width 576px && max-width: 768px  *******/
+@media (min-width : 576px) and (max-width: 768px){
+.row.dashboard-div {
+  display: flex;
+  flex-direction: column;
+}
+.col-sm-8.box-div {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.col-sm-4.box-div2 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.tab-content {
+  display: none;
+}
+.revenue-box-part {
+  display: flex;
+  flex-direction: column;
+}
+.revenue-box-part-left{
+  width: 100% !important;
+}
+.revenue-box-part-right{
+  width: 100% !important;
+  margin-top: 15px !important;
+}
+.box-div .dashboardBox {
+  width: 47% !important;
+}
+.col-sm-7.box-div {
+  width: 100% !important;
+}
+.col-sm-5.box-div2 {
+  width: 100% !important;
+}
+.single-chart {
+  height: 290px;
+}
+}
 

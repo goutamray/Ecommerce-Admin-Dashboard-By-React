@@ -1,7 +1,7 @@
 
 import logo from "../../../assets/img/logo.webp"
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 
 
 import { FaEnvelope , FaFacebookF, FaGoogle } from "react-icons/fa";
@@ -11,6 +11,7 @@ import { IoEyeOutline } from "react-icons/io5";
  import { FaRegEyeSlash } from "react-icons/fa"; 
 
 import "./Login.css"; 
+import { MyContext } from "../../../App";
 const Login = () => {
 
    const [openPass, setOpenPass ] = useState(false); 
@@ -23,15 +24,22 @@ const Login = () => {
       window.scrollTo(0,0)
     }, []);     
 
+
+    const context = useContext(MyContext)
+
+    useEffect(() => {
+      context.setIsHeaderFooterShow(false); 
+    }, [context]);  
+  
+
   return (
     <>
-  
       <section className="loginSection">
         <div className="container">
           <div className="row">
-              <div className="col-sm-4"></div>
+              <div className="col-sm-4 col-md-3"></div>
 
-              <div className="col-sm-4">
+              <div className="col-sm-4 col-md-5">
                  <div className="loginBox">
                    <img src={logo} alt="" />
                    <h4> Login to Hotash </h4>
@@ -77,7 +85,7 @@ const Login = () => {
                     <button type="submit" className="my-btn w-100 "> <a href=""> Sign In </a> </button>
                    </form>
                    <div className="forget my-2">
-                    <Link href="/"> FORGOT PASSWORD </Link>
+                    <Link to="/forget"> FORGOT PASSWORD </Link>
                    </div>
                    <div className="or-div">
                        <p> or </p>
@@ -96,13 +104,10 @@ const Login = () => {
                 </div>
               </div>
 
-
-
-             <div className="col-sm-4"></div>
+             <div className="col-sm-4 col-md-3"></div>
           </div>
         </div>
-       
-         
+    
       </section>
     </>
   )

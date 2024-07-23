@@ -1,22 +1,27 @@
+import { useEffect } from "react";
 
 
-import { FaCalendarAlt, FaCartArrowDown, FaRegUserCircle, FaShoppingBag } from "react-icons/fa";
+// react icons 
+import { 
+   FaCalendarAlt,
+   FaCartArrowDown, 
+   FaRegUserCircle, 
+   FaShoppingBag } from "react-icons/fa";
 import { TbStars } from "react-icons/tb";
-import AnalyticsBox from "../../../components/analyticsBox/AnalyticsBox";
-
-
-import "./Analytics.css"
-
-
 import { HiDotsHorizontal } from "react-icons/hi";
+
+// components 
+import AnalyticsBox from "../../../components/analyticsBox/AnalyticsBox";
+import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
+
+// images 
 import bang from "../../../assets/img/bd.webp"
 import de from "../../../assets/img/de.webp"
 import ph from "../../../assets/img/ph.webp"
 import sa from "../../../assets/img/sa.webp"
 import us from "../../../assets/img/us.webp"
+
 import Lines from "../../../components/chart/Lines";
-import { useEffect } from "react";
-import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
 
 
 export const data2 = [
@@ -34,7 +39,7 @@ export const options2 = {
   'chartArea' : {'height': "100%", 'width' :'90%'}
 };
 
-
+// data 3 
 export const data3 = [
   ["Year", "Sales", "Expenses", "Profit"],
   ["2014", 1000, 400, 200],
@@ -43,6 +48,8 @@ export const data3 = [
   ["2017", 1030, 540, 350],
 ];
 
+
+import "./Analytics.css"
 
 const Analyticks = () => {
 
@@ -55,8 +62,6 @@ const Analyticks = () => {
       <div className="right-content">
         <BreadCrumb title={"Analyticks"} page={"Dashboard"}/>
 
-
-
         <div className="row">
           <div className="col-sm-12 box-div analytics ">
               <AnalyticsBox color={["#1ba054", "#4dd988"]} total={"136,758K"} icon={< FaRegUserCircle /> } grow={true} content={"Impressions"}  />
@@ -65,11 +70,10 @@ const Analyticks = () => {
 
               <AnalyticsBox color={["#e1950e", "#f6304e"]} total={"154,179K"} icon={< TbStars/> } grow={true} content={"Bounce Rate"} />
           </div>
-
         </div>
 
-        <div className="row my-3">
-          <div className="col-sm-7">
+        <div className="row my-3 visitor-part ">
+          <div className="col-sm-7 visitor-part-left">
              <div className="card shadow p-3 analytic-part ">
                  <div className="revenue-part">
                    <div className="rev-text">
@@ -77,9 +81,7 @@ const Analyticks = () => {
                    </div>
                    <div className="year-select">
                     <p> <FaCalendarAlt />  </p>
-                
                      <select className="form-select" aria-label="Default select example">
-                     
                          <option selected value="1"> Select Option</option>
                          <option value="2">Year 2021</option>
                          <option value="3">Year 2020</option>
@@ -90,22 +92,20 @@ const Analyticks = () => {
                      </select>
                    </div>
                  </div>   
-                
-
                  <div className="line-chart pt-5"> 
                      <Lines /> 
                  </div>
              </div>
           </div>
-          <div className="col-sm-5">
-          <div className="card shadow p-3 overview-part ">
+
+          <div className="col-sm-5 visitor-part-right">
+            <div className="card shadow p-3 overview-part ">
                 <div className="revenue-part">
                    <div className="rev-text">
                       <h4> Orders Overview </h4>
                    </div>
                    <p><HiDotsHorizontal /></p>
                  </div>
-
                  <div className="country pt-4 mt-2">
                    <div className="single-country">
                       <div className="flag">
@@ -192,8 +192,6 @@ const Analyticks = () => {
                         <h5> 50% </h5>
                       </div>
                    </div>
-
-                 
                  </div>
             </div>
           </div>

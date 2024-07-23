@@ -10,7 +10,7 @@
   color: var(--heading-color);
 }
 
-/* table */
+/****** table ******/
 .table-box {
   margin-top: 20px;
 }
@@ -26,7 +26,6 @@
 .cartFilter{
   margin-bottom: 20px;
 }
-
 .cartFilter .col-single {
    margin-top: 15px;
 }
@@ -34,15 +33,12 @@
   font-size: 12px;
   font-weight: 700;
   color: var(--heading-color);
-
   margin-bottom: 8px;
 }
-
 .col-single .search input{
   padding: 3px 5px;
   width: 100%;
 }
-
 tbody tr td button{
   border: none;
   border-radius: 4px;
@@ -60,8 +56,6 @@ tbody tr td .delBtn{
   background-color: #ffdfe4;
   color: #f11133;
 }
-
-
 /* table */
 .total-box .box-1{
   display: flex;
@@ -70,13 +64,11 @@ tbody tr td .delBtn{
   padding: 10px 0px;
   border-bottom: 1px solid var(--dark-text-color);
 }
-
 .total-box .box-1 .left-dot{
  display: flex;
  align-items: center;
  gap: 10px;
 }
-
 .total-box .box-1 .left-dot p {
   color: #ffffff;
   height: 25px;
@@ -137,7 +129,6 @@ tr td p.lost{
   background-color: RGB(255, 196, 205);
   color: #E00B2B;
 }
-
 .single-chart{
   height: 600px;
   width: 100%;
@@ -145,11 +136,9 @@ tr td p.lost{
 body.dark .row.my-3.crm-part .card.p-3{
   background-color: var(--dark-bg-color);
 }
-
 body.dark .card.shadow.p-3.deals-part{
   background-color: var(--dark-bg-color);
 }
-
 
 
 

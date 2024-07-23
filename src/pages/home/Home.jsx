@@ -10,7 +10,6 @@ const Home = () => {
 
  const context = useContext(MyContext); 
 
-
   return (
     <>
       <PageHeader title = {"Home"}/>     

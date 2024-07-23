@@ -21,7 +21,6 @@
   align-items: center;
   margin-top: 20px;
 }
-
 .received-details .left-received ul li h5,
 .received-details .right-received ul li h5{
   font-size: 16px;
@@ -29,14 +28,12 @@
   font-weight: 700;
   margin-bottom: 10px;
 }
-
 .received-details .left-received ul li{
   font-size: 14px;
   font-weight: 400;
   color: var(--primary-color);
   padding: 4px 0px;
 }
-
 .received-details .right-received ul li{
   font-size: 14px;
   font-weight: 400;
@@ -56,7 +53,6 @@
 .table-responsive table tbody tr td p{
   font-size: 12px;
 }
-
 table{
   border: 1px solid var(--dark-text-color);
   border-width: 1px;
@@ -67,19 +63,16 @@ table{
  align-items: center;
  justify-content: space-between;
  gap: 30px;
-
 }
 .sub-box ul li span.left{
   width: 150px !important;
 }
 .sub-box ul li span.right{
   width: 150px !important;
-
 }
 .sub-box ul li.last-border {
  border-top: 1px solid var(--dark-text-color);
 }
-
 .last-text p{
   font-size: 13px;
   font-weight: 400;
@@ -87,7 +80,6 @@ table{
   padding: 20px 0px;
   border-top: 1px solid var(--dark-text-color);
 }
-
 .download-print-button {
    display: flex;
    align-items: center;
@@ -99,24 +91,19 @@ table{
 }
 .download-print-button button svg{
  font-size: 20px;
-
 }
-
 body.dark .card.p-5.shadow.invoice-details.mt-4{
   background-color: #112143 !important;
 }
-
 body.dark table thead tr th {
   color: var(--dark-text-color);
   background-color: #112143 !important;
 }
-
 body.dark  .logo-invoice h3 , 
 body.dark  .received-details .left-received ul li h5,
 body.dark  .received-details .right-received ul li h5 {
   color: var(--dark-text-color);
 }
-
 body.dark .received-details .left-received  ul li,
 body.dark .received-details .right-received ul li,
 body.dark .sub-box ul li, 
@@ -127,5 +114,22 @@ body.dark .last-text p
   color: var(--dark-text-color);
 }
 
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 576px){
+.received-details {
+    flex-direction: column;
+}
+.received-details .right-received ul li {
+  text-align: left;
+}
+.right-received {
+  margin-top: 20px;
+}
+.download-print-button button {
+  padding: 10px 9px;
+}
 
+
+
+}
 

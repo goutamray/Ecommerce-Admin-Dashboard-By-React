@@ -10,7 +10,6 @@ header{
   
   z-index: 99999;
 }
-
 body.dark header{
   background-color: #112143 !important;
 }
@@ -20,12 +19,18 @@ body.dark header{
 }
 .logo a img{
   width: 45px;
+ margin-left: 20px;
 }
 .logo a span{
   font-size: 25px;
   font-weight: 800;
   color: #403E57;
   margin-left: 2px;
+}
+.mobile-menu{
+  opacity: 0;
+  visibility: hidden;
+  width: 0% !important;
 }
 body.dark .logo a span{
   color: #fff !important;
@@ -38,7 +43,6 @@ body.dark .logo a span{
   align-items: center;
   position: relative;
 }
-
 .menu-part button.open-btn {
   border: none;
   background: var(--primary-bg);
@@ -69,6 +73,9 @@ body.dark .menu-part button.open-btn svg{
 }
 .menu-part.menu-last .open-btn{
   margin-right: 15px;
+}
+.search-box{
+  margin-bottom: 0px !important;
 }
 .myAcc{
   background: transparent;
@@ -102,12 +109,10 @@ body.dark .menu-part button.open-btn svg{
   color: #403E57;
   text-transform: capitalize;
 }
-
 .user-name .name .drop-icon svg{
   font-size: 14px;
   color: #403E57;
 }
-
 button.signUp-btn{
   background-color: var(--secondary-color);
   color: #fff;
@@ -118,12 +123,10 @@ button.signUp-btn{
   border-radius: 5px;
   border: none;
 }
-
 .myAcc .user-name .nick-name{
 font-size: 12px;
 color: #403E57;
 text-align: left;
-
 }  
 body.dark .myAcc .user-name .name h4{
   color: var(--dark-text-color);
@@ -139,12 +142,9 @@ body.dark .myAcc .user-name .nick-name{
   border-radius: 5px;
   padding: 15px 20px;
 }
-
-
 body.dark .menu-part ul.dropdown-menu-item {
   background-color: #12254e !important;
 }
-
 .menu-part ul.dropdown-menu-item li {
   padding: 5px 0px;
 } 
@@ -158,12 +158,10 @@ body.dark .menu-part ul.dropdown-menu-item {
 body.dark .menu-part ul.dropdown-menu-item li a{
   color: var(--dark-text-color);
 } 
-
 .menu-part ul.dropdown-menu-item li a svg{
   font-size: 18px ;
   margin-right: 5px;
 }
-
 body.dark .menu-part ul.dropdown-menu-item li a svg{
   color: var(--dark-text-color);
 } 
@@ -200,42 +198,34 @@ body.dark .notification-drop{
   padding-bottom: 10px;
   border-bottom: 1px solid var(--dark-text-color);
 }
-
 .notification-drop .top-bar-notification h4{
    font-size: 16px;
    font-weight: 700;
    color: #403E57;
 }
-
 body.dark  .notification-drop .top-bar-notification h4{
   color: var(--dark-text-color);
 }
-
 .notification-drop .top-bar-notification p svg{
   font-size: 22px;
 }
 body.dark  .notification-drop .top-bar-notification p svg{
   color: var(--dark-text-color);
 }
-
-
 .bottom-bar-notification {
   max-height: 300px;
   overflow-y: scroll;
   overflow-x: hidden;
   padding-top: 5px;
 }
-
 .bottom-bar-notification::-webkit-scrollbar{
   height: 3px !important;
   width: 3px !important;
 }
-
 .bottom-bar-notification::-webkit-scrollbar-thumb{
   background-color: var(--secondary-color);
 
 }
-
 .bottom-bar-notification .single-item-noti{
   display: flex;
   align-items: center;
@@ -245,7 +235,6 @@ body.dark  .notification-drop .top-bar-notification p svg{
   padding: 8px 5px;
   border-radius: 5px;
 }
-
 body.dark .bottom-bar-notification .single-item-noti{
   background-color: #12254e !important;
   color: var(--dark-text-color);
@@ -289,7 +278,6 @@ body.dark .bottom-bar-notification .single-item-noti svg{
   height: 40px;
   border-radius: 50%;
 }
-
 .bottom-bar-notification .single-item-noti .not-image  img.mail-img {
 border: 2px solid var(--secondary-color);
 padding: 2px;
@@ -366,6 +354,81 @@ font-weight: 500;
 }
 .col-sm-7.part3{
   width: 54% !important;
+}
+.tablet-show-search{
+  width: 0px;
+  visibility: hidden;
+  opacity: 1;
+}
+
+
+
+/***** Responsive css *******/
+@media (min-width : 320px) and (max-width: 768px){
+.col-sm-2.part1.menu-option {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.mobile-menu{
+  opacity: 1;
+  visibility: visible;
+  width: 1000% !important;
+}
+.mobile-menu button{
+   background-color: transparent;
+   border: 1px solid rgb(180, 180, 180);
+   border-radius: 4px;
+   position: absolute;
+   top: 10%;
+   right: -108% !important;
+}
+.col-sm-3.part2.mobile-hide {
+  opacity: 0;
+  visibility: hidden;
+  width: 0px !important;
+}
+  .col-sm-7.part3 {
+    width: 88% !important;
+    margin: auto;
+    padding: 0px !important;
+    margin-top: 20px;
+}
+.notification-drop {
+    right: 6% !important;
+}
+
+.col-sm-2.col-md-12.part1.menu-option {
+  width: 45%;
+  flex: 0 0 45% !important;
+}
+
+}
+
+/**** tablet responsive  ******/
+ @media (min-width : 576px) and (max-width: 768px){
+.mobile-menu button svg{
+    font-size: 30px !important;
+}
+.tablet-show-search{
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  width: 320px;
+}
+.search-box {
+  padding: 0px 0px;
+}
+.searchbox {
+   margin-left: 0px !important; 
+}
+.menu-part.menu-last {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
 }
 
 

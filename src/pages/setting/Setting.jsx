@@ -6,7 +6,7 @@ import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 import "./Setting.css"; 
 const Setting = () => {
   return (
-    <>
+    <> 
           <div className="right-content">
             <BreadCrumb title={"Setting"}/> 
               

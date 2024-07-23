@@ -1,4 +1,5 @@
 
+// react icons 
 import { HiDotsHorizontal } from "react-icons/hi"
 import { FaPhoneVolume } from "react-icons/fa6";
 import { IoDocumentTextSharp } from "react-icons/io5"; 
@@ -24,8 +25,8 @@ const UserProfile = () => {
           <BreadCrumb title={"User Profile"} page={"Users"}/> 
 
 
-        <div className="row my-4">
-          <div className="col-sm-5">
+        <div className="row my-4 custom-user-part ">
+          <div className="col-sm-5 user-part1 ">
             <div className="card p-3 shadow profile-left ">
                <div className="top-part">
                   <h4> User_information </h4>
@@ -64,7 +65,7 @@ const UserProfile = () => {
                 </div>
             </div>
           </div>
-          <div className="col-sm-7">
+          <div className="col-sm-7 user-part2">
             <div className="user-right-part">
 
               <div className="product-list-topper p-0 mb-4">

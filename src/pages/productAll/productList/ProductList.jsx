@@ -13,7 +13,6 @@ const ProductList = () => {
       <div className="right-content">
         <BreadCrumb title={"Product List "} page={"Products"}/> 
 
-
         <div className="product-list-topper">
             <div className="row">
                 <div className="col-sm-4 part1 ">
@@ -87,7 +86,7 @@ const ProductList = () => {
                </div>
            </div>
 
-           <div className="table-responsive">
+           <div className="table-responsive custom-table">
               <table className="table table-bordered table-striped">
                 <thead >
                     <tr className="table-primary">

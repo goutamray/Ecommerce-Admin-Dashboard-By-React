@@ -1,11 +1,9 @@
 
-
 .all-big-bootstrap-btn {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
 }
-
 .all-small-bootstrap-btn{
   display: flex;
   gap: 15px;
@@ -25,13 +23,10 @@
 } 
 .all-big-bootstrap-btn-abc .btn-primary-abc {
   background-color: #0858f7;
-
 }
 .all-big-bootstrap-btn-abc .btn-primary-abc:hover {
   background-color: #0858f7;
-
 }
-
 .all-big-bootstrap-btn-abc .btn-secondary-abc {
   background-color: #edb213;
 }
@@ -44,14 +39,12 @@
 .all-big-bootstrap-btn-abc .btn-success-abc:hover {
   background-color: #1a9f53;
 }
-
 .all-big-bootstrap-btn-abc .btn-danger-abc {
   background-color: #ff7300;
 }
 .all-big-bootstrap-btn-abc .btn-danger-abc:hover {
   background-color: #ff7300;
 }
-
 .all-big-bootstrap-btn-abc .btn-warning-abc {
 background-color: #be0ee1;
 }
@@ -82,19 +75,35 @@ background-color: #818181 ;
   font-weight: 600;
   margin-bottom: 15px;
 }
-
-
-
 body.dark .bootstrap-btn h4, .custom-btn h4{
   color: var(--dark-text-color);
 }
-
-
-
 body.dark .card.p-5.shadow.my-4.custom-button{
   background-color: var(--dark-bg-color);
 }
 
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 576px){
+.bootstrap-btn h4, .custom-btn h4 {
+    margin-top: 25px;
+}
+.row.color-row {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+.row .col-sm-2 {
+  width: 45%;
+  flex: 0 0 45%;
+}
+.right-content {
+  padding-left: 36px !important;
+  margin-left: 15px !important;
+
+}
+
+}
 
 
 

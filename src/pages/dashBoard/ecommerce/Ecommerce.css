@@ -81,20 +81,18 @@
   left: 20px;
   top: 0px;
 }
-
 .dashboardBox .cart svg{
 color: #6a6a6a3b;
 }
 
 
-/* table */
+/******* table ***********/
 .table-box {
   margin-top: 20px;
 }
 body.dark .card.table-box {
   background-color: var(--heading-color) !important;
 }
-
 .top-part {
    display: flex;
    justify-content: space-between;
@@ -107,7 +105,6 @@ body.dark .card.table-box {
 body.dark .top-part h4, body.dark .top-part p svg{
   color: var(--dark-text-color);
 }
-
 .cartFilter{
   margin-bottom: 20px;
 }
@@ -133,19 +130,17 @@ body.dark .cartFilter .col-single select.form-select {
 body.dark .cartFilter .col-single h4{
   color: var(--dark-text-color);
 }
-
 .col-single .search input{
   padding: 3px 5px;
   width: 100%;
 }
-
 body.dark .col-single .search input{
   background-color: var(--dark-bg-color);
   color: var(--dark-text-color);
   border: none;
 }
 
-/* box table */
+/********* box table **********/
  table thead .table-primary th{
   background-color: var(--secondary-color);
   color: #fff !important;
@@ -315,7 +310,6 @@ body.dark  .year-select svg {
 .year-select p{
 padding-left: 5px;
 }
-
 .year-select select{
 width: 180px;
 border: none;
@@ -326,7 +320,6 @@ body.dark .year-select select{
   background-color: var(--dark-bg-color) !important;
   color: var(--dark-text-color);
 }
-
 .year-select select:focus{
   outline: none;
   box-shadow: none;
@@ -338,15 +331,14 @@ body.dark .year-select select{
   justify-content: space-between;
   padding-top: 20px;
 }
-
 .earning-part .earn-part1{
   display: flex;
   align-items: center;
   gap: 10px;
   border: 1px solid var(--dark-text-color);
   padding: 15px;
+  border-radius: 4px;
 }
-
 .earning-part .earn-part1 .bag span svg{
  font-size: 40px;
  color: #408deb;
@@ -365,9 +357,7 @@ body.dark .year-select select{
  font-size: 20px;
  font-weight: 700;
  color: var(--heading-color);
-
 }
-
 body.dark .earning-part .earn-part1 .text-info p, body.dark .earning-part .earn-part1 .text-info h4{
   color: var(--dark-text-color);
 }
@@ -380,13 +370,11 @@ body.dark .earning-part .earn-part1 .text-info p, body.dark .earning-part .earn-
   padding: 10px 0px;
   border-bottom: 1px solid var(--dark-text-color);
 }
-
 .total-box .box-1 .left-dot{
  display: flex;
  align-items: center;
  gap: 10px;
 }
-
 .total-box .box-1 .left-dot p {
   color: #ffffff;
   height: 25px;
@@ -419,7 +407,90 @@ body.dark .total-box .box-1 .left-dot h6, body.dark .total-box .box-1  p{
 .total-box .box-1 .left-dot p.refunded{
   background-color: #e0a518;
 }
-
 body.dark .card.shadow.p-3.right-part2{
   background-color: var(--dark-bg-color);
 }
+
+
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 576px){
+  .box-div .dashboardBox {
+    width: 100%;
+}
+.card.table-box.p-3.border-0.shadow {
+  margin-top: 35px;
+}
+table.table.table-bordered{
+  display: flex;
+  flex-direction: row;
+}
+table.table.table-bordered thead{
+  width: 30% !important;
+  flex: 0 0 30%;
+}
+table.table.table-bordered thead tr{
+  display: flex !important;
+  flex-direction: column;
+
+}
+table.table.table-bordered tbody {
+  width: 70% !important;
+  flex: 0 0 70%;
+}
+table.table.table-bordered tbody tr{
+  display: flex !important;
+  flex-direction: column;
+}
+.table-responsive table tbody tr td p {
+  text-align: left;
+}
+.table-footer {
+  display: flex;
+  flex-direction: column;
+}
+.earning-part {
+  flex-direction: column;
+  gap: 10px;
+}
+.card.shadow.p-3.right-part2 {
+  margin-top: 10px;
+}
+
+
+}
+
+
+/****** min-width 576px && max-width: 768px  *******/
+@media (min-width : 576px) and (max-width: 768px){
+.row.dashboard-div {
+    display: flex;
+    flex-direction: column;
+}
+.col-sm-8.box-div {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.col-sm-4.box-div2 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.tab-content {
+  display: none;
+}
+.revenue-box-part {
+  display: flex;
+  flex-direction: column;
+}
+.revenue-box-part-left{
+  width: 100% !important;
+}
+.revenue-box-part-right{
+  width: 100% !important;
+  margin-top: 15px !important;
+}
+
+}
+
+
+
+

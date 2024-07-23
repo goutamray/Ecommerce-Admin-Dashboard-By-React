@@ -12,7 +12,6 @@
   display: flex;
   align-items: center;
   gap: 20px;
-
 }
 .version-1  .icon{
   width: 50px;
@@ -43,7 +42,6 @@
   font-weight: 400;
   color: #18633A;
 }
-
 .card ul li{
   padding: 8px 0px;
   margin-left: 40px;

@@ -1,10 +1,8 @@
 
-
 .copyRight p a{
   font-size: 16px;
   font-weight: 500;
 }
-
 body.dark .copyRight p{
   color: var(--dark-text-color);
 }

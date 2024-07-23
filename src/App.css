@@ -17,3 +17,16 @@
 
 
 
+
+
+@media (min-width : 320px) and (max-width: 576px){
+  .right-content {
+    padding-top: 30px;
+    padding-right: 5px !important;
+    padding-bottom: 25px;
+    padding-left: 4px !important;
+}
+
+}
+
+

@@ -42,3 +42,11 @@ padding: 8px 40px;
 body.dark .logo-box-text h4{
   color: var(--dark-text-color);
 }
+
+/****** Responsive csss ******/
+@media (min-width : 576px) and (max-width: 768px){
+
+} 
+
+
+

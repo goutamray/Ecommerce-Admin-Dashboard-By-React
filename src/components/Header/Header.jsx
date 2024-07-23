@@ -19,6 +19,7 @@ import { IoIosNotifications, IoMdMail, IoMdSettings } from "react-icons/io";
 import { IoCart } from "react-icons/io5";
 import { PiShieldWarningFill } from "react-icons/pi";
 import { RiLock2Fill } from "react-icons/ri";
+import { IoMdMenu } from "react-icons/io";
 
 
 import SearchBox from "../searchBox/SearchBox";
@@ -59,15 +60,14 @@ const Header = () => {
   setcartOpen(() => !cartOpen);
  }
 
-
-
   return (
     <>
       <header className="d-flex align-items-center shadow-sm">
         <div className="container-fluid">
            <div className="row header-row ">
 
-            <div className="col-sm-2 part1 ">
+         {/********  header part 1  ********/}
+            <div className="col-sm-2 col-md-12 part1 menu-option ">
               {/* logo part  */}
                 <div className="logo">
                    <Link to="/" className="d-flex align-items-center ">
@@ -75,11 +75,18 @@ const Header = () => {
                        <span className="logo-name "> HOTASH </span>
                      </Link>
                 </div>
+                <div className="mobile-menu">
+                   <button onClick={() => alert("wait")} 
+                   > 
+                     <IoMdMenu /> 
+                  </button>
+                </div>
             </div>
 
-             <div className="col-sm-3 part2 ">
+         {/********  header part 2  ********/}
+             <div className="col-sm-3 part2 mobile-hide">
                 <div className="menu-part ">
-                  <button className="open-btn " onClick={() => context.setIsToggleSideBar(!context.isToggleSidebar)}> 
+                  <button className="open-btn mobile-none" onClick={() => context.setIsToggleSideBar(!context.isToggleSidebar)}> 
                   {
                      context.isToggleSidebar === false ?  <MdMenuOpen />  :  <IoMenu /> 
                   }
@@ -91,15 +98,21 @@ const Header = () => {
                 </div>
              </div>
 
+         {/********  header part 3  ********/}
             <div className="col-sm-7 part3 ">
              <div className="menu-part menu-last ">
+                  {/* tablet show search box */}
+                  <div className="search-box tablet-show-search ">
+                    <SearchBox /> 
+                  </div>
+              
+                
                   <button className="open-btn " onClick={() => context.setThemeMode(!context.themeMode)} >
                     {
                      context.themeMode === true ?  <MdOutlineLightMode />  :  <CiDark /> 
                     }
-                     
-                      
-                      </button>
+                  </button>
+
                   <button className="open-btn cart-icon-top " onClick={handleOpenCart}> <IoCart /> 
                     <div className="topper-box"> 
                         <span> 25 </span>
@@ -186,8 +199,7 @@ const Header = () => {
                     </div>
                   }
                   
-
-
+                  {/**** mail box  ******/}
                   <button className="open-btn " onClick={handleOpenMail}> <IoMdMail /> 
                     <div className="topper-box"> 
                         <span> 5 </span>
@@ -274,6 +286,7 @@ const Header = () => {
                     </div>
                   }
                   
+                  {/**** notofication box *****/}
                   <button className="open-btn " onClick={handleOpenNoti} > 
                   <IoIosNotifications /> 
                      <div className="topper-box"> 
@@ -371,7 +384,6 @@ const Header = () => {
                     </div>
                   }
                   
-
                   {
                      isLogin !== true ? <Link to="/login"> <button className="signUp-btn"> Sign Up </button> </Link>  :
                      <button className="myAcc d-flex align-items-center" onClick={handleOpen}>
@@ -395,8 +407,6 @@ const Header = () => {
                    </button>
                   }
                   
-
-              
                  {
                   openDrop === true && 
                   <ul className="dropdown-menu-item shadow">
@@ -406,10 +416,8 @@ const Header = () => {
                   </ul>
                  }
                  
-                 
               </div>
            </div>
-
 
            </div>
         </div>

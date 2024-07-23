@@ -45,6 +45,7 @@ import Color from "../pages/uiPages/color/Color";
 import ChartP from "../pages/uiPages/charts/ChartP";
 import Fields from "../pages/otherPage/fields/Fields";
 import Table from "../pages/uiPages/table/Table";
+import NotFound from "../pages/notFound/NotFound";
 
 
 // create private router 
@@ -71,18 +72,6 @@ export const privateRoute = [
           {
             path : "/crm",
             element : <Crm /> 
-          },
-          {
-            path : "/login",
-            element : <Login />
-          },
-          {
-            path : "/register",
-            element : <Register /> 
-          },
-          {
-            path : "/forget",
-            element : <Forget /> 
           },
           {
             path : "/product-list",
@@ -133,6 +122,18 @@ export const privateRoute = [
             element : <UserProfile /> 
           },
           {
+            path : "/login",
+            element : <Login />
+          },
+          {
+            path : "/register",
+            element : <Register /> 
+          },
+          {
+            path : "/forget",
+            element : <Forget /> 
+          },
+          {
             path : "/my-account",
             element : <MyAccount /> 
           },
@@ -149,8 +150,8 @@ export const privateRoute = [
             element : <Documentation />
           },
           {
-          path : "/change-log",
-          element : <ChangeLog /> 
+            path : "/change-log",
+            element : <ChangeLog /> 
           },
           {
             path : "/alert",
@@ -183,9 +184,11 @@ export const privateRoute = [
           {
             path : "/tables",
             element : <Table /> 
+          },
+          {
+            path : "*",
+            element : <NotFound />
           }
-
-
 
         ]
       },

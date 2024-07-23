@@ -4,7 +4,6 @@
   padding: 30px 30px;
   z-index: -1;
 }
-
 .loginSection .loginBox h3{
   width: 80px;
   color: var(--heading-color);
@@ -42,7 +41,6 @@ body.dark .loginSection .loginBox h4 {
   font-size: 17px;
   margin-bottom: 40px;
 }
-
 body.dark .banner-content p , body.dark  .banner-content h2 {
   color: var(--dark-text-color);
 }
@@ -52,7 +50,6 @@ body.dark .banner-content p , body.dark  .banner-content h2 {
   font-weight: 500;
   font-size: 16px;
 }
-
 .banner-content button.my-btn.home-page a{
   text-transform: uppercase;
 }
@@ -104,7 +101,6 @@ form .mb-3 .form-select{
   background-color: transparent !important;
 } 
 form .mb-3 .form-select:focus{
-  
   outline: none;
   box-shadow: none;
   border: 1px solid  var(--secondary-color);
@@ -132,7 +128,6 @@ form input span.checkBox{
 .forget a:hover{
 text-decoration: underline;
 }
-
 .or-div{
 margin-bottom: 10px;
 position: relative;
@@ -181,14 +176,12 @@ position: relative;
   color: #fff;
   font-size: 14px;
   text-transform: capitalize;
-
 }
 .my-btn.twiter{
   background-color: #00acee;
 }
 .my-btn.twiter svg{
  margin-right: 8px;
- 
 }
 .my-btn.facebook{
   background-color: #3b5998;
@@ -209,7 +202,6 @@ position: relative;
 .wrapperCard p a{
   font-size: 15px;
   font-weight: 600;
-
 }
 .wrapperCard p a:hover{
   text-decoration: underline;
@@ -219,9 +211,68 @@ body.dark .or-div p, body.dark .forget a,
 body.dark .wrapperCard{
   background-color: var(--dark-bg-color);
 }
-
 body.dark span.checkBox {
   color: var(--dark-text-color);
 }
+
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 576px){
+.loginSection.register {
+  padding: 30px 10px;
+}
+.banner-content{
+  text-align: center;
+}
+.banner-content h2 {
+  font-size: 19px;
+  font-weight: 700;
+}
+.loginSection .loginBox {
+  margin-top: 32px;
+}
+.loginSection .form-wrapper.res-form {
+  width: 345px;
+}
+.wrapperCard.card.shadow {
+  width: 100%;
+}
+
+}
+
+/****** Responsive csss ******/
+
+@media (min-width : 576px) and (max-width: 768px){
+.register-part{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.col-sm-7.left-part1 {
+ width: 100%;
+}
+.banner-content {
+  text-align: center;
+}
+.banner-content h2 {
+  font-size: 33px;
+  text-align: center;
+}
+.banner-content p {
+  text-align: center;
+}
+.register-right-part{
+  width: 100% !important;
+}
+.loginSection .loginBox {
+  margin-bottom: 20px;
+}
+.loginSection .form-wrapper.res-form {
+  margin: auto;
+  
+}
+
+} 
+
+
 
 

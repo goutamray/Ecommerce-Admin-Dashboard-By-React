@@ -16,11 +16,9 @@
   position: relative;
   padding: 20px;
 }
-
 body.dark .card.shadow.p-3.analytic-part , body.dark  .card.shadow.p-3.overview-part{
   background-color: var(--dark-bg-color);
 }
-
 .revenue-part {
   display: flex;
   justify-content: space-between;
@@ -128,10 +126,55 @@ body.dark .country .single-country .seo p
 }
 
 
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 576px){
+.box-div {
+    flex-direction: column;
+}
+.box-div.analytics .dashboardBox {
+  width: 100% !important;
+  height: 180px;
+  background-color: var(--dark-text-color);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding: 20px;
+}
+.card.shadow.p-3.overview-part {
+  margin-top: 15px;
+}
+.single-chart {
+  height: 205px !important;
+  width: 100%;
+}
 
 
+}
+
+/******** min-width : 576px  and max-width : 768px ********/
+@media (min-width : 576px) and (max-width: 768px){
+.box-div.analytics .dashboardBox {
+  width: 46% !important;
+}
+.visitor-part {
+  display: flex;
+  flex-direction: column;
+}
+.col-sm-7.visitor-part-left {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.col-sm-5.visitor-part-right {
+  flex: 0 0 auto;
+  width: 100%;
+  margin-top: 20px;
+}
 
 
+}
 
 
 

@@ -1,5 +1,5 @@
 
-/* 2nd part  */
+/****** 2nd part  ********/
 .revenue-part {
   display: flex;
   justify-content: space-between;
@@ -46,7 +46,6 @@ input.form-control:focus, textarea.form-control:focus, select.form-control:focus
 .row .right-part2-category{
   width: 75% !important;
 }
-
 .row .col-sm-2.cat-btn{
   width: 25% !important;
 }
@@ -94,26 +93,58 @@ input.form-control:focus, textarea.form-control:focus, select.form-control:focus
   color: var(--heading-color);
   cursor: pointer;
 }
-
 body.dark .card.p-4.mt-4.shadow.size-color{
   background-color: var(--dark-bg-color);
 }
-
 body.dark .card.shadow.p-3.media-image{
   background-color: var(--dark-bg-color);
 }
-
 body.dark .product-image-upload .box-product-1 a , body.dark  .product-image-upload .box-product-1 .collection svg{
   color: var(--dark-text-color);
 }
-
 body.dark  .col-sm-10.right-part2-category input::-webkit-input-placeholder {
   color: var(--dark-text-color);
 }
-
 body.dark  .col-sm-6 input::-webkit-input-placeholder, 
 body.dark  .title input::-webkit-input-placeholder, 
 body.dark .description textarea::-webkit-input-placeholder{
   color: var(--dark-text-color);
 }
+
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 576px){
+ .product-image-upload {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.product-image-upload .box-product-1 {
+  width: 48%;
+}
+
+}
+
+@media (min-width : 576px) and (max-width: 768px){
+.product-upload-part{
+  display: flex;
+  flex-direction: column;
+}
+.col-sm-7.upload-part1{
+ width: 100%;
+}
+.col-sm-5.upload-part2{
+  width: 100%;
+  margin-top: 20px;
+}
+.product-image-upload {
+  flex-wrap: wrap !important;
+  gap: 10px;
+}
+.product-image-upload .box-product-1 {
+  width: 47%;
+}
+
+}
+
+
 

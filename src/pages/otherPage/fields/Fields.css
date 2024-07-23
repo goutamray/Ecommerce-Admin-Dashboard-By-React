@@ -4,30 +4,24 @@
    font-weight: 500;
    color: var(--heading-color);
 }
-
 .mb-3.custon-field{
   position: relative;
 }
-
 .mb-3.custon-field input, .mb-3.custon-field select {
   padding: 10px 35px;
   background-color: #f8f8f8 !important;
 }
-
 .mb-3.custon-field input.abcde, .mb-3.custon-field select.abcde {
   padding: 13px 35px;
   background-color: #f8f8f8 !important;
 }
-
 .mb-3.custon-field input.defg, .mb-3.custon-field select.defg {
   padding: 13px 35px;
   background-color: #f8f8f8 !important;
 }
-
 input.form-control, textarea.form-control, select.form-control {
   background-color: #f8f8f8;
 }
-
 .mb-3.custon-field span.icon {
   position: absolute;
   left: 10px;
@@ -40,14 +34,12 @@ input.form-control, textarea.form-control, select.form-control {
   top: 32px;
   font-size: 20px;
 }
-
 h4.custom-size{
   font-size: 16px;
   font-weight: 600;
   color: var(--heading-color);
   margin-top: 25px;
 }
-
 label{
   font-size: 12px;
   font-weight: 700;
@@ -57,11 +49,9 @@ label{
 body.dark .card.p-3.my-5.shadow{
   background-color: var(--dark-bg-color);
 }
-
 body.dark .fields-header h4{
   color: var(--dark-text-color);
 }
-
 body.dark .head-line{
   color: var(--dark-text-color);
 }
@@ -73,13 +63,11 @@ body.dark .mb-3.custon-field select {
   background-color: #364a76 !important;
   border: none;
 }
-
 body.dark  .mb-3.custon-field input.abcde, 
 body.dark  .mb-3.custon-field select.abcde {
   background-color: #364a76 !important;
   border: none;
 }
-
 body.dark  .mb-3.custon-field input.defg, 
 body.dark  .mb-3.custon-field select.defg {
   background-color: #364a76 !important;

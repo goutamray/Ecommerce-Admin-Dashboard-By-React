@@ -11,11 +11,9 @@
  padding: 0px;
  margin-left: -10px;
 }
-
 .search-box .left-search span{
  margin: 0px;
 }
-
 .search-box .left-search span svg{
   position: relative;
   left: 28px;
@@ -44,14 +42,14 @@
   text-align: center;
   width: 35px;
 }
-
 body.dark .search-box p{
   background-color: var(--dark-bg-color);
 }
 body.dark .search-box p svg, body.dark .search-box .left-search span svg {
   color: var(--dark-text-color);
 }
-/* bottom css*/
+
+/****** bottom css*******/
 .bottom-bar-notification {
   height: auto !important;
   max-height: 100% !important;
@@ -65,16 +63,13 @@ body.dark .search-box p svg, body.dark .search-box .left-search span svg {
   padding: 2px 10px !important;
   border-radius: 8px;
 }
-
 body.dark .bottom-bar-notification .single-item-noti{
   background-color: #12254e !important;
   color: var(--dark-text-color);
-
 }
 body.dark .bottom-bar-notification .single-item-noti svg{
   color: var(--dark-text-color);
 }
-
 .bottom-bar-notification .single-item-noti.custom{
   display: flex;
   align-items: center;
@@ -96,7 +91,6 @@ body.dark .bottom-bar-notification .single-item-noti svg{
   cursor: pointer;
   margin-top: 5px;
 }
-
 .bottom-bar-notification .single-item-noti .not-image  .media-act {
   position: relative;
   width: 12px;
@@ -119,7 +113,6 @@ body.dark .bottom-bar-notification .single-item-noti svg{
   top: -12px !important;
   border: 1px solid var(--dark-text-color);
 }
-
 .bottom-bar-notification .single-item-noti .not-image  img{
   width: 40px !important;
   height: 40px !important;
@@ -161,17 +154,14 @@ padding: 2px;
   font-weight: 600;
   margin-top: 5px;
 }
-
 .single-item-noti.custom.my-2.no-bg{
   background-color: var(--dark-text-color) !important;
   border-bottom: 1px solid var(--dark-text-color);
 } 
-
 .bottom-bar-notification .single-item-noti .noti-drop button{
    border: none;
    background: transparent;
 }
-
 .bottom-bar-notification .single-item-noti .noti-drop button.message-trash{
   width: 30px;
   height: 30px;
@@ -179,7 +169,6 @@ padding: 2px;
   background-color: var(--dark-text-color);
   border-radius: 50%;
 }
-
 body.dark .bottom-bar-notification .single-item-noti .noti-drop button.message-trash{
   background-color: #071739;
   transition: all 0.3s ease-in-out;
@@ -197,12 +186,11 @@ body.dark .bottom-bar-notification .single-item-noti .noti-drop button.message-t
    border-radius: 50%;
    line-height: 25px;
 }
-
 .bottom-bar-notification .single-item-noti .noti-drop button svg{
 font-size: 16px;
 }
 
-/* chat message part css */
+/******* chat message part css ********/
 .client-message ul li{
    display: flex;
    align-items: end;
@@ -246,7 +234,6 @@ font-size: 16px;
 body.dark .client-message p{
   background-color: transparent;
 }
-
 .user-message-replay ul li{
    display: flex;
    align-items: end;
@@ -261,7 +248,6 @@ body.dark .client-message p{
   justify-content: flex-end;
   flex-direction: column;
 }
-
 .user-message-replay ul li .client-message p.first-message{
   background-color: #f0f0f0;
   padding: 10px;
@@ -278,18 +264,14 @@ body.dark .client-message p{
   font-size: 13px;
   color: var(--primary-color);
 }
-
-
 .user-message-replay ul li .client-photo img{
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
-
 .user-message-replay .chat-text2 p.second{
   background-color: #dae6fe;
 }
-
 .message-part-body{
   height: 350px;
   overflow-y: scroll;
@@ -331,21 +313,17 @@ body.dark .client-message p{
 .send-message-part span svg{
   color: #fff;
 }
-
 body.dark .card.px-2.py-4.left-user-search, body.dark .bottom-bar-notification .single-item-noti.custom.my-2.no-bg,  body.dark .left-search input {
 background-color: #112143 !important; 
 border: none !important;
 }
-
 body.dark .left-search input {
 background-color: #071739 !important; 
 border: 1px solid rgb(243, 243, 243, 0.2) !important;
 }
-
 body.dark .card.p-4.shadow.message-and-replay{
   background-color: #112143 !important;  
 }
-
 body.dark .user-message-replay .chat-text2 p.second ,
 body.dark  .user-message-replay ul li .client-message p.first-message ,
 body.dark .user-message-replay ul li .client-message p.first-message.second ,
@@ -354,12 +332,61 @@ body.dark  .chat-text2 p{
   background-color: #132c5f !important; 
   color: var(--dark-text-color);
 }
-
 body.dark .client-message p{
   color: var(--dark-text-color);
 }
-
-
 body.dark .send-message-part input{
   background-color: #132c5f !important; 
 }
+.custom-name{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 576px){
+.search-box {
+    align-items: start; 
+    flex-direction: column;
+}
+.bottom-bar-notification.single-item-noti.custom {
+  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+
+.comment-first{
+  display: flex;
+
+}
+.single-item-noti.abcde.custom.my-2.no-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.card.p-4.shadow.message-and-replay {
+  margin-top: 20px;
+}
+.client-message ul li .client-message p.first-message {
+  width: auto;
+}
+.client-message .chat-text2 p {
+  width: auto;
+}
+.client-message ul li .client-photo {
+  width: 20%;
+}
+.user-message-replay ul li .client-message p.first-message.second {
+  width: auto;
+}
+
+
+
+}
+
+
+
+
+

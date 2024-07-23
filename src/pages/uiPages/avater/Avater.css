@@ -56,3 +56,19 @@ body.dark .card.p-3.my-4.shadow.custom-ava{
 body.dark .custom-ava h4{
    color: var(--dark-text-color);
 }
+
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 576px){
+.custom-avater {
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+}
+
+
+
+
+

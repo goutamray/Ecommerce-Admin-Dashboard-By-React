@@ -3,11 +3,10 @@
   font-size: 16px !important;
   font-weight: 600;
 }
-
 .col1 span{
  font-size: 32px !important;
  font-weight: 600;
-}
+} 
 .ml-auto .icon {
 height: 50px;
 display: block;
@@ -23,8 +22,6 @@ font-size: 25px;
 
 opacity: 0.5;
 }
-
-
 .last-month-box h4{
 font-size: 14px;
 text-transform: capitalize;
@@ -34,17 +31,13 @@ color: #fff;
 background: transparent;
 border: none;
 }
-
 .last-month-box button svg{
 font-size: 18px;
 color: #fff;
 }
-
-
 .dot-icon.analy button{
 position: relative;
 }
-
 .dot-icon.analy  ul {
   position: absolute;
   right: 15px;
@@ -55,7 +48,6 @@ position: relative;
   border-radius: 5px;
   z-index: 999 !important;
 }
-
 .dot-icon.analy  ul li{
 padding: 5px ;
 }
@@ -66,18 +58,15 @@ padding: 5px ;
  margin-left: 3px;
  text-transform: capitalize;
 }
-
 .dot-icon.analy  ul li a span svg{
 cursor: pointer;
 }
-
 .dashboardBox.analyticks .cart{
   font-size: 70px;
   position: absolute;
   left: 20px;
   top: 40%;
 }
-
 .dashboardBox.analyticks .cart svg{
 color: #ffffff3b;
 }

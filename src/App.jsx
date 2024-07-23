@@ -31,8 +31,10 @@ function App() {
     themeMode,
     setThemeMode, 
 
+  
   }
- 
+
+
   return (
     <>
       <MyContext.Provider value={values}> 
@@ -44,4 +46,4 @@ function App() {
 
 export default App;
 
-export {MyContext}; 
+export { MyContext }; 

@@ -62,8 +62,8 @@ const ChartP = () => {
       <div className="right-content">
         <BreadCrumb title={"Charts Variant"} page={"User Interface"}/>
 
-        <div className="row my-5">
-          <div className="col-sm-7">
+        <div className="row my-5 revenue-box-part">
+          <div className="col-sm-7 revenue-box-part-left">
              <div className="step-area-chart">
                  <h3> Step Area Chart </h3>
                  <div className="card p-3 shadow my-4">
@@ -130,7 +130,7 @@ const ChartP = () => {
                  </div>
              </div>
           </div>
-          <div className="col-sm-5">
+          <div className="col-sm-5 revenue-box-part-right">
             <div className="step-pie-chart">
                  <h3> Round Pie Chart</h3>
                  <div className="card p-3 shadow my-4">
@@ -192,8 +192,8 @@ const ChartP = () => {
           </div>
         </div>
 
-        <div className="row my-5">
-          <div className="col-sm-7">
+        <div className="row my-5 dashboard-div">
+          <div className="col-sm-7 box-div">
              <div className="step-area-chart">
                  <h3> Arrow Icon Chart </h3>
                  <div className="col-sm-8 box-div abcd">
@@ -205,7 +205,7 @@ const ChartP = () => {
              </div>
                  </div>
              </div>
-             <div className="col-sm-5">
+             <div className="col-sm-5 box-div2">
                 <div className="step-pie-chart">
                     <h3> Natural Area Chart </h3>
                     <div className="anotherBox">

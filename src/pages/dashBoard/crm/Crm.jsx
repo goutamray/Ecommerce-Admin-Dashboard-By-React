@@ -22,7 +22,6 @@ const Crm = () => {
       <div className="right-content">
         <BreadCrumb title={"Crm"} page={"DashBoard"}/> 
        
-
         <div className="row my-3 crm-part ">
           <div className="col-sm-12">
             <div className="ppp-chart">
@@ -85,7 +84,7 @@ const Crm = () => {
            </div>
 
 
-              <div className="table-responsive">
+              <div className="table-responsive custom-table">
               <table className="table table-bordered table-striped">
                 <thead >
                     <tr className="table-primary">
@@ -137,7 +136,7 @@ const Crm = () => {
                         </div>
                       </div>
                     </td>
-                    <td> developergoutam53@gmail.com  </td>
+                    <td> devgoutam53@gmail.com  </td>
                     <td> $5,347.00 </td>
                    
                     <td><p className="new"> New Leads </p> </td>
@@ -253,6 +252,7 @@ const Crm = () => {
 
                 </tbody>
               </table>
+
               <div className="table-footer">
                 <div className="footer-left">
                     <p> showing <b> 12 </b>  of <b> 60 </b> results </p>

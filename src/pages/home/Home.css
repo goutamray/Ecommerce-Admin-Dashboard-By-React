@@ -6,28 +6,26 @@
 
   transition: all 0.3s ease-in-out;
 }
-
 .row .col-sm-2.toggle{
   width: 0%;
   flex: 0 0 0%;
 
   opacity: 0;
 }
-
 .row .col-sm-2 .side-bar{
   transition: all 0.3s ease-in-out;
 }
-
 .row .col-sm-2.toggle .side-barr{
 left: -100%;
 }
+
+
 
 .row .col-sm-10.output{
   width: 80%;
   transition: all 0.3s ease-in-out;
   padding: 0px !important;
 }
-
 body.dark .row .col-sm-10.output{
   background-color: #071739 !important;
 }
@@ -37,8 +35,32 @@ body.dark .row .col-sm-10.output{
   flex: 0 0 100%;
 }
 
+/**** Responsive css ******/
+@media (min-width : 320px) and (max-width: 786px){
+  .row .col-sm-2 {
+    width: 0%;
+    flex: 0 0 0%;
+    padding: 0px 10px !important;
+    transition: all 0.3s ease-in-out;
+}
+.row .col-sm-10.output {
+  width: 92%;
+  transition: all 0.3s ease-in-out;
+  padding: 0px !important;
+}
 
 
+}
+
+
+@media (min-width : 576px) and (max-width: 768px){
+.row .col-sm-10.output {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  padding: 0px !important;
+}
+
+}
 
 
 

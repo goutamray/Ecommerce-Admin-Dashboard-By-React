@@ -133,8 +133,9 @@ const Message = () => {
              <div className="message-top-bar">
 
                <div className="bottom-bar-notification chat-message ">
-                   <div className="single-item-noti custom my-2 no-bg ">
-                         <div className="not-image">
+                   <div className="single-item-noti abcde custom my-2 no-bg ">
+                     <div className="custom-name">
+                        <div className="not-image">
                             <img src={photo} alt="" className="mail-img "/>
                             <div className="media-act "> </div>
                          </div>
@@ -142,18 +143,24 @@ const Message = () => {
                               <h4> <span> <b>Goutam ray </b> ~ Now  </span></h4>
                               <h6> active now </h6>
                          </div>
-                         <div className="noti-drop">
-                            <button className="message-trash"> <FaFacebookMessenger /> </button>
-                         </div>
-                         <div className="noti-drop">
-                            <button className="message-trash"> <FaTrash /> </button>
-                         </div>
-                         <div className="noti-drop">
-                            <button className="message-trash"> <MdMarkChatRead /> </button>
-                         </div>
-                         <div className="noti-drop">
-                            <button className="message-trash"> <FaRegUserCircle /> </button>
-                         </div>
+                     </div>
+                        
+
+                        <div className="d-flex gap-2">
+                           <div className="noti-drop">
+                              <button className="message-trash"> <FaFacebookMessenger /> </button>
+                           </div>
+                           <div className="noti-drop">
+                              <button className="message-trash"> <FaTrash /> </button>
+                           </div>
+                           <div className="noti-drop">
+                              <button className="message-trash"> <MdMarkChatRead /> </button>
+                           </div>
+                           <div className="noti-drop">
+                              <button className="message-trash"> <FaRegUserCircle /> </button>
+                           </div>
+                        </div>
+                   
                       
                     </div>
 

@@ -13,7 +13,6 @@
 .first-box img{
   padding: 10px 20px;
 }
-
 .footer-text{
   text-align: center;
 }
@@ -22,11 +21,22 @@
   font-weight: 700;
   padding: 30px 0px;
 }
-
 body.dark .card.p-4.shadow.my-4.document{
   background-color: var(--dark-bg-color);
 }
-
 body.dark .footer-text h1, body.dark .first-box h2, body.dark .first-box p {
   color: var(--dark-text-color);
 }
+
+
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 576px){
+.footer-text h1 {
+    font-size: 22px;
+}
+
+
+}
+
+
+

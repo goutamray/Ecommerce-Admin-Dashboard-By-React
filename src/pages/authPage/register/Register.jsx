@@ -1,16 +1,17 @@
 import logo from "../../../assets/img/logo.webp"
 import { Link } from "react-router-dom";
+import { useContext, useEffect, useState } from "react";
 
-
+// react icons 
 import { FaEnvelope , FaFacebookF , FaGoogle, FaRegUserCircle} from "react-icons/fa";
 import { BiSolidLock } from "react-icons/bi";
 import { MdOutlineVerifiedUser } from "react-icons/md";
 import { MdHome } from "react-icons/md";
 import { IoEyeOutline } from "react-icons/io5";
  import { FaRegEyeSlash } from "react-icons/fa"; 
+ import { MyContext } from "../../../App";
 
 import "./Register.css";
-import { useEffect, useState } from "react";
 const Register = () => {
   const [openPass, setOpenPass ] = useState(false); 
   const [openPass2, setOpenPass2 ] = useState(false); 
@@ -23,12 +24,17 @@ const Register = () => {
       window.scrollTo(0,0)
     }, []); 
 
+    const context = useContext(MyContext)
+
+    useEffect(() => {
+      context.setIsHeaderFooterShow(false); 
+    }, [context]);  
 
   return (
     <>
       <section className="loginSection register">
         <div className="container">
-          <div className="row">
+          <div className="row register-part ">
               <div className="col-sm-7 left-part1 ">
                    <div className="banner-content">
                       <h2> Best ux/ui fashion <br/> <span style={{color : "#0858f7"}}> ecommerce dashboard  </span> <br/>  & admin panel </h2>
@@ -37,7 +43,7 @@ const Register = () => {
                    </div>
               </div>
 
-              <div className="col-sm-5 ">
+              <div className="col-sm-5 register-right-part ">
                  <div className="loginBox">
                    <img src={logo} alt="" />
                    <h4> Register a new account </h4>
@@ -85,7 +91,7 @@ const Register = () => {
                     <button type="submit" className="my-btn w-100 "> <a href=""> Sign up </a> </button>
                    </form>
                    <div className="forget my-2">
-                    <Link href="/"> FORGOT PASSWORD </Link>
+                    <Link to="/forget"> FORGOT PASSWORD </Link>
                    </div>
                    <div className="or-div">
                        <p> or </p>

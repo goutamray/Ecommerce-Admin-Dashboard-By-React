@@ -1,9 +1,8 @@
 
-/* setting part css */
+/******* setting part css **********/
 .left-setting{
   position: relative;
 }
-
 .left-setting h6::after{
    content: "";
   height: 1px;
@@ -13,7 +12,6 @@
   top: 50%;
   left: 10%; 
 }
-
 p.same-title{
   font-size: 12px;
   font-weight: 700;
@@ -21,41 +19,34 @@ p.same-title{
   margin-bottom: 10px;
   margin-top: 20px;
 }
-
 body.dark p.same-title{
   color: var(--dark-text-color);
 }
-
 input.form-control, textarea.form-control, select.form-control{
   background-color: #f4f4f4;
   color: #66769b;
 }
-
 body.dark input.form-control, body.dark textarea.form-control, body.dark select.form-control{
   background-color: #364a76;
   color: var(--dark-text-color);
   border: none;
 }
-
 input.form-control:focus, textarea.form-control:focus, select.form-control:focus{
   box-shadow: none;
   outline: none;
 }
-
 .left-box-check p{
   font-size: 16px;
   font-weight: 400;
   color: var(--primary-color);
   padding-right: 10px;
 }
-
 .checked-message li{
  padding: 4px 0px;
  font-size: 16px;
  font-weight: 400;
  color: var(--primary-color);
 }
-
 .save-btn button{
   font-size: 13px;
   font-weight: 600;
@@ -65,21 +56,31 @@ input.form-control:focus, textarea.form-control:focus, select.form-control:focus
   align-items: center;
   gap: 5px;
 }
-
 .save-btn button span svg{
   font-size: 20px;
   font-weight: 600;
   color: #fff;
 }
-
 body.dark .card.p-5.shadow.mt-4.setting-page{
   background-color: #112143;
  }
-
- body.dark .left-box-check p, body.dark .left-setting h6,   body.dark p.left-message  {
+body.dark .left-box-check p, body.dark .left-setting h6,   body.dark p.left-message  {
   color: var(--dark-text-color);
- }
-
- body.dark  .checked-message li{
+}
+body.dark  .checked-message li{
   color: var(--dark-text-color);
- }
+}
+
+
+
+/****** Responsive css  **********/
+@media (min-width : 576px) and (max-width: 768px){
+p.left-message {
+  margin-top: 17px;
+}
+
+}
+
+
+
+

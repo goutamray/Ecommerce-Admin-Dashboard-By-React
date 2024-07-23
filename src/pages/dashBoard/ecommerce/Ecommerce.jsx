@@ -1,5 +1,5 @@
 
-import { useEffect } from "react";
+import {  useEffect } from "react";
 import { Chart } from "react-google-charts";
 
 // react icons 
@@ -60,7 +60,9 @@ export const data3 = [
 
 
 import "./Ecommerce.css";
+
 const Ecommerce = () => {
+
 
   useEffect(() => {
     window.scrollTo(0,0)
@@ -72,8 +74,7 @@ const Ecommerce = () => {
       <div className="right-content">
         <BreadCrumb title={"Ecommerce"} page={"DashBoard"}/>
 
-
-        <div className="row">
+        <div className="row dashboard-div">
           <div className="col-sm-8 box-div ">
               <DashBoardBox color={["#1ba054", "#4dd988"]} total={278} icon={< FaRegUserCircle/> } grow={true} discountColor={"#187d44"} discount={"+35%"} />
               <DashBoardBox color={["#bf10e1", "#ed67ff"]} total={325}  icon={< FaCartArrowDown /> } discountColor={"#a808c3"} discount={"+20%"}/>
@@ -81,7 +82,7 @@ const Ecommerce = () => {
 
               <DashBoardBox color={["#e1950e", "#f4cf2b"]} total={120} icon={< TbStars/> } grow={true} discountColor={"#ae640f"} discount={"+45%"} />
           </div>
-          <div className="col-sm-4">
+          <div className="col-sm-4 box-div2">
              <div className="anotherBox">
                  <div className="right-box">
                   <h4> Total Sales </h4>
@@ -422,8 +423,8 @@ const Ecommerce = () => {
            </div>
         </div>
 
-        <div className="row my-3">
-          <div className="col-sm-8">
+        <div className="row my-3 revenue-box-part ">
+          <div className="col-sm-8 revenue-box-part-left ">
              <div className="card shadow p-3 abcd">
                  <div className="revenue-part">
                    <div className="rev-text">
@@ -486,7 +487,7 @@ const Ecommerce = () => {
              </div>
           </div>
           
-          <div className="col-sm-4">
+          <div className="col-sm-4 revenue-box-part-right">
             <div className="card shadow p-3 right-part2 ">
                 <div className="revenue-part">
                    <div className="rev-text">

@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   padding: 0px 15px;
+  margin-bottom: 0px !important;
 }
 body.dark .searchbox {
   background-color: #12254e !important;
@@ -15,20 +16,16 @@ body.dark .searchbox {
 body.dark .searchbox {
   color: #fff !important;
 }
-
 .searchbox .icon svg{
    font-size: 20px;
    margin-right: 10px;
 }
- 
 body.dark .searchbox .icon svg{
   color: var(--dark-text-color);
 }
-
 .searchbox input::-webkit-input-placeholder{
     color: var(--dark-text-color);
 }
-
 .searchbox input{
   background-color: transparent;
   border: none;

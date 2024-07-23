@@ -52,3 +52,17 @@ body.dark .logo-part h2 , body.dark .content-react h1, body.dark .content-react 
   color: var(--dark-text-color);
 }
 
+
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 576px){
+.content-react h1 {
+    font-size: 28px;
+}
+.all-error img {
+  width: 200px !important;
+}
+
+
+}
+
+
