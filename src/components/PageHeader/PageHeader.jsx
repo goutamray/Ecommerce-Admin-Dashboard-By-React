@@ -2,9 +2,6 @@ import favicon from "../../assets/img/logo.webp";
 
 import { Helmet } from "react-helmet";
 
-
-
-
 const PageHeader = ({ title }) => {
   return (
     <>

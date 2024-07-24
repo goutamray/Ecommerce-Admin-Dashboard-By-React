@@ -8,8 +8,8 @@ import { BiSolidLock } from "react-icons/bi";
 import { MdOutlineVerifiedUser } from "react-icons/md";
 import { MdHome } from "react-icons/md";
 import { IoEyeOutline } from "react-icons/io5";
- import { FaRegEyeSlash } from "react-icons/fa"; 
- import { MyContext } from "../../../App";
+import { FaRegEyeSlash } from "react-icons/fa"; 
+import { MyContext } from "../../../App";
 
 import "./Register.css";
 const Register = () => {

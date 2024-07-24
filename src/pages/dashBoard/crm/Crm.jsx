@@ -1,16 +1,19 @@
 
+// react icons 
 import { FaAngleLeft, FaAngleRight, FaRegEye, FaTrashAlt } from "react-icons/fa";
 import { BiSolidDownload } from "react-icons/bi";
 import { HiDotsHorizontal } from "react-icons/hi";
 
+// images 
 import goutam from "../../../assets/img/goutam.png"
+
 import Chart2 from "../../../components/chart/Chart2";
 
 import { useEffect } from "react";
-
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
 
 import "./Crm.css"; 
+
 const Crm = () => {
 
   useEffect(() => {

@@ -1,10 +1,12 @@
-import { MdOutlineVerifiedUser } from "react-icons/md";
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb"
 
+// react icons 
+import { MdOutlineVerifiedUser } from "react-icons/md";
 import { IoMail } from "react-icons/io5";
 
 
 import "./Fields.css"; 
+
 const Fields = () => {
   return (
     <>

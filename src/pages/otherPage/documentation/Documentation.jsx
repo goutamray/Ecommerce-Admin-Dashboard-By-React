@@ -1,4 +1,5 @@
 
+// images 
 import doc1 from "../../../assets/document/Screenshot_1.png"
 import doc2 from "../../../assets/document/Screenshot_2.png"
 import doc3 from "../../../assets/document/Screenshot_3.png"
@@ -7,7 +8,9 @@ import doc5 from "../../../assets/document/Screenshot_5.png"
 import doc6 from "../../../assets/document/Screenshot_6.png"
 
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
+
 import "./Documentation.css"; 
+
 const Documentation = () => {
   return (
     <>

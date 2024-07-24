@@ -1,13 +1,16 @@
-import { FaAngleLeft, FaAngleRight, FaRegEye, FaShoppingBag,  FaTrashAlt } from "react-icons/fa";
 
+// react icons 
+import { FaAngleLeft, FaAngleRight, FaRegEye, FaShoppingBag,  FaTrashAlt } from "react-icons/fa";
 import { HiDotsCircleHorizontal, HiDotsHorizontal } from "react-icons/hi";
 import { FaCarAlt } from "react-icons/fa";
 import { BiSolidDownload } from "react-icons/bi";
+
+// image
 import goutam from "../../assets/img/goutam.png"
 
+import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 
 import "./OrderList.css"; 
-import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 
 const OrderList = () => {
   return ( 

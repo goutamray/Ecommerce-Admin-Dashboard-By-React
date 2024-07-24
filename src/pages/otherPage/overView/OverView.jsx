@@ -1,11 +1,13 @@
 
-
- import logo from "../../../assets/img/logo.webp"; 
+// images 
+import logo from "../../../assets/img/logo.webp"; 
 import bootstrap from "../../../assets/img/bs.webp"
 import react from "../../../assets/img/react.webp"
 
-import "./OverView.css"; 
 import { Link } from "react-router-dom";
+
+import "./OverView.css"; 
+
 const OverView = () => {
   return (
     <>

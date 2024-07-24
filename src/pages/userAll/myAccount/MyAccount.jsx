@@ -1,6 +1,8 @@
 
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
 import goutam from "../../../assets/img/goutam.png"
+
+// react icons 
 import { FaCloudUploadAlt } from "react-icons/fa"; 
 import { MdOutlineVerified } from "react-icons/md";
 import { IoIosLock } from "react-icons/io";
@@ -12,12 +14,13 @@ import { MdVerifiedUser } from "react-icons/md";
 import { useState } from "react";
 
 import "./MyAccount.css"; 
+
 const MyAccount = () => {
+
    const [activeTab, setActiveTab] = useState(0); 
    const [open , setOpen] = useState(false)
    const [open2 , setOpen2] = useState(false)
    const [open3 , setOpen3] = useState(false)
-
 
 
   return (

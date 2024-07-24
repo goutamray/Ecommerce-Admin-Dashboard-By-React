@@ -1,8 +1,10 @@
 
+// react icons 
 import { HiDotsHorizontal } from "react-icons/hi";
 import { MdOutlineCollections } from "react-icons/md";
 import { FaCloudUploadAlt } from "react-icons/fa";
 
+// images 
 import shirt1 from "../../../assets/product/01.webp";
 import shirt2 from "../../../assets/product/02.webp";
 import shirt3 from "../../../assets/product/03.webp";
@@ -11,9 +13,8 @@ import shirt4 from "../../../assets/product/04.webp";
 
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
 
-
-
 import "./ProductUpload.css"; 
+
 const ProductUpload = () => {
   return (
     <>

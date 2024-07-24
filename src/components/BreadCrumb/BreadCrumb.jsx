@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 
 import "./BreadCrumb.css"; 
+
 const BreadCrumb = ({ title, page }) => {
   return (
     <>

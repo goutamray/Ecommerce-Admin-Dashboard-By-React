@@ -1,12 +1,16 @@
+
+// react icons 
 import { FaAngleLeft, FaAngleRight, FaRegEye, FaShoppingBag, FaStar, FaTrashAlt } from "react-icons/fa";
 import { MdWidgets } from "react-icons/md";
 import { MdVerifiedUser } from "react-icons/md";
 import { FiEdit } from "react-icons/fi";
+
 import jama from "../../..//assets/img/jama.webp" 
+
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
 
+import "./ProductList.css"; 
 
-import "./ProductList.css"
 const ProductList = () => {
   return (
     <>

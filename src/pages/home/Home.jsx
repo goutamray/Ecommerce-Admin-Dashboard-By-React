@@ -1,14 +1,18 @@
 
 import { Outlet } from "react-router-dom";
+
+// components 
 import PageHeader from "../../components/PageHeader/PageHeader";
 import SideBar from "../../components/sideBar/SideBar";
 
-import "./Home.css"; 
 import { useContext } from "react";
 import { MyContext } from "../../App";
+
+import "./Home.css"; 
+
 const Home = () => {
 
- const context = useContext(MyContext); 
+const context = useContext(MyContext); 
 
   return (
     <>

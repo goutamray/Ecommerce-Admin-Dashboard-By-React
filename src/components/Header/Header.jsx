@@ -8,11 +8,10 @@ import sujan from "../../assets/img/sujan.jpeg";
 import logo from "../../assets/img/logo.webp";
 import shirt from "../../assets/img/shirt.png";
 
-
 // react icons 
 import { MdMenuOpen, MdOutlineLightMode } from "react-icons/md";
- import { IoMenu } from "react-icons/io5"; 
- import { CiDark } from "react-icons/ci"; 
+import { IoMenu } from "react-icons/io5"; 
+import { CiDark } from "react-icons/ci"; 
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { FaCaretDown, FaHeart, FaRegUserCircle } from "react-icons/fa";
 import { IoIosNotifications, IoMdMail, IoMdSettings } from "react-icons/io";
@@ -66,7 +65,7 @@ const Header = () => {
         <div className="container-fluid">
            <div className="row header-row ">
 
-         {/********  header part 1  ********/}
+         {/********  header part 1  ************/}
             <div className="col-sm-2 col-md-12 part1 menu-option ">
               {/* logo part  */}
                 <div className="logo">

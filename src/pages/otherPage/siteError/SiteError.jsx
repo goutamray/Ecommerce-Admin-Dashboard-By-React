@@ -1,9 +1,10 @@
 
 import error from "../../../assets/img/404.webp"
+
 import { Link } from "react-router-dom";
 
-
 import "./SiteError.css"; 
+
 const SiteError = () => {
   return (
     <>

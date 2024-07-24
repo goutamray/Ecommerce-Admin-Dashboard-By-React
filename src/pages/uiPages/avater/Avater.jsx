@@ -1,8 +1,8 @@
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb"
 import goutam from "../../../assets/img/goutam.png"
 
-
 import "./Avater.css";
+
 const Avater = () => {
   return (
     <>

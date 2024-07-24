@@ -1,13 +1,17 @@
-import { FaAngleLeft, FaAngleRight, FaRegEye, FaStar, FaTrashAlt } from "react-icons/fa"
+
+// react icons 
+import {  FaRegEye, FaStar, FaTrashAlt } from "react-icons/fa"
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb"
 import { FiEdit } from "react-icons/fi"
 import { BiSolidDownload } from "react-icons/bi"
-
-import jama from "../../../assets//img/jama.webp"
-import goutam from "../../../assets/img/goutam.png"
 import { HiDotsHorizontal } from "react-icons/hi"
 
-import "./Table.css"
+// images 
+import jama from "../../../assets//img/jama.webp"
+import goutam from "../../../assets/img/goutam.png"
+
+import "./Table.css";
+
 const Table = () => {
   return (
     <>

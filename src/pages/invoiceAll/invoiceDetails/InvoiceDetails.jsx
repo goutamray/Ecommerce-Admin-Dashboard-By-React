@@ -1,13 +1,17 @@
 
+// react icons 
 import { IoMdPrint } from "react-icons/io";
 import { IoMdDownload } from "react-icons/io";
 
-
+// images 
 import logo from "../../../assets/img/logo.webp"
 import jama from "../../../assets/img/jama.webp"
 
-import "./InvoiceDetails.css"; 
+// compontents
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
+
+import "./InvoiceDetails.css"; 
+
 const InvoiceDetails = () => {
   return (
     <>

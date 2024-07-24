@@ -14,6 +14,7 @@ import { MdOutlineLayers } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
 import { PiWarningLight } from "react-icons/pi";
 
+// components 
 import jama from "../../../assets//img/jama.webp"
 import DashBoardBox from "../../../components/dashboardBox/DashBoardBox";
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";

@@ -1,11 +1,14 @@
 
-import { FaCalendarAlt, FaCartArrowDown, FaCheck, FaPlus, FaRegUserCircle, FaShoppingBag } from "react-icons/fa";
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
+import DashBoardBox from "../../../components/dashboardBox/DashBoardBox";
 import Chart2 from "../../../components/chart/Chart2";
 
-
-
-import "./Chart.css"
+// react icons 
+import { 
+   FaCalendarAlt, 
+   FaCartArrowDown, FaCheck,
+   FaPlus, FaRegUserCircle, 
+   FaShoppingBag } from "react-icons/fa";
 import { IoBookmarksSharp } from "react-icons/io5";
 import { MdOutlineLayers } from "react-icons/md";
 import { TbBriefcase2, TbStars } from "react-icons/tb";
@@ -13,9 +16,9 @@ import { Chart } from "react-google-charts";
 import { RxCross2 } from "react-icons/rx";
 import { PiWarningLight } from "react-icons/pi";
 import { HiDotsHorizontal } from "react-icons/hi";
-import DashBoardBox from "../../../components/dashboardBox/DashBoardBox";
 import { FaArrowTrendUp } from "react-icons/fa6";
 
+import "./Chart.css"
 
 export const data = [
   ["Task", "Hours per Day"],
@@ -54,9 +57,7 @@ export const data3 = [
 ];
 
 
-
 const ChartP = () => {
-
   return (
     <>
       <div className="right-content">

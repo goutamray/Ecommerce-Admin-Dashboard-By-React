@@ -1,14 +1,18 @@
 
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb"
-import { FaAngleLeft, FaAngleRight, FaRegEye, FaShoppingBag,  FaTrashAlt } from "react-icons/fa";
 
+// react icons 
+import { FaAngleLeft, FaAngleRight, FaRegEye, FaShoppingBag,  FaTrashAlt } from "react-icons/fa";
 import { HiDotsCircleHorizontal, HiDotsHorizontal } from "react-icons/hi";
 import { FaCarAlt } from "react-icons/fa";
 import { BiSolidDownload } from "react-icons/bi";
-import goutam from "../../../assets/img/goutam.png"
 
 
-import "./UserList.css"
+import goutam from "../../../assets/img/goutam.png";
+
+
+import "./UserList.css";
+
 const UserList = () => {
   return (
     <>   

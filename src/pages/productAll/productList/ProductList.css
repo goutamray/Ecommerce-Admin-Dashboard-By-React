@@ -179,32 +179,7 @@ body.dark .card.shadow.p-3.product-table{
 
 
 @media (min-width : 576px) and (max-width: 768px){
-/* .tab-content {
-  display: block; 
-}
-.table-product {
-  flex-direction: row !important;
-}
-.table-responsive.custom-table table{
-  display: flex;
-}
-.table-responsive.custom-table table thead{
-  width: 30% !important;
-}
-.table-responsive.custom-table table thead tr{
-  display: flex;
-  flex-direction: column;
-}
-.table-responsive.custom-table table tbody{
-  width: 70% !important;
-}
-.table-responsive.custom-table table tbody tr{
-  display: flex;
-  flex-direction: column;
-}
-.table-footer {
-  flex-direction: column;
-} */
+  
 tbody tr td .reg-price {
   text-align: left !important;
 }

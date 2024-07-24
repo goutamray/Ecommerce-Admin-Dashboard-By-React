@@ -1,7 +1,7 @@
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb"
 
-
 import "./Heading.css"; 
+
 const Heading = () => {
   return (
     <>

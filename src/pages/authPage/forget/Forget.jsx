@@ -1,14 +1,13 @@
 
-import logo from "../../../assets/img/logo.webp"
 import { MdEmail } from "react-icons/md"; 
 
-import "./Forget.css"; 
 import { Link } from "react-router-dom";
 import { useContext, useEffect } from "react";
 import { MyContext } from "../../../App";
 
+import logo from "../../../assets/img/logo.webp" 
 
-
+import "./Forget.css"; 
 
 const Forget = () => {
 

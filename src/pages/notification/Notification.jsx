@@ -1,19 +1,18 @@
 
-
+// react icons 
 import { HiDotsHorizontal } from "react-icons/hi";
 import { FaHeart } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import { MdForum } from "react-icons/md";
 
-
+// images 
 import sujan from "../../assets/img/sujan.jpeg";
 import goutam from "../../assets/img/goutam.png";
 
-
-
+import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 
 import "./Notification.css"; 
-import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
+
 const Notification = () => {
   return (
     <>

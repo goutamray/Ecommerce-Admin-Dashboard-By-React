@@ -1,4 +1,5 @@
 
+// react icons 
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { IoSearch } from "react-icons/io5";
 import { MdOutlineDialpad } from "react-icons/md";
@@ -8,7 +9,7 @@ import { MdMarkChatRead } from "react-icons/md";
 import { FaRegUserCircle } from "react-icons/fa";
 import { IoSend } from "react-icons/io5";
 
-
+// images 
 import photo from "../../assets/img/goutam.png";
 import sujan from "../../assets/img/sujan.jpeg";
 

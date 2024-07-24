@@ -17,7 +17,8 @@ import { FaCartPlus } from "react-icons/fa6";
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb"
 import goutam from "../../../assets/img/goutam.png"
 
-import "./UserProfile.css"
+import "./UserProfile.css";
+
 const UserProfile = () => {
   return (
     <>
