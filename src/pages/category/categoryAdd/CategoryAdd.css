@@ -1,0 +1,118 @@
+
+
+/****** 2nd part  ********/
+.revenue-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body.dark .revenue-part {
+  background-color: var(--dark-bg-color);
+}
+.revenue-part .rev-text h4{
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+body.dark .revenue-part .rev-text h4, body.dark .revenue-part p svg{
+  color: var(--dark-text-color);
+}
+p.same-title{
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+body.dark p.same-title{
+  color: var(--dark-text-color);
+}
+input.form-control, textarea.form-control, select.form-control{
+  background-color: var(--dark-text-color);
+  color: #66769b;
+}
+body.dark input.form-control, body.dark textarea.form-control, body.dark select.form-control{
+  background-color: #364a76;
+  color: var(--dark-text-color);
+  border: none;
+}
+input.form-control:focus, textarea.form-control:focus, select.form-control:focus{
+  box-shadow: none;
+  outline: none;
+}
+.custom-row{
+  display: flex;
+  align-items: center;
+}
+.row .right-part2-category{
+  width: 75% !important;
+}
+.row .col-sm-2.cat-btn{
+  width: 25% !important;
+}
+.row .col-sm-2.cat-btn button{
+  position: relative;
+  width: 100% !important;
+  top: 25px;
+}
+.product-image-upload {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 20px; 
+}
+.product-image-upload .box-product-1{
+  border: 1px solid var(--dark-text-color);
+  border-radius: 8px;
+  height: 200px;
+  width: 205px;
+  overflow: hidden;
+
+  transition: all 0.3s ease-in-out;
+}
+
+body.dark  .col-sm-10.right-part2-category input::-webkit-input-placeholder {
+  color: var(--dark-text-color);
+}
+body.dark  .col-sm-6 input::-webkit-input-placeholder, 
+body.dark  .title input::-webkit-input-placeholder, 
+body.dark .description textarea::-webkit-input-placeholder{
+  color: var(--dark-text-color);
+} 
+
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 576px){
+ .product-image-upload {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.product-image-upload .box-product-1 {
+  width: 48%;
+}
+
+}
+
+@media (min-width : 576px) and (max-width: 768px){
+.product-upload-part{
+  display: flex;
+  flex-direction: column;
+}
+.col-sm-7.upload-part1{
+ width: 100%;
+}
+.col-sm-5.upload-part2{
+  width: 100%;
+  margin-top: 20px;
+}
+.product-image-upload {
+  flex-wrap: wrap !important;
+  gap: 10px;
+}
+.product-image-upload .box-product-1 {
+  width: 47%;
+}
+
+}
+
+

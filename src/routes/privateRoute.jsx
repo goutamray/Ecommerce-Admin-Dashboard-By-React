@@ -46,6 +46,8 @@ import ChartP from "../pages/uiPages/charts/ChartP";
 import Fields from "../pages/otherPage/fields/Fields";
 import Table from "../pages/uiPages/table/Table";
 import NotFound from "../pages/notFound/NotFound";
+import CategoryList from "../pages/category/categoryList/CategoryList";
+import CategoryAdd from "../pages/category/categoryAdd/CategoryAdd";
 
 
 // create private router 
@@ -88,6 +90,14 @@ export const privateRoute = [
           {
             path : "/order-list",
             element : <OrderList />
+          },
+          {
+            path : "/category-list",
+            element : <CategoryList />
+          },
+          {
+            path : "/category-add",
+            element : <CategoryAdd />
           },
           {
             path : "/notification",
