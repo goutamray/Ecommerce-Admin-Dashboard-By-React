@@ -259,6 +259,22 @@ const SideBar = () => {
                     </button>
                     </Link>
                 </li>
+                  <li> 
+                    <Link to="/category-add"> 
+                      <button className={` ${activeTab === 22 ? "active" : ""} `} onClick={() => isOpenSubmenu(22)} >
+                        <span className="icon"> <FaMicroblog /> </span>
+                          Category Add              
+                    </button>
+                    </Link>
+                </li>
+                  <li> 
+                    <Link to="/category-list"> 
+                      <button className={` ${activeTab === 23 ? "active" : ""} `} onClick={() => isOpenSubmenu(23)} >
+                        <span className="icon"> <FaMicroblog /> </span>
+                          Category List             
+                    </button>
+                    </Link>
+                </li>
                 
             </ul>
            <div className="logoutWrapper">

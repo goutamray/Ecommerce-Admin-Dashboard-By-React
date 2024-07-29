@@ -16,7 +16,7 @@ const CategoryList = () => {
   return (
     <>
          <div className="right-content">
-        <BreadCrumb title={"Product List "} page={"Products"}/> 
+        <BreadCrumb title={"Category List "} page={"Category"}/> 
 
         <div className="product-list-topper">
             <div className="row">

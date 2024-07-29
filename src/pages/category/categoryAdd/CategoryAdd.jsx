@@ -6,36 +6,11 @@ import { HiDotsHorizontal } from "react-icons/hi";
 
 import BreadCrumb from "../../../components/BreadCrumb/BreadCrumb";
 
-import { useState } from "react";
-import {  postData } from "../../../utils/api";
 
 
 import "./CategoryAdd.css";
 
 const CategoryAdd = () => {
-  const [input, setInput ] = useState({
-    name : "",
-    photo : "",
-    color : "",
-  })
-
- 
-  const handleInputChange = (e) => {
-    setInput((prevState) => ({
-      ...prevState, 
-      [e.target.name] : e.target.value
-     }))
-  }
-
-  const addCategory = (e) => {
-    e.preventDefault();
-   
-    postData("/api/v1/category/", input ).then(res => {
-      console.log(res);
-    })
-  }
-
-
 
   return (
     <>
@@ -55,27 +30,27 @@ const CategoryAdd = () => {
 
                  {/* product part  */}
                  <div className="product-upload-details">
-                  <form onSubmit={addCategory}>
+                  <form >
                       <div className="title">
                           <p className="same-title" > Category Name </p>
                           <input type="text" 
                                  className="form-control" 
                                  name="name"
-                                 onChange={handleInputChange}/>
+                                 />
                         </div>
                         <div className="description">
                           <p className="same-title"> Image Url </p>
                           <input type="text" 
                                  className="form-control" 
                                  name="photo"
-                                 onChange={handleInputChange} />
+                                  />
                         </div>
                         <div className="description">
                           <p className="same-title"> Color </p>
                           <input type="text" 
                                  className="form-control" 
                                  name="color"
-                                 onChange={handleInputChange} />
+                                />
                         </div>
 
                         <button type="submit" className="btn btn-lg btn-primary mt-5 w-100"> 
